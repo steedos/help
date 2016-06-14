@@ -10,17 +10,17 @@
 
 - [填写申请单](instance_add.md)
 - [审批文件](instance_approve.md)
-- 取消申请
-- 转签核
-- 重定位
-- 打印申请表
-- 管理员导出审批清单
+- [取消申请](instance_cancel.md)
+- [转签核](instance_reassign.md)
+- [重定位](instance_relocate.md)
+- [打印申请表](instance_print.md)
+- [管理员导出审批清单](instance_export.md)
 
 ### 如何设置组织结构
 
-- 设置部门
-- 设置人员
-- 设置角色与岗位
+- [设置部门](admin_organizations.md)
+- [设置人员](admin_space_users.md)
+- [设置角色与审批岗位](admin_roles.md)
 
 ### 如何设计表单
 - [表单分类](form_category.md)
