@@ -1,7 +1,7 @@
 # 审批王 使用指南
 
 ### 如何访问审批王
-- [浏览器客户端](app_browser.md)
+- [浏览器](app_browser.md)
 - [桌面客户端](app_desktop.md)
 - [iPhone、iPad客户端](app_ios.md)
 - [Android客户端](app_android.md)
