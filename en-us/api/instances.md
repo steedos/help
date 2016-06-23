@@ -1,8 +1,8 @@
-# Instance
+# Workflow Request
 
-#### Create a draft instance
+#### Create a draft request
 
-Permission: All users can create a draft instance in his workspace.
+Permission: All users can create a draft request in his workspace.
 
 Request:
 `POST https://cn.steedos.com/uf/api/instances`
@@ -67,7 +67,7 @@ Response:
   }
 }
 ```
-Note："id" is ID of this draft instance, "space" is ID of this workspace, "flow" is ID of this flow, "form" is ID of this form, "name" is title, "applicant" is UserID of this applicant, "applicant_name" is name of this applicant, "applicant_organization" is GroupID of applicant's organization, "applicant_organization_name" is name of applicant's organization, "submit_date" is submit time, "values" is the details of the form, including the field and its value, "traces" is history records of this instance.
+Note："id" is ID of this draft request instance, "space" is ID of this workspace, "flow" is ID of this flow, "form" is ID of this form, "name" is title, "applicant" is UserID of this applicant, "applicant_name" is name of this applicant, "applicant_organization" is GroupID of applicant's organization, "applicant_organization_name" is name of applicant's organization, "submit_date" is submit time, "values" is the details of the form, including the field and its value, "traces" is history records of this request instance.
 
 （2）If the call is fail, status will returned to fail, and message will be the infomation of error.
 
@@ -79,9 +79,9 @@ Note："id" is ID of this draft instance, "space" is ID of this workspace, "flow
 ```
 
 
-#### Get pending instance list
+#### Get pending request list
 
-Permission: All users can get his pending instance list.
+Permission: All users can get his pending request instance list.
 
 Request:
 ```bash
@@ -119,7 +119,7 @@ Response:
   ]
 }
 ```
-Note："id" is ID of this instance, "flow_name" is name of this flow, "space_name" is name of this sapce, "name" is title,  "applicant_name" is name of this applicant, "applicant_organization_name" is name of applicant's organization, "submit_date" is submit time, "step_name" is current step name of this instance.
+Note："id" is ID of this request instance, "flow_name" is name of this flow, "space_name" is name of this sapce, "name" is title,  "applicant_name" is name of this applicant, "applicant_organization_name" is name of applicant's organization, "submit_date" is submit time, "step_name" is current step name of this instance.
 
 （2）If the call is fail, status will returned to fail, and message will be the infomation of error.
 
@@ -130,7 +130,7 @@ Note："id" is ID of this instance, "flow_name" is name of this flow, "space_nam
 }
 ```
 
-#### Query instance details
+#### Query request details
 
 Permission: Only the following staffs can get the instance details: submitter, applicant, handlers, administrators of this flow, observers of this flow,  administrators of this workspace, the owner of this workspace.
 
@@ -141,7 +141,7 @@ curl -X Get https://cn.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a
 ```json
 
 ```
-Note："oFpdgAMMr7F5A7P3a" in URL is ID of this instance.
+Note："oFpdgAMMr7F5A7P3a" in URL is ID of this request instance.
 
 Response:
 
@@ -174,7 +174,7 @@ Response:
   }
 }
 ```
-Note："id" is ID of this draft instance, "space" is ID of this workspace, "flow" is ID of this flow, "form" is ID of this form, "name" is title, "applicant" is UserID of this applicant, "applicant_name" is name of this applicant, "applicant_organization" is GroupID of applicant's organization, "applicant_organization_name" is name of applicant's organization, "submit_date" is submit time, "values" is the details of the form, including the field and its value, "traces" is history records of this instance.
+Note："id" is ID of this request instance, "space" is ID of this workspace, "flow" is ID of this flow, "form" is ID of this form, "name" is title, "applicant" is UserID of this applicant, "applicant_name" is name of this applicant, "applicant_organization" is GroupID of applicant's organization, "applicant_organization_name" is name of applicant's organization, "submit_date" is submit time, "values" is the details of the form, including the field and its value, "traces" is history records of this instance.
 
 （2）If the call is fail, status will returned to fail, and message will be the infomation of error.
 
@@ -185,9 +185,9 @@ Note："id" is ID of this draft instance, "space" is ID of this workspace, "flow
 }
 ```
 
-#### Submit instance to next step
+#### Submit request to next step
 
-Permission: Only the submitter can submit instance to the next step.
+Permission: Only the submitter can submit request instance to the next step.
 
 Request:
 ```bash
@@ -199,7 +199,7 @@ curl -X POST https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a
   "nextstep_users": ["aFpdgAMMr7F5A7P3a"]
 }
 ```
-Note："oFpdgAMMr7F5A7P3a" in URL is ID of this instance. "nextstep_name" is name od next step, "nextstep_users" is an array, include userID of next step users.
+Note："oFpdgAMMr7F5A7P3a" in URL is ID of this request instance. "nextstep_name" is name od next step, "nextstep_users" is an array, include userID of next step users.
 
 Response:
 
@@ -232,7 +232,7 @@ Response:
   }
 }
 ```
-Note："id" is ID of this draft instance, "space" is ID of this workspace, "flow" is ID of this flow, "form" is ID of this form, "name" is title, "applicant" is UserID of this applicant, "applicant_name" is name of this applicant, "applicant_organization" is GroupID of applicant's organization, "applicant_organization_name" is name of applicant's organization, "submit_date" is submit time, "values" is the details of the form, including the field and its value, "traces" is history records of this instance.
+Note："id" is ID of this draft request instance, "space" is ID of this workspace, "flow" is ID of this flow, "form" is ID of this form, "name" is title, "applicant" is UserID of this applicant, "applicant_name" is name of this applicant, "applicant_organization" is GroupID of applicant's organization, "applicant_organization_name" is name of applicant's organization, "submit_date" is submit time, "values" is the details of the form, including the field and its value, "traces" is history records of this instance.
 
 （2）If the call is fail, status will returned to fail, and message will be the infomation of error.
 
