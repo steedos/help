@@ -54,8 +54,8 @@ For any endpoints that require the default authentication, you must include the 
 - X-Auth-Token
 
 ```bash
-curl -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
-https://us.steedos.com/api/organizations/
+curl https://us.steedos.com/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+     -H "X-User-Id: fbdpsNf4oHiX79vMJ"
 ```
 
 ## Request and Response Structure
