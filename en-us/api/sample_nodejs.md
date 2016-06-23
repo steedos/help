@@ -1,4 +1,4 @@
-# Samples about Instance
+# Samples about Workflow Query
 
 #### ［Before use the samples］1. Register Steedos account
 
