@@ -12,9 +12,10 @@
 - [审批文件](instance_approve.md)
 - [查询申请单](instance_search.md)
 - [取消申请](instance_cancel.md)
-- [转签核](instance_reassign.md)
-- [重定位](instance_relocate.md)
 - [打印申请表](instance_print.md)
+- [管理员查询申请单](instance_monitor.md)
+- [管理员转签核](instance_reassign.md)
+- [管理员重定位](instance_relocate.md)
 - [管理员导出审批清单](instance_export.md)
 
 ### 如何设置审批王
