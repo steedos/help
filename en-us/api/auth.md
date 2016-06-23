@@ -31,7 +31,7 @@ auth token that is passed in the request header will be invalidated (removed fro
 so it will not work in any subsequent requests.
 ```bash
 curl https://us.steedos.com/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
--H "X-User-Id: fbdpsNf4oHiX79vMJ"
+     -H "X-User-Id: fbdpsNf4oHiX79vMJ"
 ```
 
 And the response will look like
