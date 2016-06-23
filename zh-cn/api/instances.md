@@ -88,7 +88,7 @@ Response:
 权限：所有用户都可以查看本人的待办。
 
 Request:
-`GET https://cn.steedos.com/uf/api/instances`
+`GET https://cn.steedos.com/uf/api/instances?state=pending`
 
 Response:
 
