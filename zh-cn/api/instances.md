@@ -138,7 +138,7 @@ Response:
 权限：仅以下人员可以查看申请单详情：提交者、申请者、经手者、本流程的管理员、本流程的观察员、本工作区的管理员、本工作区的所有者。
 
 Request:
-`Get https://cn.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a`
+`Get https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a`
 
 备注：URL中的"oFpdgAMMr7F5A7P3a"为申请单instance的ID 。
 
