@@ -139,9 +139,7 @@ Response:
 
 Request:
 `Get https://cn.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a`
-```json
 
-```
 备注：URL中的"oFpdgAMMr7F5A7P3a"为申请单instance的ID 。
 
 Response:
