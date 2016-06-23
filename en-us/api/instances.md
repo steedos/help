@@ -5,7 +5,10 @@
 Permission: All users can create a draft request in his workspace.
 
 Request:
-`POST https://us.steedos.com/uf/api/instances`
+```bash
+curl -X POST https://us.steedos.com/uf/api/instances
+     -H "X-Auth-Token:HKp0S3wm5O" -H "X-User-Id:5358806b33"
+```
 ```json
 {
   "flow": "8hdjk8skas8sdsa",
@@ -86,6 +89,7 @@ Permission: All users can get his pending request instance list.
 Request:
 ```bash
 curl -X GET https://us.steedos.com/uf/api/instances
+     -H "X-Auth-Token:HKp0S3wm5O" -H "X-User-Id:5358806b33"
 ```
 
 Response:
@@ -137,6 +141,7 @@ Permission: Only the following staffs can get the instance details: submitter, a
 Request:
 ```bash
 curl -X Get https://us.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a
+     -H "X-Auth-Token:HKp0S3wm5O" -H "X-User-Id:5358806b33"
 ```
 ```json
 
@@ -192,6 +197,7 @@ Permission: Only the submitter can submit request instance to the next step.
 Request:
 ```bash
 curl -X POST https://us.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a
+     -H "X-Auth-Token:HKp0S3wm5O" -H "X-User-Id:5358806b33"
 ```
 ```json
 {
