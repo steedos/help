@@ -5,10 +5,7 @@
 Permission: All users can create a draft request in his workspace.
 
 Request:
-```bash
-curl -X POST https://us.steedos.com/uf/api/instances
-     -H "X-Auth-Token:HKp0S3wm5O" -H "X-User-Id:5358806b33"
-```
+`POST https://us.steedos.com/uf/api/instances`
 ```json
 {
   "flow": "8hdjk8skas8sdsa",
@@ -87,10 +84,7 @@ Note："id" is ID of this draft request instance, "space" is ID of this workspac
 Permission: All users can get his pending request instance list.
 
 Request:
-```bash
-curl -X GET https://us.steedos.com/uf/api/instances
-     -H "X-Auth-Token:HKp0S3wm5O" -H "X-User-Id:5358806b33"
-```
+`GET https://us.steedos.com/uf/api/instances?state=pending`
 
 Response:
 
@@ -139,13 +133,8 @@ Note："id" is ID of this request instance, "flow_name" is name of this flow, "s
 Permission: Only the following staffs can get the instance details: submitter, applicant, handlers, administrators of this flow, observers of this flow,  administrators of this workspace, the owner of this workspace.
 
 Request:
-```bash
-curl -X Get https://us.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a
-     -H "X-Auth-Token:HKp0S3wm5O" -H "X-User-Id:5358806b33"
-```
-```json
+`Get https://us.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a`
 
-```
 Note："oFpdgAMMr7F5A7P3a" in URL is ID of this request instance.
 
 Response:
@@ -195,10 +184,7 @@ Note："id" is ID of this request instance, "space" is ID of this workspace, "fl
 Permission: Only the submitter can submit request instance to the next step.
 
 Request:
-```bash
-curl -X POST https://us.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a
-     -H "X-Auth-Token:HKp0S3wm5O" -H "X-User-Id:5358806b33"
-```
+`POST https://us.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a`
 ```json
 {
   "nextstep_name": "Manager Approval",
