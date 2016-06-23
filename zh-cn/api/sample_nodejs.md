@@ -12,17 +12,17 @@ $vi login.js
 var request=require('request'); 
 var options = { 
 	headers: {}, 
-	url: 'https://cn.steedos.com/api/setup/login', 
+	url: 'https://cn.steedos.com/api/login', 
 	method: 'POST', 
 	json:true, 
 	body: {	
-		"username":"test@hotoa.com",	// 请替换为自己的username 
+		"username":"test",		// 请替换为自己的username 
 		"password":"mypassword"		// 请替换为自己的password 
 	} 
 }; 
 function callback(error, response, data) { 
 	if (!error && response.statusCode == 200) { 
-		console.log('userid:',data.userId,', authToken:',data.authToken); 
+		console.log('userid:',data.data.userId,', authToken:',data.data.authToken); 
 	} else {
 		console.log(error); 
 	}
