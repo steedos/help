@@ -1,8 +1,8 @@
 # Samples about Instance
 
-#### ［Before use the samples］1. Register steedos account
+#### ［Before use the samples］1. Register Steedos account
 
-#### ［Before use the samples］2. Install request of node
+#### ［Before use the samples］2. Install module 'request'
 ```
 npm install request
 ```
@@ -13,17 +13,17 @@ $vi login.js
 var request=require('request'); 
 var options = { 
 	headers: {}, 
-	url: 'https://us.steedos.com/api/setup/login', 
+	url: 'https://us.steedos.com/api/login', 
 	method: 'POST', 
 	json:true, 
 	body: {	
-		"username":"test@hotoa.com",	// please replace with your username 
+		"username":"test",		// please replace with your username 
 		"password":"mypassword"		// please replace with your password 
 	} 
 }; 
 function callback(error, response, data) { 
 	if (!error && response.statusCode == 200) { 
-		console.log('userid:',data.userId,', authToken:',data.authToken); 
+		console.log('userid:',data.data.userId,', authToken:',data.data.authToken); 
 	} else {
 		console.log(error); 
 	}
@@ -35,7 +35,7 @@ $node login.js
 userid: 5199da119e296a4ba0000001 , authToken: jgBXLvL76tVJbabcRKeMYb9ux_N4wZXpM8OeD77X3XJ
 ```
 
-#### Sample 2.Create a draft instance of 'Pay'
+#### Sample 2.Create a draft query of 'Pay'
 $vi create.js
 ```javascript
 var request=require('request'); 
@@ -71,7 +71,7 @@ $node create.js
 OK! InsanceID:567274398e296a1c3b0000a9
 ```
 
-#### Sample 3. Submit instance to next step
+#### Sample 3. Submit query to next step
 $vi submit.js
 ```javascript
 var request=require('request'); 
@@ -141,7 +141,7 @@ $node get.js
 }
 ```
 
-#### Sample 5. Get my pending instance list
+#### Sample 5. Get my pending query list
 $vi pending.js
 ```javascript
 var request=require('request'); 
