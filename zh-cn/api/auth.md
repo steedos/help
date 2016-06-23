@@ -1,6 +1,6 @@
-# Steedos API 身份验证
+# Steedos API 身份认证
 
-**注意: 请务必使用HTTPS !**
+**注意: 请务必使用 HTTPS !**
 
 ### 身份认证Token
 
