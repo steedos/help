@@ -1,10 +1,11 @@
 # 审批王 使用指南
 
 ### 快速向导
-- [如何为公司开通审批王服务](admin_guide.md)
+- [如何为公司开通审批王](setup_guide.md)
+- [如何使用审批王](user_guide.md)
+- [如何设置审批王](admin_guide.md)
 
 ### 如何使用审批王
-- [如何访问审批王](user_guide.md)
 - [填写申请单](instance_add.md)
 - [审批文件](instance_approve.md)
 - [取消申请](instance_cancel.md)
@@ -13,12 +14,12 @@
 - [打印申请表](instance_print.md)
 - [管理员导出审批清单](instance_export.md)
 
-### 系统设置说明
+### 如何设置审批王
+- [快速向导](admin_guide.md)
 - [设置工作区](admin_space.md)
 - [设置部门](admin_organizations.md)
 - [设置人员](admin_space_users.md)
 - [设置角色与审批岗位](admin_roles.md)
-- [系统权限总览](admin_permissions.md)
 
 ### 如何设计表单
 - [表单分类](form_category.md)
