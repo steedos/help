@@ -3,7 +3,7 @@
 
 ### API
 - [Authentication](auth.md)
-- [Workflow Instance](instances.md)
+- [Workflow Request](instances.md)
 
 
 ### Samples
