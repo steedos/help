@@ -1,6 +1,7 @@
 # 审批王 使用指南
 
 ### 如何访问审批王
+  请根据需要选择以下任一方式，注册/登录审批王。
 - [浏览器](app_browser.md)
 - [桌面客户端](app_desktop.md)
 - [iPhone、iPad客户端](app_ios.md)
