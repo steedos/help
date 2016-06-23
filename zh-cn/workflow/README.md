@@ -13,6 +13,7 @@
 - [重定位](instance_relocate.md)
 - [打印申请表](instance_print.md)
 - [管理员导出审批清单](instance_export.md)
+- [系统权限说明](user_permissions.md)
 
 ### 如何设置审批王
 - [快速向导](admin_guide.md)
