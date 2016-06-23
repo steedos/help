@@ -88,9 +88,7 @@ Response:
 权限：所有用户都可以查看本人的待办。
 
 Request:
-```bash
-curl -X GET https://cn.steedos.com/uf/api/instances
-```
+`GET https://cn.steedos.com/uf/api/instances`
 
 Response:
 
@@ -140,9 +138,7 @@ Response:
 权限：仅以下人员可以查看申请单详情：提交者、申请者、经手者、本流程的管理员、本流程的观察员、本工作区的管理员、本工作区的所有者。
 
 Request:
-```bash
-curl -X Get https://cn.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a
-```
+`Get https://cn.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a`
 ```json
 
 ```
@@ -196,9 +192,7 @@ Response:
 权限：仅本申请单的提交者才可以完成此操作。
 
 Request:
-```bash
-curl -X POST https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a
-```
+`POST https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a`
 ```json
 {
   "nextstep_name": "Manager Approval",
