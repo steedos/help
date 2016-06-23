@@ -2,7 +2,7 @@
 
 **注意: 请务必使用HTTPS !**
 
-### 用户访问Token
+### 身份认证Token
 
 #### 登录系统
 
@@ -25,7 +25,7 @@ curl https://cn.steedos.com/api/login -d "username=test&password=password"
 
 #### 退出系统
   
-可通过 `POST /api/logout` 退出系统。退出系统后，authToken 不再有效，即不可以再以此提交其他请求。
+可通过 `POST /api/logout` 退出系统。退出系统后，`authToken`不再有效，即不可以再以此提交其他请求。
 
 ```bash
 curl https://cn.steedos.com/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ"
@@ -41,7 +41,7 @@ curl https://cn.steedos.com/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmj
 }
 ```
 
-退出后，再用原来的authToken提交请求, 会报错 'Session Expired' 。
+退出后，再用原来的`authToken`提交请求, 会报错 'Session Expired' 。
 
 #### 授权调用
 
