@@ -28,7 +28,8 @@ curl https://cn.steedos.com/api/login -d "username=test&password=password"
 可通过 `POST /api/logout` 退出系统。退出系统后，`authToken`不再有效，即不可以再以此提交其他请求。
 
 ```bash
-curl https://cn.steedos.com/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ"
+curl https://cn.steedos.com/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+     -H "X-User-Id: fbdpsNf4oHiX79vMJ"
 ```
 
 返回如下
@@ -50,7 +51,8 @@ curl https://cn.steedos.com/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmj
 - X-Auth-Token
 
 ```bash
-curl -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" https://cn.steedos.com/api/organizations/
+curl https://cn.steedos.com/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+     -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
 ```
 
 ## Response的结构
