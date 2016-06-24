@@ -12,8 +12,17 @@
 备注：审批王标准版用户不可调用Steedos API 。
 
 ### 接口调用说明
-- [身份认证](auth.md)
-- [申请单](instances.md)
+- 系统及设置
+ - [身份认证](auth.md)
+ - [Space](Space.md)
+ - [SpaceUser](SpaceUser.md)
+ - [User](User.md)
+ - [Orgnization](Orgnization.md)
+- 工作流申请单
+ - [instance](instances.md)
+- 工作流设置
+ - [Form](Form.md)
+ - [FLow](Flow.md)
 
 ### 实例
 - [Nodejs](sample_nodejs.md)
