@@ -17,7 +17,7 @@ var options = {
 	method: 'POST', 
 	json:true, 
 	body: {	
-		"username":"test",		// please replace with your username 
+		"email":"test@hotoa.com",	// please replace with your email 
 		"password":"mypassword"		// please replace with your password 
 	} 
 }; 
