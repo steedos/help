@@ -1,6 +1,6 @@
 # Steedos Help
 
-Steedos is a new enterprise-class online examination and approval system that can quickly convert various examination and approval business into a strictly enforceable electronic process. Steedos modules includes business travel application, business travel reimbursement, asking for and cancelling a leave, procurement, payment application, disposal of scrapped fixed assets, meeting room reservation, refunding management, customer complaints, work reports. 
+Steedos is a business process management (BPM) system that can easly build and run electronic processes, including travel application, travel reimbursement, asking for leave, procurement, payment application, disposal of scrapped fixed assets, meeting room reservation, customer complaints, work reports, etc.
 
 ## Steedos can help you:
 
