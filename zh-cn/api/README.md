@@ -14,9 +14,7 @@
 ### 接口调用说明
 - 系统及设置
  - [身份认证](auth.md)
- - [Space](Space.md)
  - [SpaceUser](SpaceUser.md)
- - [User](User.md)
  - [Orgnization](Orgnization.md)
 - 工作流申请单
  - [Instance](instances.md)
