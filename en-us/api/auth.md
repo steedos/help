@@ -17,12 +17,18 @@ And the response will look like
   "status": "success",
   "data": {
     "authToken": "kvw1reAZqveP2BTQ1C",
-    "userId": "5199da558e296a4b001"
+    "userId": "5199da558e296a4b001",
+    "adminSpaces": [
+      {
+      "spaceId": "wsw1re12TdeP223sC",
+      "spaceName": "myspace"
+      }
+    ]
   }
 }
 ```
 
-You'll need to save the `userId` and `authToken` on the client, for subsequent authenticated requests.
+`adminSpaces` include the spaces,whose administrator is this user . You'll need to save the `userId` 、 `authToken` 、 `spaceId` on the client, for subsequent authenticated requests.
 
 #### Logging Out
   
@@ -44,7 +50,7 @@ And the response will look like
 }
 ```
 
-After logging out，you can not use the `userId` and `token` for subsequent authenticated requests, otherwise , the response will be 'Session Expired' .
+After logging out，you can not use the `userId` and `authToken` for subsequent authenticated requests, otherwise , the response will be 'Session Expired' .
 
 #### Authenticated Calls
 
@@ -55,7 +61,7 @@ For any endpoints that require the default authentication, you must include the 
 
 ```bash
 curl https://us.steedos.com/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
-     -H "X-User-Id: fbdpsNf4oHiX79vMJ"
+     -H "X-User-Id: fbdpsNf4oHiX79vMJ" -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 
 ## Request and Response Structure
