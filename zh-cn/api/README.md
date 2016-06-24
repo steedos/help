@@ -22,7 +22,7 @@
  - [instance](instances.md)
 - 工作流设置
  - [Form](Form.md)
- - [FLow](Flow.md)
+ - [Flow](Flow.md)
 
 ### 实例
 - [Nodejs](sample_nodejs.md)
