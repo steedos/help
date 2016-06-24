@@ -16,7 +16,7 @@ var options = {
 	method: 'POST', 
 	json:true, 
 	body: {	
-		"username":"test",		// 请替换为自己的username 
+		"email":"test@hotoa.com",	// 请替换为自己的email 
 		"password":"mypassword"		// 请替换为自己的password 
 	} 
 }; 
