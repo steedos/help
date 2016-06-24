@@ -8,7 +8,7 @@
 
 
 ```bash 
-curl https://us.steedos.com/api/login -d "email=test@hotoa.com&password=password"
+curl https://us.steedos.com/steedos/api/login -d "email=test@hotoa.com&password=password"
 ```
 
 And the response will look like
@@ -36,7 +36,7 @@ You also have an authenticated `POST /api/logout` endpoint for logging a user ou
 auth token that is passed in the request header will be invalidated (removed from the user account),
 so it will not work in any subsequent requests.
 ```bash
-curl https://us.steedos.com/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+curl https://us.steedos.com/steedos/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
      -H "X-User-Id: fbdpsNf4oHiX79vMJ"
 ```
 
@@ -60,7 +60,7 @@ For any endpoints that require the default authentication, you must include the 
 - X-Space-Id
 
 ```bash
-curl https://us.steedos.com/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+curl https://us.steedos.com/steedos/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
      -H "X-User-Id: fbdpsNf4oHiX79vMJ" -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 
