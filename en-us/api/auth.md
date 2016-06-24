@@ -8,7 +8,7 @@
 
 
 ```bash 
-curl https://us.steedos.com/api/login -d "username=test&password=password"
+curl https://us.steedos.com/api/login -d "email=test@hotoa.com&password=password"
 ```
 
 And the response will look like
