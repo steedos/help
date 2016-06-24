@@ -16,12 +16,19 @@ curl https://cn.steedos.com/api/login -d "username=test&password=password"
   "status": "success",
   "data": {
     "authToken": "kvw1reAZqveP2BTQ1C",
-    "userId": "5199da558e296a4b001"
+    "userId": "5199da558e296a4b001",
+    "adminSpaces": [
+      {
+      "spaceId": "wsw1re12TdeP223sC",
+      "spaceName": "myspace"
+      }
+    ]
   }
 }
 ```
 
-请纪录下`userId` 和 `authToken` ，在应用API提交请求时需要使用。
+其中的adminSpaces 下为此账户有管理员权限的那些工作区。
+请纪录下`userId` 、 `authToken` 、 `spaceId` ，在应用API提交请求时需要使用。
 
 #### 退出系统
   
@@ -46,13 +53,14 @@ curl https://cn.steedos.com/api/logout -X POST -H "X-Auth-Token: f2KpRW7KeN9aPmj
 
 #### 授权调用
 
-如果要调用Steedos API，需要在请求的headers中包含`userId` 和`authToken` ：
+如果要调用Steedos API，需要在请求的headers中包含`userId` 、`authToken` 、 `spaceId`：
 - X-User-Id
 - X-Auth-Token
+- X-Space-Id
 
 ```bash
 curl https://cn.steedos.com/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
-     -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+     -H "X-User-Id: fbdpsNf4oHiX79vMJ" -H "X-Space-Id: wsw1re12TdeP223sC" 
 ```
 
 ## Response的结构
