@@ -54,10 +54,10 @@ After logging out，you can not use the `userId` and `authToken` for subsequent 
 
 #### Authenticated Calls
 
-For any endpoints that require the default authentication, you must include the `userId` and
-`authToken` with each request under the following headers:
+For any endpoints that require the default authentication, you must include the `userId` 、 `authToken` 、 `spaceId` with each request under the following headers:
 - X-User-Id
 - X-Auth-Token
+- X-Space-Id
 
 ```bash
 curl https://us.steedos.com/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
