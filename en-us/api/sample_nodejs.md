@@ -13,7 +13,7 @@ $vi login.js
 var request=require('request'); 
 var options = { 
 	headers: {}, 
-	url: 'https://us.steedos.com/api/login', 
+	url: 'https://us.steedos.com/steedos/api/login', 
 	method: 'POST', 
 	json:true, 
 	body: {	
