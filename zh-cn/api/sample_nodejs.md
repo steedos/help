@@ -41,7 +41,8 @@ var request=require('request');
 var options = { 
 	headers: {
 		"X-User-Id":"5358806b334904597d0047bb",   // 请替换为自己的userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzFeC1TuXXbQgmda0PZZR308e"    // 请替换为自己的Token
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",   // 请替换为自己的Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为自己的spaceid
 	}, 
 	url: 'https://cn.steedos.com/uf/api/instances', 
 	method: 'POST', 
@@ -77,8 +78,9 @@ $vi submit.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",		// 请替换为自己的userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzFeC1TuXXbQgmda0PZZR308e"	// 请替换为自己的Token
+		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为自己的userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",	  // 请替换为自己的Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为自己的spaceid
 	}, 
 	url: 'https://cn.steedos.com/uf/api/instances/567274398e296a1c3b0000a1', // 请替换为node create.js返回的InsanceID
 	method: 'PUT', 
@@ -114,8 +116,9 @@ $vi get.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",		// 请替换为自己的userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzFeC1TuXXbQgmda0PZZR308e"	// 请替换为自己的Token
+		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为自己的userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",   // 请替换为自己的Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为自己的spaceid
 	}, 
 	url: 'https://cn.steedos.com/uf/api/instances/567274398e296a1c3b0000a1', // 请替换为node create.js返回的InsanceID
 	method: 'GET', 
@@ -147,8 +150,9 @@ $vi pending.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",		// 请替换为自己的userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzFeC1TuXXbQgmda0PZZR308e"	// 请替换为自己的Token
+		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为自己的userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzFe"	  // 请替换为自己的Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为自己的spaceid
 	}, 
 	url: 'https://cn.steedos.com/uf/api/instances?state=pending', 
 	method: 'GET', 
