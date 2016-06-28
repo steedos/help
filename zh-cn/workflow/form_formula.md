@@ -29,20 +29,20 @@
 
 - 统计多选项中有几项被选中了：length({交通工具})
 - 基于申请人的系统变量：包括姓名、角色、部门等
-- 申请人的姓名：{applicant.name} 
+   申请人的姓名：{applicant.name} 
 
 - 基于姓名表单字段的系统变量：包括姓名、角色、部门等
 
-  “报销人”的所在部门（全路径）： {报销人}.organization.fullname 
+  “报销人”所在部门（全路径）： {报销人}.organization.fullname 
 
-  “报销人”的所在部门（最底层部门名）： {报销人}.organization.name 
+  “报销人”所在部门（最底层部门名）： {报销人}.organization.name 
 
   “报销人”的角色名： {报销人}.roles
 
   “报销人”的姓名： {报销人}.name
 
-   申请人的所在部门（全路径）： {applicant.organization.fullname}
+   申请人所在部门（全路径）： {applicant.organization.fullname}
 
-   申请人的所在部门（最底层部门名）： {applicant.organization.name}
+   申请人所在部门（最底层部门名）： {applicant.organization.name}
 
    申请人的角色名： {applicant.roles} 
