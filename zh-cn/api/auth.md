@@ -19,8 +19,8 @@ curl https://cn.steedos.com/steedos/api/login -d "email=test@hotoa.com&password=
     "userId": "5199da558e296a4b001",
     "adminSpaces": [
       {
-      "spaceId": "wsw1re12TdeP223sC",
-      "spaceName": "myspace"
+      "_id": "wsw1re12TdeP223sC",
+      "name": "myspace"
       }
     ]
   }
