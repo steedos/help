@@ -17,11 +17,11 @@
   
 - 基于表格（子表）中的数值字段的函数：
 
-  合计:sum({费用})
+  合计:   sum({费用})
 
   平均值：average({费用})
 
-  计数：count({物品})
+  计数：  count({物品})
 
   最大值：max({费用})
 
@@ -41,8 +41,8 @@
 
   “报销人”的姓名： {报销人}.name
 
-  申请人的所在部门（全路径）： {applicant.organization.fullname}
+   申请人的所在部门（全路径）： {applicant.organization.fullname}
 
-  申请人的所在部门（最底层部门名）： {applicant.organization.name}
+   申请人的所在部门（最底层部门名）： {applicant.organization.name}
 
-  申请人的角色名： {applicant.roles} 
+   申请人的角色名： {applicant.roles} 
