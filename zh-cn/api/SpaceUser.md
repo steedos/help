@@ -4,7 +4,7 @@
 
 Request:
 ```bash
-curl -X GET https://cn.steedos.com/api/space_users -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+curl -X GET https://cn.steedos.com/steedos/api/space_users -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
      -H "X-User-Id: fbdpsNf4oHiX79vMJ" -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 
