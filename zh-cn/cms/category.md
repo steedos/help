@@ -11,4 +11,4 @@
 
 审批王是云端企业应用软件，类似企业邮箱，不需要安装和维护自己的服务器，打开浏览器就能使用。只需三个步骤，就可以为您的企业开通审批王： 1. 注册审批王账号； 2. 创建企业工作区； 3. 邀请您的同事加入您创建的企业工作区，开始审批。
 
-+  [审批王使用指南]（https://github.com/steedos/help/blob/master/zh-cn/workflow/README.md）
++  [审批王使用指南]（https://github.com/steedos/help/blob/master/zh-cn/cms/README.md）
