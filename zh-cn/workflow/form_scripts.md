@@ -1,9 +1,7 @@
 # 表单脚本
 如果您熟悉脚本的编写，可以通过使用JavaScript脚本语言在表单中添加脚本。除了使用我们提供的公式、条件等格式之外，您还可以通过添加脚本来实现自定义功能。
 
-例如，为了实现对数值型金额字段自动转换成大写金额，可以在表单脚本中输入以下语句。
-
-表单脚本：
+例如，为了实现对数值型金额字段自动转换成大写金额，可以在表单脚本中输入以下语句:
 
 CoreForm.custom_numToCny = function (num) {
 
@@ -46,4 +44,5 @@ return strPrefix+strOutput.replace(/零角零分$/, '整').replace(/零[仟佰�
 };
 
 字段脚本
+
 CoreForm.custom_numToCny({total});
