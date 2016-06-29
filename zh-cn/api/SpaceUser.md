@@ -78,11 +78,9 @@ Request Body:
   "name": "test"
 }
 ```
-备注："space"和"email"为必填字段。
+备注："name"和"email"为必填字段。
 
 Response:
-
-Status Code: `201`
 ```json
 {
   "status": "success",
