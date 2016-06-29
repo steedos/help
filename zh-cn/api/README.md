@@ -14,13 +14,10 @@
 ### 接口调用说明
 - 系统及设置
  - [身份认证](auth.md)
- - [SpaceUser](SpaceUser.md)
- - [Orgnization](Orgnization.md)
+ - [用户](SpaceUser.md)
+ - [部门](Orgnization.md)
 - 工作流申请单
- - [Instance](instances.md)
-- 工作流设置
- - [Form](Form.md)
- - [Flow](Flow.md)
+ - [申请单](instances.md)
 
 ### 实例
 - [Nodejs](sample_nodejs.md)
