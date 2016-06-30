@@ -1,13 +1,13 @@
 # 审批王使用指南
 
-## （一）快速向导
+## 快速向导
 - [如何为公司开通审批王](guide_setup.md)
 - [如何使用审批王](guide_user.md)
 - [如何设置审批王](guide_admin.md)
 - [系统权限说明](guide_permissions.md)
 - [版本对比](guide_versions.md)
 
-## （二）如何使用审批王
+## 如何使用审批王
 - [填写申请单](instance_add.md)
 - [审批文件](instance_approve.md)
 - [查询申请单](instance_search.md)
@@ -18,14 +18,14 @@
 - [管理员重定位](instance_relocate.md)
 - [管理员导出审批清单](instance_export.md)
 
-## （三）如何设置审批王
+## 如何设置审批王
 - [快速向导](guide_admin.md)
 - [设置工作区](admin_space.md)
 - [设置部门](admin_organizations.md)
 - [设置人员](admin_space_users.md)
 - [设置角色与审批岗位](admin_roles.md)
 
-## （四）如何设计表单
+- 如何设计表单
 - [表单分类](form_category.md)
 - [表单设计](form_design.md)
 - [字段](form_fields.md)
@@ -34,15 +34,14 @@
 - [标题公式](form_name_formula.md)
 - [表单脚本](form_scripts.md)
 
-## （五）如何设计流程
-- [设计流程](flow_design.md)
-- [流程权限](flow_permissions.md)
-- 节点类型
- * [审批节点](flow_step_approve.md)
- * [填写节点](flow_step_input.md)
- * [会签节点](flow_step_counter_sign.md)
- * [条件节点](flow_step_condition.md)
-- [节点处理人](flow_step_user.md)
-- [字段填写权限](flow_step_permissions.md)
-- [启用流程](flow_state.md)
+- 如何设计流程
+ * [设计流程](flow_design.md)
+ * [流程权限](flow_permissions.md)
+ * [节点类型:审批](flow_step_approve.md)
+ * [节点类型:填写](flow_step_input.md)
+ * [节点类型:会签](flow_step_counter_sign.md)
+ * [节点类型:条件](flow_step_condition.md)
+ * [节点处理人](flow_step_user.md)
+ * [字段填写权限](flow_step_permissions.md)
+ * [启用流程](flow_state.md)
 
