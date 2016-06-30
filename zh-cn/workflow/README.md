@@ -1,48 +1,19 @@
 # 审批王 使用指南
 
-### 快速向导
-- [如何为公司开通审批王](guide_setup.md)
-- [如何使用审批王](guide_user.md)
-- [如何设置审批王](guide_admin.md)
-- [系统权限说明](guide_permissions.md)
-- [版本对比](guide_versions.md)
+### 审批王
 
-### 如何使用审批王
-- [填写申请单](instance_add.md)
-- [审批文件](instance_approve.md)
-- [查询申请单](instance_search.md)
-- [取消申请](instance_cancel.md)
-- [打印申请表](instance_print.md)
-- [管理员查询申请单](instance_monitor.md)
-- [管理员转签核](instance_reassign.md)
-- [管理员重定位](instance_relocate.md)
-- [管理员导出审批清单](instance_export.md)
+审批王是全新的企业级在线审批系统，可以快速的将公司的各类审批业务转换为可严格执行的电子流程。审批王可以提供审批的业务包括：出差申请、差旅报销、请假销假、物品采购、付款申请、固定资产报废、会议室预约、退库管理、客服投诉、工作报告等。
 
-### 如何设置审批王
-- [快速向导](guide_admin.md)
-- [设置工作区](admin_space.md)
-- [设置部门](admin_organizations.md)
-- [设置人员](admin_space_users.md)
-- [设置角色与审批岗位](admin_roles.md)
+审批王的产品功能包括：
+- 规范业务范围。审批王帮助您将各项规章制度转化为可严格执行的电子流程。避免工作人员办事随心所欲；
+- 减少出错机会。每月月底审批王通过程序自动计算汇总生成报表，避免人工计算、誉抄等环节中的错误；
+- 提升工作效率。审批王可以像微信一样即时发送审批通知，无论审批领导处在何地均可通过手机移动办公，大幅度提升业务流程运作效率；
+- 记录随时可查。审批王永久保存您的申请单，您可以像百度一样随时查阅搜索已审批的记录，资料不再遗失；
+- 降低沟通成本。有了审批王，员工不再到处找领导各种签字，可以大幅度节约纸张、电话、沟通、查询等各种成本；
+- 随时随地访问。有了审批王，打开手机就可以处理和查询业务流程，全世界都是您的办公室。
 
-### 如何设计表单
-- [表单分类](form_category.md)
-- [表单设计](form_design.md)
-- [字段](form_fields.md)
-- [子表](form_table.md)
-- [字段公式](form_formula.md)
-- [标题公式](form_name_formula.md)
-- [表单脚本](form_scripts.md)
-
-### 如何设计流程
-- [设计流程](flow_design.md)
-- [流程权限](flow_permissions.md)
-- 节点类型
- * [审批节点](flow_step_approve.md)
- * [填写节点](flow_step_input.md)
- * [会签节点](flow_step_counter_sign.md)
- * [条件节点](flow_step_condition.md)
-- [节点处理人](flow_step_user.md)
-- [字段填写权限](flow_step_permissions.md)
-- [启用流程](flow_state.md)
+审批王是云端企业应用软件，类似企业邮箱，不需要安装和维护自己的服务器，打开浏览器就能使用。只需三个步骤，就可以为您的企业开通审批王：
+1. 注册审批王账号；
+2. 创建企业工作区；
+3. 邀请您的同事加入您创建的企业工作区，开始审批。
 
