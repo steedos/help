@@ -1,6 +1,7 @@
 # 审批王使用指南
 
 - 快速向导
+ * [关于审批王](README.md)
  * [如何为公司开通审批王](guide_setup.md)
  * [如何使用审批王](guide_user.md)
  * [如何设置审批王](guide_admin.md)
