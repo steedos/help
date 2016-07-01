@@ -23,7 +23,7 @@ var options = {
 }; 
 function callback(error, response, data) { 
 	if (!error && response.statusCode == 200) { 
-		console.log('date); 
+		console.log(date); 
 	} else {
 		console.log(error); 
 	}
