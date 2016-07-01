@@ -152,7 +152,7 @@ $node get.js
 }
 ```
 
-#### Sample 5. Get my pending query list
+#### Sample 5. Get someone's pending query list
 $vi pending.js
 ```javascript
 var request=require('request'); 
@@ -163,6 +163,7 @@ var options = {
 		"X-Space-Id":"2834sa6b3sdahd29qdsds83"   // please replace with your spaceid
 	}, 
 	url: 'https://us.steedos.com/uf/api/instances?state=pending&userid=sjdhfksfsadfs3ds', 
+							 // please replace with someone's userid
 	method: 'GET', 
 	json:true, 
 	body: {} 
