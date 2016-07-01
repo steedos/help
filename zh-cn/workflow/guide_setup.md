@@ -4,7 +4,7 @@
 
 ##### 进入审批王：
 - 浏览器访问 www.steedos.com
-- 电脑客户端 从审批王官网https://www.steedos.com/cn/workflow/downloads/下载
+- 电脑客户端 从审批王官网https://www.steedos.com/cn/workflow/downloads/ 下载
 - 移动客户端 各大手机应用商城中搜索审批王，进行下载
 - 安卓版下载地址
  - 小米应用商店：http://app.mi.com/
