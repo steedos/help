@@ -3,7 +3,7 @@
 ### Quick guide
  * [What is steedos workflow](README.md)
  * [How to get access to steedos workflow](guide_setup.md)
- * [How to use steedos workflow](guide_user.md)
+ * [How to use steedos workflow](guide_users.md)
  * [Settings](guide_admin.md)
  * [System permissions](guide_permissions.md)
  * [Versions comparison](guide_versions.md)
