@@ -1,6 +1,9 @@
 # 申请单
 
-权限：仅space的管理员可以调用以下接口。
+权限：仅space的管理员可以调用以下接口，需要在请求的headers中包含：
+ - X-User-Id
+ - X-Auth-Token
+ - X-Space-Id
 
 #### 新建申请单
 
