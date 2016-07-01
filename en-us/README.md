@@ -1,8 +1,10 @@
-# Steedos Workflow Help
+# Steedos Help
+
+## Steedos Workflow Help
 
 Steedos is a business process management (BPM) system that can easly build and run electronic processes, including travel application, travel reimbursement, asking for leave, procurement, payment application, disposal of scrapped fixed assets, meeting room reservation, customer complaints, work reports, etc.
 
-## Steedos Workflow Features
+#### Steedos Workflow Features
 
 - **Standardize business scope.** With the system, you can transform your rules and regulations into a strictly enforceable e-process, and the employees have to work within the rules and regulations;
 
@@ -22,4 +24,4 @@ Steedos is a piece of cloud enterprise application software, similar to an enter
  3. invite your colleagues to the workspace you created. 
 
 
-- [Steedos API Guide](api/README.md)
+- [Steedos workflow Guide](workflow/README.md)
