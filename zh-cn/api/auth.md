@@ -28,7 +28,7 @@ curl https://cn.steedos.com/steedos/api/login -d "email=test@hotoa.com&password=
 ```
 
 其中的adminSpaces 下为此账户有管理员权限的那些工作区。
-请纪录下`userId` 、 `authToken` 、 `spaceId` ，在应用API提交请求时需要使用。
+请纪录下`userId` 、 `authToken` 、 `adminSpaces._id` ，在应用API提交请求时需要使用。
 
 #### 退出系统
   
@@ -53,7 +53,7 @@ curl https://cn.steedos.com/steedos/api/logout -X POST -H "X-Auth-Token: f2KpRW7
 
 #### 授权调用
 
-如果要调用Steedos API，需要在请求的headers中包含`userId` 、`authToken` 、 `spaceId`：
+如果要调用Steedos API，需要在请求的headers中包含`userId` 、`authToken` 、 `adminSpaces._id`：
 - X-User-Id
 - X-Auth-Token
 - X-Space-Id
