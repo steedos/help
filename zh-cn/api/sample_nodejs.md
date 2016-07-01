@@ -22,7 +22,7 @@ var options = {
 }; 
 function callback(error, response, data) { 
 	if (!error && response.statusCode == 200) { 
-		console.log('userid:',data.data.userId,', authToken:',data.data.authToken); 
+		console.log(data); 
 	} else {
 		console.log(error); 
 	}
@@ -31,7 +31,11 @@ request(options, callback);
 ```
 $node login.js
 ```
-userid: 5199da119e296a4ba0000001 , authToken: jgBXLvL76tVJbabcRKeMYb9ux_N4wZXpM8OeD77X3XJ
+{ status: 'success',
+  data: 
+   { authToken: 'jgBXLvL76tVJbabcROeD77X3XJ',
+     userId: '5lwsda119wskssf',
+     adminSpaces: [ [Object] ] } }
 ```
 
 #### ［实例］2.创建"付款申请"
