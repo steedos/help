@@ -3,19 +3,19 @@
 Workflow users can initiate an approval process, select to approve or reject, search for forms and print the application forms
 
 ### how to initiate an approval process
-###### You can take step as follows:
- 1. select a flow,
- 2. fill out the application form
- 3. upload attachments
- 4. submit the form
+###### You can take the steps as follows:
+ - select a flow
+ - fill out the application form
+ - upload attachments
+ - submit the form
  
 ### approval  process
 
- 1. Select a form in “My Approval Inbox”
- 2. Scan the application form and manage attachments
- 3. Decide to approve or reject the application and give your comments
- 4. Select the next step user(s)
- 5. Submit the form
+ - Select a form in “My Approval Inbox”
+ - Scan the application form and manage attachments
+ - Decide to approve or reject the application and give your comments
+ - Select the next step user(s)
+ - Submit the form
  
 ### search for forms
 
