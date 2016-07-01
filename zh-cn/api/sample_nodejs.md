@@ -16,8 +16,8 @@ var options = {
 	method: 'POST', 
 	json:true, 
 	body: {	
-		"email":"test@hotoa.com",	// 请替换为自己的email 
-		"password":"mypassword"		// 请替换为自己的password 
+		"email":"test@hotoa.com",	// 请替换为管理员的email 
+		"password":"mypassword"		// 请替换为管理员的password 
 	} 
 }; 
 function callback(error, response, data) { 
@@ -40,9 +40,9 @@ $vi create.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",   // 请替换为自己的userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",   // 请替换为自己的Token
-		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为自己的spaceid
+		"X-User-Id":"5358806b334904597d0047bb",   // 请替换为管理员的userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",   // 请替换为管理员的Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为管理员的spaceid
 	}, 
 	url: 'https://cn.steedos.com/uf/api/instances', 
 	method: 'POST', 
@@ -78,9 +78,9 @@ $vi submit.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为自己的userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",	  // 请替换为自己的Token
-		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为自己的spaceid
+		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为管理员的userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",	  // 请替换为管理员的Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为管理员的spaceid
 	}, 
 	url: 'https://cn.steedos.com/uf/api/instances/567274398e296a1c3b0000a1', // 请替换为node create.js返回的InsanceID
 	method: 'PUT', 
@@ -116,9 +116,9 @@ $vi get.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为自己的userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",   // 请替换为自己的Token
-		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为自己的spaceid
+		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为管理员的userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",   // 请替换为管理员的Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为管理员的spaceid
 	}, 
 	url: 'https://cn.steedos.com/uf/api/instances/567274398e296a1c3b0000a1', // 请替换为node create.js返回的InsanceID
 	method: 'GET', 
@@ -144,17 +144,18 @@ $node get.js
 }
 ```
 
-#### ［实例］5.查看我的待办事项
+#### ［实例］5.查看某用户的待办事项
 $vi pending.js
 ```javascript
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为自己的userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzFe"	  // 请替换为自己的Token
-		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为自己的spaceid
+		"X-User-Id":"5358806b334904597d0047bb",	  // 请替换为管理员的userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzFe"	  // 请替换为管理员的Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // 请替换为管理员的spaceid
 	}, 
-	url: 'https://cn.steedos.com/uf/api/instances?state=pending', 
+	url: 'https://cn.steedos.com/uf/api/instances?state=pending&userid=sdsdksfdsfl23sdf283', 
+							  // 请替换为要查用户的的userid
 	method: 'GET', 
 	json:true, 
 	body: {} 
