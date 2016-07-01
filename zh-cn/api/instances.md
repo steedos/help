@@ -1,11 +1,10 @@
 # 申请单
 
+权限：仅space的管理员可以调用以下接口。
 
 #### 新建申请单
 
 目标：创建某申请单，同时传入某些字段值和子表字段值。
-
-权限：所有用户都可以新建申请单。
 
 Request:
 ```bash
@@ -84,15 +83,13 @@ Response:
 ```
 
 
-#### 查看我的待办
+#### 查看待办文件
 
 目标：取得某用户的待办事项列表。
 
-权限：所有用户都可以查看本人的待办。
-
 Request:
 ```bash
-curl -X GET https://cn.steedos.com/uf/api/instances?state=pending 
+curl -X GET https://cn.steedos.com/uf/api/instances?state=pending&userid=aksjhkdshasd 
      -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
@@ -141,8 +138,6 @@ Response:
 #### 查看申请单详情
 
 目标：取得某申请单详细信息，包括表单、附件、签核历程等。
-
-权限：仅以下人员可以查看申请单详情：提交者、申请者、经手者、本流程的管理员、本流程的观察员、本工作区的管理员、本工作区的所有者。
 
 Request:
 ```bash
@@ -197,8 +192,6 @@ Response:
 #### 提交申请单
 
 目标：提交某申请单，同时指定下一步骤及其处理人。
-
-权限：仅本申请单的提交者才可以完成此操作。
 
 Request:
 ```bash
