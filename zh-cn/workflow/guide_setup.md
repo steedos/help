@@ -3,7 +3,7 @@
 作为一个公司的管理员，想要全公司员工来使用审批王系统，需要做以下工作：
 
 ##### 进入审批王：
-- 浏览器访问 www.steedos.com
+- 浏览器访问 https://www.steedos.com
 - 电脑客户端 从审批王官网 https://www.steedos.com/cn/workflow/downloads/ 下载
 - 移动客户端 各大手机应用商城中搜索审批王，进行下载
 - 安卓版下载地址
