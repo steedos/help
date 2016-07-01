@@ -45,7 +45,7 @@ Response:
 }
 ```
 
-备注："parent"为该部门的直属上级部门，"children"为该部门的所有下级部门，"fullname"为该部门的部门全称，包含所属上级部门。
+Note："parent" is parent department, "children" is children departments, "fullname" is fullname of department，include all parent departments.
 
 #### Get one Orgnization of my Space
 
@@ -62,15 +62,15 @@ Response:
   "status": "success",
   "data": {
     "_id": "HxyYsQdbc7SJr7pvX",
-    "name": "开发部",
+    "name": "R&D",
     "space": "c3PZRyBosLob8bcyn",
     "parent": "cPdakasklfbksjha",
-    "fullname": "开发部"
+    "fullname": "HY/SH/R&D"
   }
 }
 ```
 
-备注："parent"为该部门的直属上级部门，"children"为该部门的所有下级部门，"fullname"为该部门的部门全称，包含所属上级部门。
+Note："parent" is parent department, "children" is children departments, "fullname" is fullname of department，include all parent departments.
 
 #### Create a new Orgnization
 Request:
@@ -83,11 +83,12 @@ curl -X POST https://cn.steedos.com/steedos/api/organizations
 Request Body:
 ```json
 {
-  "name": "开发部",
+  "name": "R&D",
   "space": "cPdakasklfbksjha"
 }
 ```
-备注："space"和"name"为必填字段。
+
+Note："space" and "name" are required.
 
 Response:
 ```json
@@ -95,10 +96,10 @@ Response:
   "status": "success",
   "data": {
     "_id": "HxyYsQdbc7SJr7pvX",
-    "name": "开发部",
+    "name": "R&D",
     "space": "c3PZRyBosLob8bcyn",
     "parent": "cPdakasklfbksjha",
-    "fullname": "开发部"
+    "fullname": "HY/SH/R&D"
   }
 }
 ```
@@ -114,7 +115,7 @@ curl -X PUT https://cn.steedos.com/steedos/api/organizations/HxyYsQdbc7SJr7pvX
 Request Body:
 ```json
 {
-  "name": "研究开发部",
+  "name": "R&D",
   "parent": "J4MgpJPdXJeQtixWM"
 }
 ```
