@@ -1,6 +1,6 @@
 # How to use steedos workflow
 
-Workflow users can initiate an approval process, select to approve or reject, search for forms and print the application forms
+Workflow users can initiate an approval process, select to approve or reject, search for forms and print the application forms.
 
 ### how to initiate an approval process
 ###### You can take the steps as follows:
