@@ -4,6 +4,7 @@
 
 ##### 进入审批王：
 - 浏览器访问 https://www.steedos.com
+ - 目前我们支持Chrome、Safari、Firefox、360浏览器及IE9及以上版本浏览器。
 - 电脑客户端 从审批王官网 https://www.steedos.com/cn/workflow/downloads/ 下载
 - 移动客户端 各大手机应用商城中搜索审批王，进行下载
 - 安卓版下载地址
