@@ -135,8 +135,6 @@ Note："id" is ID of this request instance, "flow_name" is name of this flow, "s
 
 #### Query request details
 
-Permission: Only the following staffs can get the instance details: submitter, applicant, handlers, administrators of this flow, observers of this flow,  administrators of this workspace, the owner of this workspace.
-
 Request:
 ```bash
 curl -X GET https://us.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a 
