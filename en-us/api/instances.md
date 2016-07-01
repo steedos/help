@@ -1,11 +1,14 @@
 # Workflow Request
 
+Permission: Only administrators of space can send requests below.
+
 #### Create a draft request
 
-Permission: All users can create a draft request in his workspace.
-
 Request:
-`POST https://us.steedos.com/uf/api/instances`
+```bash
+curl -X POST https://us.steedos.com/uf/api/instances -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+     -H "X-User-Id: fbdpsNf4oHiX79vMJ" -H "X-Space-Id: wsw1re12TdeP223sC"
+```
 ```json
 {
   "flow": "8hdjk8skas8sdsa",
@@ -81,10 +84,12 @@ Note："id" is ID of this draft request instance, "space" is ID of this workspac
 
 #### Get pending request list
 
-Permission: All users can get his pending request instance list.
-
 Request:
-`GET https://us.steedos.com/uf/api/instances?state=pending`
+```bash
+curl -X GET https://us.steedos.com/uf/api/instances?state=pending&userid=aksjhkdshasd 
+     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+     -H "X-Space-Id: wsw1re12TdeP223sC"
+```
 
 Response:
 
@@ -133,7 +138,11 @@ Note："id" is ID of this request instance, "flow_name" is name of this flow, "s
 Permission: Only the following staffs can get the instance details: submitter, applicant, handlers, administrators of this flow, observers of this flow,  administrators of this workspace, the owner of this workspace.
 
 Request:
-`Get https://us.steedos.com/uf/api/instances.info/oFpdgAMMr7F5A7P3a`
+```bash
+curl -X GET https://us.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a 
+     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+     -H "X-Space-Id: wsw1re12TdeP223sC"
+```
 
 Note："oFpdgAMMr7F5A7P3a" in URL is ID of this request instance.
 
@@ -181,10 +190,12 @@ Note："id" is ID of this request instance, "space" is ID of this workspace, "fl
 
 #### Submit request to next step
 
-Permission: Only the submitter can submit request instance to the next step.
-
 Request:
-`POST https://us.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a`
+```bash
+curl -X POST https://us.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a 
+     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+     -H "X-Space-Id: wsw1re12TdeP223sC"
+```
 ```json
 {
   "nextstep_name": "Manager Approval",
