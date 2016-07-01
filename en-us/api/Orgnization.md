@@ -151,6 +151,5 @@ Response:
     }
 }
 ```
-备注：当所删除的部门有一个或多个下级部门时，系统会报错：organizations_error.organization_has_children
 
-
+Note: You can't delete an orgnization if this orgnization has children .
