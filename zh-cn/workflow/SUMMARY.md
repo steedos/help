@@ -11,6 +11,7 @@
 - 如何使用审批王
  * [填写申请单](instance_add.md)
  * [审批文件](instance_approve.md)
+ * [附件管理](instance_attachment.md)
  * [查询申请单](instance_search.md)
  * [取消申请](instance_cancel.md)
  * [打印申请表](instance_print.md)
