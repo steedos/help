@@ -34,11 +34,11 @@ $node login.js
 { 
 	status: 'success',
 	data: 
-   	{ 
+	{ 
    		authToken: 'jgBXLvL76tVJbabcROeD77X3XJ',
      		userId: '5lwsda119wskssf',
      		adminSpaces: [ [Object] ] 
-     	} 
+	} 
 }
 ```
 
