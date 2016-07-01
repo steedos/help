@@ -17,13 +17,13 @@ var options = {
 	method: 'POST', 
 	json:true, 
 	body: {	
-		"email":"test@hotoa.com",	// please replace with your email 
-		"password":"mypassword"		// please replace with your password 
+		"email":"test@hotoa.com",	// please replace with space_admin's email 
+		"password":"mypassword"		// please replace with space_admin's password 
 	} 
 }; 
 function callback(error, response, data) { 
 	if (!error && response.statusCode == 200) { 
-		console.log('userid:',data.data.userId,', authToken:',data.data.authToken); 
+		console.log('date); 
 	} else {
 		console.log(error); 
 	}
@@ -41,9 +41,9 @@ $vi create.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",   // please replace with your userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",   // please replace with your Token
-		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // please replace with your spaceid
+		"X-User-Id":"5358806b334904597d0047bb",   // please replace with space_admin's userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",   // please replace with space_admin's Token
+		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // please replace with youe spaceid
 	}, 
 	url: 'https://us.steedos.com/uf/api/instances', 
 	method: 'POST', 
@@ -78,8 +78,8 @@ $vi submit.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",	  // please replace with your userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",  // please replace with your Token
+		"X-User-Id":"5358806b334904597d0047bb",	  // please replace with space_admin's userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",  // please replace with space_admin's Token
 		"X-Space-Id":"2834sa6b3sdahd29qdsds83"    // please replace with your spaceid
 	}, 
 	url: 'https://us.steedos.com/uf/api/instances/567274398e296a1c3b0000a1', // please replace with your InsanceID
@@ -116,8 +116,8 @@ $vi get.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",  // please replace with your userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",  // please replace with your Token
+		"X-User-Id":"5358806b334904597d0047bb",  // please replace with space_admin's userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",  // please replace with space_admin's Token
 		"X-Space-Id":"2834sa6b3sdahd29qdsds83"   // please replace with your spaceid
 	}, 
 	url: 'https://us.steedos.com/uf/api/instances/567274398e296a1c3b0000a1', // please replace with your InsanceID
@@ -150,11 +150,11 @@ $vi pending.js
 var request=require('request'); 
 var options = { 
 	headers: {
-		"X-User-Id":"5358806b334904597d0047bb",  // please replace with your userid
-		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",  // please replace with your Token
+		"X-User-Id":"5358806b334904597d0047bb",  // please replace with space_admin's userid
+		"X-Auth-Token":"FvVLIn6QaHJFEtgWb4hzF",  // please replace with space_admin's Token
 		"X-Space-Id":"2834sa6b3sdahd29qdsds83"   // please replace with your spaceid
 	}, 
-	url: 'https://us.steedos.com/uf/api/instances?state=pending', 
+	url: 'https://us.steedos.com/uf/api/instances?state=pending&userid=sjdhfksfsadfs3ds', 
 	method: 'GET', 
 	json:true, 
 	body: {} 
