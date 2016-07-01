@@ -31,11 +31,15 @@ request(options, callback);
 ```
 $node login.js
 ```
-{ status: 'success',
-  data: 
-   { authToken: 'jgBXLvL76tVJbabcROeD77X3XJ',
-     userId: '5lwsda119wskssf',
-     adminSpaces: [ [Object] ] } }
+{ 
+	status: 'success',
+	data: 
+   	{ 
+   		authToken: 'jgBXLvL76tVJbabcROeD77X3XJ',
+     		userId: '5lwsda119wskssf',
+     		adminSpaces: [ [Object] ] 
+     	} 
+}
 ```
 
 #### ［实例］2.创建"付款申请"
