@@ -8,7 +8,10 @@
 权限：所有用户都可以新建申请单。
 
 Request:
-`POST https://cn.steedos.com/uf/api/instances`
+```bash
+curl -X POST https://cn.steedos.com/uf/api/instances -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+     -H "X-User-Id: fbdpsNf4oHiX79vMJ" -H "X-Space-Id: wsw1re12TdeP223sC"
+```
 ```json
 {
   "flow": "8hdjk8skas8sdsa",
@@ -88,7 +91,11 @@ Response:
 权限：所有用户都可以查看本人的待办。
 
 Request:
-`GET https://cn.steedos.com/uf/api/instances?state=pending`
+```bash
+curl -X GET https://cn.steedos.com/uf/api/instances?state=pending 
+     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+     -H "X-Space-Id: wsw1re12TdeP223sC"
+```
 
 Response:
 
@@ -138,7 +145,11 @@ Response:
 权限：仅以下人员可以查看申请单详情：提交者、申请者、经手者、本流程的管理员、本流程的观察员、本工作区的管理员、本工作区的所有者。
 
 Request:
-`Get https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a`
+```bash
+curl -X GET https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a 
+     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+     -H "X-Space-Id: wsw1re12TdeP223sC"
+```
 
 备注：URL中的"oFpdgAMMr7F5A7P3a"为申请单instance的ID 。
 
@@ -190,7 +201,11 @@ Response:
 权限：仅本申请单的提交者才可以完成此操作。
 
 Request:
-`POST https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a`
+```bash
+curl -X POST https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a 
+     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+     -H "X-Space-Id: wsw1re12TdeP223sC"
+```
 ```json
 {
   "nextstep_name": "Manager Approval",
