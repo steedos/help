@@ -41,6 +41,7 @@ $node login.js
      		adminSpaces: [ [Object] ] 
 	} 
 }
+```
 
 #### Sample 2.Create a draft query of 'Pay'
 $vi create.js
