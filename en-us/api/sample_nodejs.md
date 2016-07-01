@@ -32,8 +32,15 @@ request(options, callback);
 ```
 $node login.js
 ```
-userid: 5199da119e296a4ba0000001 , authToken: jgBXLvL76tVJbabcRKeMYb9ux_N4wZXpM8OeD77X3XJ
-```
+{ 
+	status: 'success',
+	data: 
+	{ 
+   		authToken: 'jgBXLvL76tVJbabcROeD77X3XJ',
+     		userId: '5lwsda119wskssf',
+     		adminSpaces: [ [Object] ] 
+	} 
+}
 
 #### Sample 2.Create a draft query of 'Pay'
 $vi create.js
