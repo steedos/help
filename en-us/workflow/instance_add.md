@@ -5,7 +5,7 @@
 - Select your workspace for workflow after you log in steedos.
 - Click the “New” button and select a flow.
 - Fill in the application form as required.
-- Click the U-shaped button, select a file path, and you can **upload** one or more attachments that will be visible at the bottom of the form. Move the cursor to an attachment, an X-shaped icon will appear. By clicking the icon, you can **delete** the attachment.
+- Click the U-shaped button, select a file path, and you can **upload** one or more attachments that will be visible at the bottom of the form. Move the cursor to an attachment, and an X-shaped icon will appear. By clicking the icon, you can **delete** the attachment.
 - Save the form in time if there is no need to submit at once. Then submit your application form.
 
 
