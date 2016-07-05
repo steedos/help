@@ -10,7 +10,7 @@
 
 ### How to use steedos workflow
 ##### Applicant：
- * [Input application form](instance_add.md)
+ * [Fill in application form](instance_add.md)
  * [Manage attachments](instance_attachment.md)
  * [Search for forms](instance_search.md)
  * [Cancel the application](instance_cancel.md)
