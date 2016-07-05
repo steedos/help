@@ -2,7 +2,7 @@
 
 ##### As a general user, to submit a new application form, you need to create a new form and fill it in as required. The detailed steps are listed below:
 
-- Select a workspace for workflow after you log in steedos.
+- Select your workspace for workflow after you log in steedos.
 - Click the “New” button and select a flow.
 - Fill in the application form as required.
 - Click the U-shaped button, select a file path, and you can **upload** one or more attachments that will be visible at the bottom of the form. Move the cursor to an attachment, an X-shaped icon will appear. By clicking the icon, you can **delete** the attachment.
