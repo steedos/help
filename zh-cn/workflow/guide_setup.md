@@ -11,7 +11,7 @@
  - 小米应用商店：http://app.mi.com/
  - 华为应用市场：http://a.vmall.com/
  - 腾讯应用宝：http://android.myapp.com/
- - 360手机助手：http://sj.360.cn/
+ - 360手机助手：http://zhushou.360.cn/
  - 百度手机助手：http://shouji.baidu.com/
  - 豌豆荚：http://www.wandoujia.com/
 - iOS版下载地址
