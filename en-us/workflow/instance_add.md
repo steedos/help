@@ -1,4 +1,4 @@
-### Fill in the application form
+### Fill in application form
 
 ##### As a general user, you can just add a new form and fill in the form as required.The detailed steps are listed below:
 
