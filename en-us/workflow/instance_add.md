@@ -1,6 +1,6 @@
 ### Fill in application form
 
-##### As a general user, you can just add a new form and fill in the form as required.The detailed steps are listed below:
+##### As a general user, to submit a new application form, you need to create a new form and fill it in as required. The detailed steps are listed below:
 
 - Select a workspace for workflow after you log in steedos.
 - Click the “New” button and select a flow.
