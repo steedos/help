@@ -1,14 +1,14 @@
 ### How to get access to steedos workflow
 
 ##### PC client:
-- Download from: https://www.steedos.com/cn/workflow/downloads/
+- Download from: https://www.steedos.com/us/workflow/downloads/
 
 ##### For android:
-- Download from: https://www.steedos.com/cn/workflow/downloads/
+- Download from: https://www.steedos.com/us/workflow/downloads/
 - google play: https://play.google.com/store
 
 ##### For iOS:
-- Download from: https://www.steedos.com/cn/workflow/downloads/
+- Download from: https://www.steedos.com/us/workflow/downloads/
 - App Store.
  
 #### There are three ways to create an steedos account for your corporation:
