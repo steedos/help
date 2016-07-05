@@ -12,4 +12,4 @@
 #### Notice：
 - You are supposed to change the initiator if you submit the application for others. The default state of the systems set the account owner to be the initiator.
 - You are supposed to fill in all the fields marked with icon“＊”. If not, you cannot submit the form.
-- Some fields that are not required to be completed will be automatically calculated according to the settings of the administrator. For instance, cost equals to unit- price*number.
+- Those fields that are not required to be filled in manually, e. g. price (unit price * quantity) and total (the sum of... ), will be calculated automatically according to the settings of the administrator. 
