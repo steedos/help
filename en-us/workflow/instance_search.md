@@ -1,4 +1,4 @@
-### Search for forms
+### Search for application forms
 
 ##### As an applicant:
 After submitting an application form, you can track the approval process by taking the following steps: 
