@@ -6,7 +6,7 @@ After submitting an application form, you can track the approval process by taki
   - Log in Steedos, enter your workspace and click “Workflow”;
   - Click “My Applications-In Progress”, and you can see the application forms in progress;
   - Click “My Applications-Finished”, and you can see all the finished application forms;
-  - Click any one of the listed forms, and you can see its details and the whole approval progress, including all the steps along the approval route and all the comments made by step supervisors..
+  - Click any one of the listed forms, and you can see its details and the whole approval history, including all the steps along the approval route and all the comments made by step supervisors..
 
 
 ##### As a step supervisor:
