@@ -62,7 +62,10 @@ You can reject the application to any previous steps when you don’t approve th
  
 Then the application will disappear in “My Approval-Inbox” and appear in “My Applications-Finished”.
 
+
  
-**Click the icon next to “Submit” to save you comments if you want to put off the approval. As a result, the application is still visible in “My Approval-Inbox”.**
+**Click the icon next to “Submit” to save you comments if you want to put off the approval.
+
+As a result, the application is still visible in “My Approval-Inbox”.**
 
 
