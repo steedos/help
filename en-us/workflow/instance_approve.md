@@ -22,6 +22,7 @@ Login steedos and enter the workspace. In the workflow page, the displayed numbe
 Finished steps, approval comments, step supervisors, approval status and time will be all displayed in Approval History.
 
 *Attachments management*     
+
 (please refer to [Attachments management](instance_attachment.md) for more details)
 
 
@@ -37,7 +38,7 @@ Finished steps, approval comments, step supervisors, approval status and time wi
 
 - Finally, select ”Approve” or “Reject” and submit it.
 
- *How to approve*
+*How to approve*
 
 - Next Step and Next Step User(s) are automatically displayed at the top of the page.
 
@@ -51,7 +52,7 @@ Then approval process has finished. The application will disappear in “My Appr
  
 *How to Reject* 
 
- You can reject the application to any previous steps when you don’t approve the application.
+You can reject the application to any previous steps when you don’t approve the application.
  
  - Select “Reject”,then give your comments .
  
@@ -59,7 +60,7 @@ Then approval process has finished. The application will disappear in “My Appr
  
  - Click “Submit”, and then the application form will send to the assigned step user(s).
  
- Then the application will disappear in “My Approval-Inbox” and appear in “My Applications-Finished”.
+Then the application will disappear in “My Approval-Inbox” and appear in “My Applications-Finished”.
 
  
 **Click the icon next to “Submit” to save you comments if you want to put off the approval. As a result, the application is still visible in “My Approval-Inbox”.**
