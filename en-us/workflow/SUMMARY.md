@@ -12,7 +12,7 @@
 ##### Applicant：
  * [Fill in application form](instance_add.md)
  * [Manage attachments](instance_attachment.md)
- * [Search for forms](instance_search.md)
+ * [Search for application forms](instance_search.md)
  * [Cancel the application](instance_cancel.md)
  * [Print the application form](instance_print.md)
  
