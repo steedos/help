@@ -1,7 +1,7 @@
 
 ## Approval process
 
-You will be informed if you are a step supervisor in the flow when the flow reaches your step. So you need to login steeods and handle it. After that, the flow will go on according to system settings.
+You will be informed when the flow reaches your step if you are a step supervisor in the flow. So you need to login steeods and handle it. After that, the flow will go on according to system settings.
 
 #### Approval notifications
 
@@ -13,8 +13,7 @@ You will be informed if you are a step supervisor in the flow when the flow reac
 
 - You will receive a notification message when steedos workflow has been installed in your PC or mobile devices.
 
-Then login steedos and enter the workspace. In the workflow page, the red number given in “Inbox” is the form numbers that need to be approved.
-
+Login steedos and enter the workspace. In the workflow page, the displayed number in “Inbox” is the form numbers that need to be handled.
 
 #### Form contents
 
