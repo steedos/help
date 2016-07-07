@@ -18,7 +18,7 @@
  
 ##### Admins
  * [Search for forms](instance_monitor.md)
- * [Approve or reject the application](instance_approve.md)
+ * [Approval process](instance_approve.md)
  * [Reassign approval ](instance_reassign.md)
  * [Relocate forms](instance_relocate.md)
  * [Export forms](instance_export.md)
