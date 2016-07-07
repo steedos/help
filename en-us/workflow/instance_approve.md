@@ -19,11 +19,9 @@ Login steedos and enter the workspace. In the workflow page, the displayed numbe
 
 *Approval History*
 
-Finished steps, approval comments, step supervisors, approval status and time will be displayed in Approval History.
+Finished steps, approval comments, step supervisors, approval status and time will be all displayed in Approval History.
 
-*Attachments management*
-
-(please refer to [Attachments management](instance_attachment.md) for more details)
+*Attachments management* (please refer to [Attachments management](instance_attachment.md) for more details)
 
 
 - Click attachment name(s) to download attachments.
