@@ -21,6 +21,6 @@ You can track the approval progress of the application forms you have handled by
 
 When there are too many application forms, you can search for them by: 
 
-- entering the keyword(s) in the search box in the upper right side of the Inbox, Outbox, In Progress; or 
-- clicking the funnel-shaped icon at the top of the Inbox, Outbox, In Progress according to flow category. 
+- Entering the keyword(s) in the search box in the upper right side of the Inbox, Outbox, In Progress; or 
+- Clicking the funnel-shaped icon at the top of the Inbox, Outbox, In Progress according to flow category. 
 
