@@ -13,7 +13,7 @@
  * [如何在线提交申请](http://oss.steedos.com/videos/user/2%E3%80%81%E5%A6%82%E4%BD%95%E6%8F%90%E4%BA%A4%E7%94%B3%E8%AF%B7%E5%8D%95.mp4)
  * [如何在线审批流程](http://oss.steedos.com/videos/user/3%E3%80%81%E5%A6%82%E4%BD%95%E8%BF%9B%E8%A1%8C%E6%B5%81%E7%A8%8B%E5%AE%A1%E6%89%B9.mp4)
  * [什么是待审核、已审核、草稿箱、进行中、已完成](http://oss.steedos.com/videos/user/4%E3%80%81%E5%AE%A1%E6%89%B9%E7%8E%8B%E7%95%8C%E9%9D%A2%E8%AF%B4%E6%98%8E.mp4)
- * [如何取消申请](http://oss.steedos.com/videos/user/5%E3%80%81%E5%A6%82%E4%BD%95%E5%8F%96%E6%B6%88%E6%88%91%E7%9A%84%E7%94%B3%E8%AF%B7%E5%8D%95.mp4)
+ * [如何取消我的申请单](http://oss.steedos.com/videos/user/5%E3%80%81%E5%A6%82%E4%BD%95%E5%8F%96%E6%B6%88%E6%88%91%E7%9A%84%E7%94%B3%E8%AF%B7%E5%8D%95.mp4)
  
 - 设计表单
  * [如何创建新表单](http://oss.steedos.com/videos/cn/4%E3%80%81%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E6%96%B0%E8%A1%A8%E5%8D%95.mp4)
