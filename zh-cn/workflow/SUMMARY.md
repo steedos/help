@@ -47,3 +47,5 @@
  * [字段填写权限](flow_step_permissions.md)
  * [启用流程](flow_state.md)
 
+- 培训视频
+ * [案例](http://oss.steedos.com/videos/case/expense.mp4）
