@@ -48,4 +48,4 @@
  * [启用流程](flow_state.md)
 
 - 培训视频
- * [案例](http://oss.steedos.com/videos/case/expense.mp4）
+ * [案例](http://oss.steedos.com/videos/case/expense.mp4)
