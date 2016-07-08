@@ -21,5 +21,5 @@ Steedos workflow offers you standard version, professional version and enterpris
  - Storage space：100G
  - Technical support: without restrictions
  - User number: no less than 200
- - Set up an independent private cloud server, bind domain names for the corporation, custom exclusive login page, integrate with existing business system, offer a unique customized App.
+ - Features：Set up an independent private cloud server, bind domain names for the corporation, custom exclusive login page, integrate with existing business system, offer a unique customized App.
 
