@@ -48,4 +48,11 @@
 
 - [常见问题解答](faq.md)
 
+- [Steedos API](api.md)
+ * [华炎云：身份认证](auth.md)
+ * [华炎云：用户](SpaceUser.md)
+ * [华炎云：部门](Orgnization.md)
+ * [审批王：申请单](instances.md)
+ * [实例：Nodejs](sample_nodejs.md)
+
 
