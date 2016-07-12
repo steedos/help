@@ -7,7 +7,7 @@
  * [系统权限说明](guide_permissions.md)
  * [版本对比](guide_versions.md)
 
-- 如何使用审批王
+- [如何使用审批王](guide_user.md)
  * [填写申请单](instance_add.md)
  * [审批文件](instance_approve.md)
  * [附件管理](instance_attachment.md)
