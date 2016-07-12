@@ -20,6 +20,7 @@
  - [表单上可用的字段类型](http://oss.steedos.com/videos/admin/9%E3%80%81%E8%A1%A8%E5%8D%95%E5%AD%97%E6%AE%B5%E7%B1%BB%E5%9E%8B%E8%AF%B4%E6%98%8E.mp4)
  - [如何设置字段的默认值、下拉列表的可选项等](http://oss.steedos.com/videos/admin/10%E3%80%81%E5%A6%82%E4%BD%95%E5%AE%9A%E4%B9%89%E5%AD%97%E6%AE%B5%E5%B1%9E%E6%80%A7.mp4)
  - [如何设置公式，实现自动计算](http://oss.steedos.com/videos/admin/12%E3%80%81%E5%A6%82%E4%BD%95%E7%BC%96%E5%86%99%E8%A1%A8%E5%8D%95%E4%B8%8A%E7%9A%84%E5%85%AC%E5%BC%8F.mp4)
+
 - 如何设计流程
  - [如何创建新流程](http://oss.steedos.com/videos/cn/5%E3%80%81%E5%A6%82%E4%BD%95%E5%88%9B%E5%BB%BA%E6%96%B0%E6%B5%81%E7%A8%8B.mp4)
  - [如何定义条件，实现自动选择流转路径](http://oss.steedos.com/videos/cn/16%E3%80%81%E6%B5%81%E7%A8%8B%E4%B8%AD%E7%9A%84%E6%9D%A1%E4%BB%B6%E5%AE%9A%E4%B9%89.mp4)
