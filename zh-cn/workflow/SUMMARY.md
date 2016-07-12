@@ -7,7 +7,7 @@
  * [系统权限说明](guide_permissions.md)
  * [版本对比](guide_versions.md)
 
-- [如何使用审批王](guide_user.md)
+- [如何使用审批王](quickguide_user.md)
  * [填写申请单](instance_add.md)
  * [审批文件](instance_approve.md)
  * [附件管理](instance_attachment.md)
@@ -19,13 +19,13 @@
  * [管理员重定位](instance_relocate.md)
  * [管理员导出审批清单](instance_export.md)
 
-- [如何设置审批王](guide_admin.md)
+- [如何设置审批王](quickguide_admin.md)
  * [设置工作区](admin_space.md)
  * [设置部门](admin_organizations.md)
  * [设置人员](admin_space_users.md)
  * [设置角色与审批岗位](admin_roles.md)
 
-- [如何设计表单](guide_flow.md)
+- [如何设计表单](quickguide_flow.md)
  * [表单分类](form_category.md)
  * [表单设计](form_design.md)
  * [字段](form_fields.md)
