@@ -1,7 +1,6 @@
 # 审批王使用指南
 
-- 快速向导
- * [关于审批王](README.md)
+- [快速向导](README.md)
  * [如何为公司开通审批王](guide_setup.md)
  * [如何使用审批王](guide_user.md)
  * [如何设置审批王](guide_admin.md)
@@ -20,8 +19,7 @@
  * [管理员重定位](instance_relocate.md)
  * [管理员导出审批清单](instance_export.md)
 
-- 如何设置审批王
- * [快速向导](guide_admin.md)
+- [如何设置审批王](guide_admin.md)
  * [设置工作区](admin_space.md)
  * [设置部门](admin_organizations.md)
  * [设置人员](admin_space_users.md)
@@ -36,8 +34,7 @@
  * [标题公式](form_name_formula.md)
  * [表单脚本](form_scripts.md)
 
-- 如何设计流程
- * [设计流程](flow_design.md)
+- [如何设计流程](flow_design.md)
  * [流程权限](flow_permissions.md)
  * [节点类型：审批](flow_step_approve.md)
  * [节点类型：填写](flow_step_input.md)
