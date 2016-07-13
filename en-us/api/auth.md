@@ -28,7 +28,7 @@ And the response will look like
 }
 ```
 
-`adminSpaces` include the spaces,whose administrator is this user . You'll need to save the `userId` 、 `authToken` 、 `adminSpaces._id` on the client, for subsequent authenticated requests.
+`adminSpaces` include the spaces（Professional/Enterprise）,whose administrator is this user . You'll need to save the `userId` 、 `authToken` 、 `adminSpaces._id` on the client, for subsequent authenticated requests.
 
 #### Logging Out
   
