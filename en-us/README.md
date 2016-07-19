@@ -2,7 +2,7 @@
 
 ## Steedos Workflow Help
 
-Steedos workflow  is a business process management (BPM) system that can easly build and run electronic processes, including travel application, travel reimbursement, asking for leave, procurement, payment application, disposal of scrapped fixed assets, meeting room reservation, customer complaints, work reports, etc.
+Steedos workflow  is a business process management (BPM) system that can easily build and run electronic processes, including travel application, travel reimbursement, asking for leave, procurement, payment application, disposal of scrapped fixed assets, meeting room reservation, customer complaints, work reports, etc.
 
 #### Steedos Workflow Features
 
