@@ -19,9 +19,9 @@ Steedos workflow  is a business process management (BPM) system that can easly b
 - **Get access to your business anytime and anywhere.** With the system, you can query and dispose your business just using your mobile phone. 
 
 Steedos is a piece of cloud enterprise application software, similar to an enterprise mailbox. With no need for a server of your own, you can use Steedos by opening the explorer. Before running the software to go through the  approval process, you need to take the steps as follows: 
- 1. create a Steedos account; 
- 2. create an enterprise workspace; 
- 3. invite your colleagues to the workspace you created. 
+ 1. Create a Steedos account; 
+ 2. Create an enterprise workspace; 
+ 3. Invite your colleagues to the workspace you created. 
 
 
 - [Steedos workflow Guide](workflow/README.md)
