@@ -1,6 +1,6 @@
 ### Fill in application form
 
-##### As a general user, you just need to initiate a request and fill in the form as required. Before that, admins have finished form designs and permission settings. Detailed steps are listed below.
+ As a general user, you just need to initiate a request and fill in the form as required. Before that, admins have finished form designs and permission settings. Detailed steps are listed below.
 
 - Select your workspace for workflow after you log in steedos.
 - Click the “New” button and select a flow.
