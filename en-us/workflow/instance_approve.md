@@ -21,17 +21,17 @@ Click the form and all details are visible.
  - Next, select ”Approve” or “Reject” and submit it.
  - Finally, Select “Approve” or “Reject”
   - Approve
-   1. Next Step and Next Step User(s) are automatically displayed at the top of the page.
-   1. Click the selection box below “Next Step”, then select a new step if you want to modify next step by default. Once one option is visible, next step cannot be modified.
-   1. Click the selection box below “Next Step User(s)”, and then select other users if you want to modify next step user(s) by default.Several users can be selected at a countersignature node. Only one user can be selected at other nodes.
-   1. Click “Submit” button to submit it after you have given you approval comments, uploaded attachments and selected next step and next step users.
-   1. Then approval process has finished. The application will disappear in “Inbox” and appear in “Finished”.
+    - Next Step and Next Step User(s) are automatically displayed at the top of the page.
+    - Click the selection box below “Next Step”, then select a new step if you want to modify next step by default. Once one option is visible, next step cannot be modified.
+    - Click the selection box below “Next Step User(s)”, and then select other users if you want to modify next step user(s) by default.Several users can be selected at a countersignature node. Only one user can be selected at other nodes.
+    - Click “Submit” button to submit it after you have given you approval comments, uploaded attachments and selected next step and next step users.
+    - Then approval process has finished. The application will disappear in “Inbox” and appear in “Finished”.
 
   - Reject 
-   - You can reject the request to any previous steps when you don’t approve it.
-   - Select “Reject”, and then select next step and next step users if necessary.
-   - Click “Submit”, and then the application form will send to the assigned step user(s).
-   - Then the application will disappear in “Inbox” and appear in “Finished”.
+    - You can reject the request to any previous steps when you don’t approve it.
+    - Select “Reject”, and then select next step and next step users if necessary.
+    - Click “Submit”, and then the application form will send to the assigned step user(s).
+    - Then the application will disappear in “Inbox” and appear in “Finished”.
 
 Click the icon next to “Submit” to save you comments if you want to put off the approval. As a result, the application is still visible in “My Approval-Inbox”.
 
