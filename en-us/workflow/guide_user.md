@@ -1,32 +1,27 @@
 # How to use steedos workflow
 
-Workflow users can initiate an approval process, select to approve or reject, search for forms and print the application forms.
+Workflow users can initiate a request, select to approve or reject, search for records and print the application forms.
 
-### how to initiate an approval process
-###### You can take the steps as follows:
- - select a flow
- - fill out the application form
- - upload attachments
- - submit the form
- 
-### approval  process
+- How to initiate a request
+ - Select a flow
+ - Fill out the application form
+ - Upload attachments
+ - Save and Submit the request
 
- - Select a form in “My Approval Inbox”
- - Scan the application form and manage attachments
- - Decide to approve or reject the application and give your comments
+- Approval process
+ - Select a form in “Inbox”
+ - View the form and manage attachments
+ - Select to approve or reject t and then give your comments
  - Select the next step user(s)
  - Submit the form
- 
-### search for forms
 
-- **As a process initiator**, you can search for finished or cancelled application in “My Applications Finished” and search for application in approval progress in “My Applications In Progress”.
+- Search for forms
 
-- **As a process approver**, you can search for the approved applications in “My Approval Outbox”.
+As a an initiator, you can search for finished or cancelled requests in “Finished” and requests in approval progress in “In Progress”.As an approver, you can search for the approved requests in “Outbox”.
 
-### Printing forms
+- Print forms
 
-In “My Approval”, “My Applications” and “Monitor” , You can select and print the forms, including form content, attachment name(s), approval process and approval comments.
+In “My Approval”, “My Applications” and “Monitor”, you can select forms and print them. All contents, including attachments names, approval history and approval comments, are visible in printed forms.
 
-##### Notice:
-
-In free edition, you can only print the forms in template styles, but in paid edition, you can print in custom style.
+### Notice:
+You can only print the forms in template styles in free version. But in paid version, custom styles are provided.
