@@ -28,7 +28,7 @@
  * [Space settings](admin_space.md)
  * [Organization settings](admin_organizations.md)
  * [User settings](admin_space_users.md)
- * [Role settings](admin_roles.md)
+ * [Flow role and position settings](admin_roles.md)
 
 - [How to design a form](quickguide_flow.md)
  * [Form categories](form_category.md)
