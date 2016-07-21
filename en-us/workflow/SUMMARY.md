@@ -19,7 +19,7 @@
  - Admins
     * [Search for forms](instance_monitor.md)
     * [Approval process](instance_approve.md)
-    * [Reassign approver](instance_reassign.md)
+    * [Reassign approvers](instance_reassign.md)
     * [Relocate forms](instance_relocate.md)
     * [Export forms](instance_export.md)
 
