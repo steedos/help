@@ -13,7 +13,7 @@ Users are able to submit and approve various requests online once they have done
 
 Design the flow and set permissions according to the approval process. Items mentioned below should be noticed in flow designs.
 - Who is (are) the next step user(s)?
-- Is it Countersignature node?
+- Is it a countersignature node?
 - Whether it can be rejected?
 - Can the forms be modified by next step user(s)?
 - Whether it can automatically select the step user(s)  according to some fields?
