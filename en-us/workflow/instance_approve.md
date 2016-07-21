@@ -11,7 +11,7 @@ When you receive notifications, you can take following steps.
 Click the form and all details are visible.
 - Approval History
  - Finished steps, approval comments, approvers, approval status and time will be all displayed in approval history.
-- Attachments management (click [Attachments management](instance_attachment.md) for more details.)
+- [Attachments management](instance_attachment.md) (click it for more details)
  - Click attachment name(s) to download attachments.
  - Click the “U” icon at the top of the page to upload new attachment(s).
  
