@@ -1,15 +1,13 @@
-### Search for application forms
+## Search for forms
 
-##### As an applicant:
-After submitting an application form, you can track the approval process by taking the following steps: 
+#### As an applicant
+After submitting a request, you can keep track of the approval process by taking the steps as follows: 
+- Log in Steedos, enter your workspace and click “Workflow”;
+- Click “In Progress”, and you can see the forms in progress;
+- Click “Finished”, and you can see all the finished forms;
+- Click any one of the listed forms, and you can view its details and the whole approval history, including all the steps along the approval process and all the comments made by approvers.
 
-  - Log in Steedos, enter your workspace and click “Workflow”;
-  - Click “My Applications-In Progress”, and you can see the application forms in progress;
-  - Click “My Applications-Finished”, and you can see all the finished application forms;
-  - Click any one of the listed forms, and you can see its details and the whole approval history, including all the steps along the approval route and all the comments made by step supervisors..
-
-
-##### As a step supervisor:
+#### As an approver
 
 You can track the approval progress of the application forms you have handled by taking the following steps: 
 
