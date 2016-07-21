@@ -1,4 +1,4 @@
-### Version comprision
+### Versions comprision
 
 Steedos workflow offers you standard version, professional version and enterprise version. Detailed information are listed below.
 
