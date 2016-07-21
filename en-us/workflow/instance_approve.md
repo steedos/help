@@ -33,5 +33,5 @@ Click the form and all details are visible.
     - Click “Submit”, and then the application form will send to the assigned step user(s).
     - Then the application will disappear in “Inbox” and appear in “Finished”.
 
-Click the icon next to “Submit” to save you comments if you want to put off the approval. As a result, the application is still visible in “My Approval-Inbox”.
+Click the icon next to “Submit” to save you comments if you want to put off the approval. As a result, the application is still visible in “Inbox”.
 
