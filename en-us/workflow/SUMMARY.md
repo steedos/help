@@ -1,4 +1,4 @@
-# Steedos workflow help
+# Steedos Workflow Help
 
 - [Quick Guide](README.md)
  * [How to get access to steedos workflow](guide_setup.md)
