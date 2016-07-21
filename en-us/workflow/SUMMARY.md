@@ -1,6 +1,6 @@
 # Steedos workflow help
 
-- [快速向导](README.md)
+- [Quick Guide](README.md)
  * [How to get access to steedos workflow](guide_setup.md)
  * [How to use steedos workflow](guide_user.md)
  * [Settings](guide_admin.md)
