@@ -7,7 +7,7 @@
  * [System permissions](guide_permissions.md)
  * [Versions comparison](guide_versions.md)
  * [Trainning videos](mp4.md)
- * [Q&A](faq.md)
+ * [FAQ](faq.md)
 
 - [How to use steedos workflow](quickguide_user.md)
  - Applicant：
