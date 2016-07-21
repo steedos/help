@@ -14,12 +14,14 @@ Click the form and all details are visible.
 - Attachments management [Attachments management](instance_attachment.md) (please refer to Attachments management for more details.)
  - Click attachment name(s) to download attachments.
  - Click the “U” icon at the top of the page to upload new attachment(s).
+ 
 #### Enter approval comments
  - Click to enter “Inbox”.
  - Then give your approval comments in the column at the top of the page.
  - Next, select ”Approve” or “Reject” and submit it.
  - Finally, Select “Approve” or “Reject”
-  - Approve
+ 
+Approve
    - Next Step and Next Step User(s) are automatically displayed at the top of the page.
    - Click the selection box below “Next Step”, then select a new step if you want to modify next step by default. Once one option is
    visible, next step cannot be modified.
