@@ -1,4 +1,4 @@
-## Attachment management
+## Attachments management
 Users can upload, download or delete attachments when they initiate or approve requests.
 
 #### Upload attachment(s)
