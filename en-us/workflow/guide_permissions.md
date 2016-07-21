@@ -1,4 +1,4 @@
-### System permissions
+## System permissions
 Steedos workflow use a management system by level, including space owner, space administrators, flow administrator and normal users. A brief introduction about the four levels is given below.
 #### Space owner
  Who register an account for workflow is set to be the space owner. Permissions are listed below.
