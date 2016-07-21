@@ -1,1 +1,14 @@
+## Organization settings
+Space admins should finish settings previously, including organization settings, user settings and flow role settings.Here comes to organization settings.
+
+In Steedos Workflow，you can establish a multi-tiered corporate structure. Enter the workspace and click on “Workflow”. Then click on “Organization”, and you can do more settings.
+  - Create a new organization
+      - Root organization. After entering the interface, click the “New” button. Then enter its name to create the root organization
+      - Sub-organization. When organization A select organization B as Parent, A becomes the sub-organization of B.
+  - Edit an organization
+      - Click on “Edit” button of the organization, and then you can edit the “Name” and “Parent” of it.
+  - Delete an organization 
+      - Click on “delete” button of the organization, and then confirm to delete and finish the steps.
+      - An organization cannot be deleted if it has sub-organizations. You need delete all sub-organizations previously.
+
 
