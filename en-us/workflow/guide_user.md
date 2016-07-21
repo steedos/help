@@ -16,8 +16,8 @@ Workflow users can initiate a request, select to approve or reject, search for r
  - Submit the form
 
 - Search for forms
-
-As a an initiator, you can search for finished or cancelled requests in “Finished” and requests in approval progress in “In Progress”. As an approver, you can search for the approved requests in “Outbox”.
+ - As a an initiator, you can search for finished or cancelled requests in “Finished” and requests in approval progress in “In Progress”. 
+ - As an approver, you can search for the approved requests in “Outbox”.
 
 - Print forms
 
