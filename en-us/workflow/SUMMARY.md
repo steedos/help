@@ -10,7 +10,7 @@
  * [FAQ](faq.md)
 
 - [How to use steedos workflow](quickguide_user.md)
- - Applicant：
+ - Applicant
     * [Fill in application forms](instance_add.md)
     * [Manage attachments](instance_attachment.md)
     * [Search for forms](instance_search.md)
