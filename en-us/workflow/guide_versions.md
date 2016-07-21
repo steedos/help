@@ -5,21 +5,21 @@ Steedos workflow offers you standard version, professional version and enterpris
 - Standard version
  - Monthly charge：free
  - Storage space：1G
- - Technical support: ￥500 per time（each time）
- - User number:  without restrictions
- - Features: application forms approval, attachment management, flow design, organization management, 256-bit SSL encrypted transmission and app landing.
+ - Technical support: ￥500 per time
+ - Number of users:  without restrictions
+ - Features:  approval, attachments management, flows design, organizations management, 256-bit SSL encrypted transmission and app landing.
 
 - Professional version
- - Monthly charge：￥20 per month for the individual user
+ - Monthly charge：￥20 per month for individual user
  - Storage space：10G
  - Technical support: 10 times per year
- - User number: no less than 10
+ - Number of users: no less than 10
  - Features: forms exporting, custom print format, foreground form script, API, custom home page, external applications access.
 
 - Enterprise version
- - Monthly charge： ￥60 per month for the individual user
+ - Monthly charge：￥60 per month for individual user
  - Storage space：100G
  - Technical support: without restrictions
- - User number: no less than 200
+ - Number of users: no less than 200
  - Features：Set up an independent private cloud server, bind domain names for the corporation, custom exclusive login page, integrate with existing business system, offer a unique customized App.
 
