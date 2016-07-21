@@ -1,10 +1,12 @@
 ## Approve the requests
 You will receive notifications when the flow runs to your step if you are an approver in the flow. So you need to login Steeods and approve the requests. After that, the flow will go running according to system settings.
+
 #### Approval notifications
 When you receive notifications, you can take following steps.
 - Login steedos and enter the workspace. In the workflow page, the displayed number in “Inbox” is the form numbers that need to be approved.
 - E-mail: the registered e-mail will receive a notification message if “Email Notifications” has been ticked in account settings page.
 - Client: you will receive a notification message when Steedos Workflow has been installed in your PC or mobile devices.
+
 #### View forms in inbox
 Click the form and all details are visible.
 - Approval History
@@ -12,7 +14,7 @@ Finished steps, approval comments, approvers, approval status and time will be a
 - Attachments management [Attachments management](instance_attachment.md) (please refer to Attachments management for more details.)
  - Click attachment name(s) to download attachments.
  - Click the “U” icon at the top of the page to upload new attachment(s).
-- Enter approval comments
+#### Enter approval comments
  - Click to enter “Inbox”.
  - Then give your approval comments in the column at the top of the page.
  - Next, select ”Approve” or “Reject” and submit it.
