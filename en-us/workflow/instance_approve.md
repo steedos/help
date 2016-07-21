@@ -26,7 +26,8 @@ Click the form and all details are visible.
    - Click the selection box below “Next Step User(s)”, and then select other users if you want to modify next step user(s) by default.Several users can be selected at a countersignature node. Only one user can be selected at other nodes.
    - Click “Submit” button to submit it after you have given you approval comments, uploaded attachments and selected next step and next step users.
    - Then approval process has finished. The application will disappear in “Inbox” and appear in “Finished”.
- - Reject 
+
+  - Reject 
    - You can reject the request to any previous steps when you don’t approve it.
    - Select “Reject”, and then select next step and next step users if necessary.
    - Click “Submit”, and then the application form will send to the assigned step user(s).
