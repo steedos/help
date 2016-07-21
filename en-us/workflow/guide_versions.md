@@ -1,22 +1,22 @@
-### Versions comprision
+## Versions comprision
 
 Steedos workflow offers you standard version, professional version and enterprise version. Detailed information are listed below.
 
-- Standard version
+- #### Standard version
  - Monthly charge：free
  - Storage space：1G
  - Technical support: ￥500 per time
  - Number of users:  without restrictions
  - Features:  approval, attachments management, flows design, organizations management, 256-bit SSL encrypted transmission and app landing.
 
-- Professional version
+- #### Professional version
  - Monthly charge：￥20 per month for individual user
  - Storage space：10G
  - Technical support: 10 times per year
  - Number of users: no less than 10
  - Features: forms exporting, custom print format, foreground form script, API, custom home page, external applications access.
 
-- Enterprise version
+- #### Enterprise version
  - Monthly charge：￥60 per month for individual user
  - Storage space：100G
  - Technical support: without restrictions
