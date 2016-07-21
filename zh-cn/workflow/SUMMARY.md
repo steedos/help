@@ -6,6 +6,8 @@
  * [如何设置审批王](guide_admin.md)
  * [系统权限说明](guide_permissions.md)
  * [版本对比](guide_versions.md)
+ * [培训视频](mp4.md)
+ * [常见问题解答](faq.md)
 
 - [如何使用审批王](quickguide_user.md)
  * [填写申请单](instance_add.md)
@@ -43,10 +45,6 @@
  * [节点处理人](flow_step_user.md)
  * [字段填写权限](flow_step_permissions.md)
  * [启用流程](flow_state.md)
-
-- [培训视频](mp4.md)
-
-- [常见问题解答](faq.md)
 
 - [Steedos API](api.md)
  * [华炎云：身份认证](auth.md)
