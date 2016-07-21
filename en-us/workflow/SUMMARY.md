@@ -1,15 +1,15 @@
 # Steedos Workflow Help
 
 - [Quick Guide](README.md)
- * [How to get access to steedos workflow](guide_setup.md)
- * [How to use steedos workflow](guide_user.md)
+ * [How to get access to Steedos Workflow](guide_setup.md)
+ * [How to use Steedos Workflow](guide_user.md)
  * [Settings](guide_admin.md)
  * [System permissions](guide_permissions.md)
  * [Versions comparison](guide_versions.md)
  * [Trainning videos](mp4.md)
  * [FAQ](faq.md)
 
-- [How to use steedos workflow](quickguide_user.md)
+- [How to use Steedos Workflow](quickguide_user.md)
  - Applicant
     * [Fill in application forms](instance_add.md)
     * [Manage attachments](instance_attachment.md)
