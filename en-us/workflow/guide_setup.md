@@ -1,13 +1,13 @@
-### How to get access to steedos workflow
+## How to get access to steedos workflow
 
-##### PC client:
+#### PC client:
 - Download from: https://www.steedos.com/us/workflow/downloads/
 
-##### For android:
+#### For android:
 - Download from: https://www.steedos.com/us/workflow/downloads/
 - Download from google play: https://play.google.com/store
 
-##### For iOS:
+#### For iOS:
 - Download from:  https://www.steedos.com/us/workflow/downloads/
 - Download from App Store: https://itunes.apple.com/us/app/steedos-workflow/id686408407
  
