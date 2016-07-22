@@ -3,13 +3,13 @@
 Admins can set flow permissions. All users, users in specific organization or specific users can initiate requests according to permission settings. 
 Here are the two methods to set flow permissions.
 
-Method one
+**Method one**
 - Click “Settings” => “Workflow Designer”.
 - Select a flow in workflow list of a specific category.
 - Click “Initiate Request” => “Properties”.
 - Then select the users who can initiate this request in departments box and users box.
 
-The other method
+**The other method**
 - Click “Settings” => “Workflow Designer”.
 - Select a flow in workflow list of a specific category.
 - Click “Flow Info” => “Setting flow permissions”.
