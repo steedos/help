@@ -11,23 +11,23 @@ Steedos Workflow provide users with several field types for better form design�
  In “input field”, you must input information through keyboard or mouse.
   
 - Selection field
-            - Drop-down: User can only select one from preset options.
-            - Select User: All space users will be displayed in options whether their accounts are valid or not.
-            - Select Dept.: All organization names in full path format will be displayed in options
-            - Checkbox: User can only select one from preset options.
-            - Radio: User can select one or more from preset options.
+  - Drop-down: User can only select one from preset options.
+  - Select User: All space users will be displayed in options whether their accounts are valid or not.
+  - Select Dept.: All organization names in full path format will be displayed in options
+  - Checkbox: User can only select one from preset options.
+  - Radio: User can select one or more from preset options.
 - Others:
       - Section: admins can classify fields into sections according to their contents.
       - Table: admins can inert a table for applicants to input kinds of detail information. 
 
 #### Properties
-- Field Name: It is stored in database and cannot repeat in the same form. Field Name, instead of Display Name, will be used in formulas and conditions.
--  Display Name: It will display in the form and can repeat in the same form. Display Name is the same as Field Name by default. But users can modify the Display Name.
-- Required: When “Required” is selected, the field will be marked with “*”. It means that the information is significant and required. Applicants cannot submit requests without having finished all required fields.
-- Wide: When “Wide” is selected, the width of the field will be too columns. Or, it will be one column.
-- Default Value:  it can be preset if necessary. 
-- List Values: Please input all options.
-- Select type: “Multiple Choice” and “Single Choice” 
+- **Field Name:** It is stored in database and cannot repeat in the same form. Field Name, instead of Display Name, will be used in formulas and conditions.
+- **Display Name:** It will display in the form and can repeat in the same form. Display Name is the same as Field Name by default. But users can modify the Display Name.
+- **Required:** When “Required” is selected, the field will be marked with “*”. It means that the information is significant and required. Applicants cannot submit requests without having finished all required fields.
+- **Wide:** When “Wide” is selected, the width of the field will be too columns. Or, it will be one column.
+- **Default Value:**  it can be preset if necessary. 
+- **List Values:** Please input all options.
+- **Select type:** “Multiple Choice” and “Single Choice” 
 
 #### Notice:
 Field Name is unique in the same form, but Display Name can repeat.
