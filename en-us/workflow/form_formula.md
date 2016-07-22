@@ -1,6 +1,6 @@
 ## Formulas of form field
-If the field formula is added, the system can automatically calculate the value of the field when applicants fill in the forms 
-#### Common formulas：
+If the field formula is added, the system can automatically calculate the value of the field when applicants fill in the forms.
+#### Common formulas
 - Value of a field: {amount}
 - Functions based on field values
   - Add：{field A}+{field B}
