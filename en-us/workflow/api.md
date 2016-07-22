@@ -2,7 +2,7 @@
 ## Steedos API
 With Steedos API
 - Enterprise data can synchronize with your Steedos account.
-- Backlog items in Steedos Workflow can be visible in corporate portal
+- Backlog items in Steedos Workflow can be visible in corporate portal.
 - Requests in corporate business system can transfer to steedos workflow and can be approved in it.
 
 #### Notice：
