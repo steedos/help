@@ -39,7 +39,7 @@
  * [Formulas of form name](form_name_formula.md)
  * [Form scripts](form_scripts.md)
 
-- [How to design the flow](flow_design.md)
+- [How to design a flow](flow_design.md)
  * [Flow permissions](flow_permissions.md)
  * [Approval node in the flow](flow_step_approve.md)
  * [Input node in the flow](flow_step_input.md)
