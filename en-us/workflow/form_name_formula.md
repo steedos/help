@@ -5,7 +5,7 @@ Each form submitted has a system name consisting of random name and serial numbe
 - Select the specific flow according to flow category.
 - Enter the form-editing page and then click “Form” instead of “Workflow”.
 - Click on “Properties” and you can see “Descriptions”, “Form.Form_script”and “Name Formula”.
--	We can input different formulas to modify its names.
+-	Then we can input different formulas to modify its names.
 
 #### How to write and edit formulas
 - Name the form with single field in it, such as {Trip Destination}.
