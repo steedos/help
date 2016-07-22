@@ -18,7 +18,6 @@ If the field formula is added, the system can automatically calculate the value 
   - Organization（full path）：{applicant.organization.fullname}
   - Organization（name of the lowest organization）：{applicant.organization.name}
   - Role name: {applicant.roles}
-
 - System variables based on name field in forms
   - Organization（full path)：{name}.organization.fullname
   - Organization（name of the lowest organization）：{name}.organization.name
