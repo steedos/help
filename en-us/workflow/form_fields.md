@@ -16,7 +16,7 @@ Steedos Workflow provide users with several field types for better form designã€
   - Select Dept.: All organization names in full path format will be displayed in options
   - Checkbox: User can only select one from preset options.
   - Radio: User can select one or more from preset options.
-- Others:
+- Others
       - Section: admins can classify fields into sections according to their contents.
       - Table: admins can inert a table for applicants to input kinds of detail information. 
 
