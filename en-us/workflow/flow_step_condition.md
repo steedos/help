@@ -20,6 +20,7 @@ Please follow the next step to add a node.
 - Click one line and then click on “properties”
 - Input the formula “{Total Amount}>10000” in “execute only when” box 
 - Then input the formula “{Total Amount}<=10000” to modify properties of the other line.
+
 #### Please refer to “Basic rules of writing conditions” for more details.
 - Basic rules of writing conditions：
   - Characters and symbols：half-width
