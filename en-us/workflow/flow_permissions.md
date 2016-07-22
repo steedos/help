@@ -1,5 +1,5 @@
 ## Flow permissions
-#### Who can initiate requests?
+### Who can initiate requests?
 Admins can set flow permissions. All users, users in specific organization or specific users can initiate requests according to permission settings. 
 Here are the two methods to set flow permissions.
 
@@ -17,14 +17,14 @@ Here are the two methods to set flow permissions.
 
 Then users selected and in selected departments can initiate this request in Steedos Workflow.
 
-#### Who can read all the requests?
+### Who can read all the requests?
 Sometimes some users need to read the requests or delete the specific requests even though they don’t participate in the approval process. It is called “management permission”. In Steedos Workflow, it can be realized by taking following steps. 
 - Click “Settings” => “Workflow Designer”.
 - Select a flow in workflow list of a specific category.
 - Click “Flow Info” => “Setting flow permissions”.
 - Select departments and users who can read all the requests and delete a request in the pop-up window.
 
-#### Who can read all the requests and delete a request?
+### Who can read all the requests and delete a request?
 
 Sometimes some users need to read the requests or delete the specific requests even though they don’t participate in the approval process. It is called “management permission”. In Steedos Workflow, it can be realized by taking following steps. 
 - Click “Settings” => “Workflow Designer”.
