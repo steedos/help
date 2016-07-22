@@ -10,18 +10,16 @@
  * [FAQ](faq.md)
 
 - [How to use Steedos Workflow](quickguide_user.md)
- - Applicant
-    * [Fill in application forms](instance_add.md)
-    * [Manage attachments](instance_attachment.md)
-    * [Search for forms](instance_search.md)
-    * [Cancel the requests](instance_cancel.md)
-    * [Print the forms](instance_print.md)
- - Admins
-    * [Search for forms](instance_monitor.md)
-    * [Approval process](instance_approve.md)
-    * [Reassign approvers](instance_reassign.md)
-    * [Relocate forms](instance_relocate.md)
-    * [Export forms](instance_export.md)
+ * [Applicant: Fill in application forms](instance_add.md)
+ * [Applicant: Manage attachments](instance_attachment.md)
+ * [Applicant: Search for forms](instance_search.md)
+ * [Applicant: Cancel the requests](instance_cancel.md)
+ * [Applicant: Print the forms](instance_print.md)
+ * [Admins: Search for forms](instance_monitor.md)
+ * [Admins: Approval process](instance_approve.md)
+ * [Admins: Reassign approvers](instance_reassign.md)
+ * [Admins: Relocate forms](instance_relocate.md)
+ * [Admins: Export forms](instance_export.md)
 
 
 - [Settings](quickguide_admin.md)
