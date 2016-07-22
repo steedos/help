@@ -10,7 +10,7 @@
 
 备注：审批王标准版用户暂时未开通Steedos API访问权限。
 
-### 接口调用说明
+### Instruction for interface call
 - Steedos Cloud
  - [Identity Authentication](auth.md)
  - [Users](SpaceUser.md)
