@@ -1,5 +1,5 @@
 ## How to design a flow
-Admins need to design the flow after having finished forms design.
+Admins need to design the flow after having finished form designs.
 In Steedos Workflow, a node represents a step and Nodes are connected with straight lines. A node can concatenate one or more nodes according to following approval process. The flowing nodes can be decided by assigned by approver or by conditions automatically.
 #### Flow design
 We set “Daily Reimbursement” as an example to demonstrate the flow design process. Detailed steps are listed below.
@@ -8,14 +8,16 @@ We set “Daily Reimbursement” as an example to demonstrate the flow design pr
 - In the workflow interface, “Flow Info”, “Draw”, “Properties” are displayed in the panel at the right side.
   - Flow name and flow description can be modified in “Flow Info”.
   - Click “Draw” too add different nodes, including “Approve Request”, “CounterSign”, “Provide Input”, “Condition”. Here is a brief introduction for different nodes.
-    - “Approve Request”: Approvers must select “Approve” or “Reject”.
-    - “CounterSign”: In the node, several users can approve applications. Then applications flow to next step automatically according to system conditions.
-    - “Provide Input”：users can input comments or submit requests immediately, but can not select to approve or reject.
+    - **Approve Request**: Approvers must select “Approve” or “Reject”.
+    - **CounterSign**: In the node, several users can approve applications. Then applications flow to next step automatically according to system conditions.
+    - **Provide Input**：Users can input comments or submit requests immediately, but can not select to approve or reject.
 
-- Select one in “Draw” and move it to the left of the page. And then place the mouse cursor over this node. Next，click “+” icon to add lines to connect nodes. Of course，you can click “-” to delete the lines. 
+- Select one node in “Draw” and move it to the left of the page. 
+- And then place the mouse cursor over this node. Next，click “+” icon to add lines to connect nodes. 
+- Of course，you can click “-” to delete the lines. 
 - Click the specific node and then “Flow Info”,  “Draw”， “Properties” and “Permissions” are displayed in the panel.
-  - Properties: admins can modify “Step Name”, “Assign to” and “Deadline for the step” in properties. For more details, please refer to “[Approver settings](flow_step_user.md)”.
-  - Permissions: Except for the start step, all fields are read-only by default. Admins can tick editable fields in the step according to actual situations.
+  - **Properties**: admins can modify “Step Name”, “Assign to” and “Deadline for the step” in properties. For more details, please refer to “[Approver settings](flow_step_user.md)”.
+  - **Permissions**: Except for the start step, all fields are read-only by default. Admins can tick editable fields in the step according to actual situations.
 - Turn on the switch in “Workflow List” to run the flow.
 
 #### Notice：
