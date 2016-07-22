@@ -45,7 +45,7 @@
  * [Input node in the flow](flow_step_input.md)
  * [Countersignature node in the flow](flow_step_counter_sign.md)
  * [Condition node in the flow](flow_step_condition.md)
- * [Flow step admins](flow_step_user.md)
+ * [Approver settings](flow_step_user.md)
  * [Input permissions](flow_step_permissions.md)
  * [Enable the flow](flow_state.md)
 
