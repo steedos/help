@@ -1,5 +1,5 @@
 ## Form design
-Admins can select corresponding fields to make e-forms according to the physical forms. User interfaces vary with field types. For instance, users can select one in several options when selection box is added by admins. User can only input numbers when “Number” field is added. You can refer to “Fields” for more details.
+Admins can select corresponding fields to make e-forms according to the physical forms. User interfaces vary with field types. For instance, users can select one in several options when selection box is added by admins. User can only input numbers when “Number” field is added. You can refer to “[Form fields](form_fields.md)” for more details.
 
 The following steps illustrate how to design a “Reimbursement” flow.
 - Click on “Add Workflow” at the top of pop-up interface.
