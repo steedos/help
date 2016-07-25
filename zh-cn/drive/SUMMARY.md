@@ -1,6 +1,6 @@
 # 华炎云盘使用指南
 
-- [特色功能](features and introduction.md)
+- [云盘简介](features and introduction.md)
 - [PC浏览器访问华炎云盘](browser.md)
     - [登录与注销](browser_log.mad)
     - [文件夹管理](browser_folder_management.md)
