@@ -4,4 +4,12 @@
 - **使操作更加简便**。华炎云电脑客户端能够让用户直接在本地的资源管理器上操作文件，从而省去了打开Web浏览器，才能使用华炎云盘的麻烦。
 
 ### 如何下载并安装客户端
-（1）您可以在华炎云平台官网的[“下载客户端”](https://www.steedos.com/cn/drive/downloads/)页面上，下载Windows / Mac / iPhone & iPad / Android等操作系统的同步客户端。网址为：https://www.steedos.com/cn/drive/downloads/
+1. 在华炎云官网的[“下载客户端”](https://www.steedos.com/cn/drive/downloads/)页面上，下载Windows / Mac / iPhone & iPad / Android等操作系统的同步客户端。
+1. 然后双击安装包以运行安装；
+1. 之后依照安装向导来操作。安装完毕之后，同步客户端将自动保持更新。
+
+#### 现基于Mac系统，为您演示从配置选择到账户设置，到完成安装的全过程：
+1. 从[“下载客户端”](https://www.steedos.com/cn/drive/downloads/)页面下载完毕后，双击运行,直至出现下图窗口后，在服务器地址框内输入https://drive.steedos.com.
+  - 如果您使用的是私有云，请询问您的管理员以获得相应的服务器地址、用户名和密码。
+1. 输入您的用户名和密码。
+  - 如果您使用的是公有云，在华炎云网页（https://cn.steedos.com/steedos/sign-up）上进行注册。
