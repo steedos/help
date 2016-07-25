@@ -2,7 +2,10 @@
 
 ### 用户手册
 - [特色功能] (features.md)
+- 使用PC浏览器、客户端访问华炎云盘
+- 使用WebDAV访问华炎云盘
 - [文件夹操作](folders.md)
+- [文件操作](files.md)
 - [同步客户端](client_synchronize.md)
 - [客户端设置](client.settings.md)
   - [桌面客户端（Window/Mac)](windows_mac_client.md)
