@@ -1,27 +1,24 @@
 # 华炎云盘使用指南
 
-### 用户手册
-- [特色功能] (features.md)
-- 使用PC浏览器、客户端访问华炎云盘
-- 使用WebDAV访问华炎云盘
-- [文件夹操作](folders.md)
-- [文件操作](files.md)
-- [同步客户端](client_synchronize.md)
-- [客户端设置](client.settings.md)
-  - [桌面客户端（Window/Mac)](windows_mac_client.md)
-      - 如何安装
-      - 如何登录
-      - 如何设置账户
-      - 如何设置动态
-      - 宽带设置及要求
+- [特色功能](features and introduction.md)
+- [PC浏览器访问华炎云盘](browser.md)
+    - [登录与注销](browser_log.mad)
+    - [文件夹管理](browser_folder_management.md)
+    - [文件管理](browser_file_management.md)
+- [WebDAV访问华炎云盘](webdav.md)
+- [桌面客户端（Window/Mac)](PC_client.md)
+    - [下载及安装](PC_download_install.md)
+    - [如何使用电脑客户端](PC_client_usage)
+      - [账户设置](PC_account.md)
+      - [动态设置](PC_dynamics.md)
+      - [常规设置](PC_common.md)
+      - [网络设置](PC.net.md)
   - [安卓客户端 (Android)](android_client.md)
-      - 如何上传文件
-      - 如何浏览文件
-      - 如何共享文件
-      - 如何设置账户
+      - [下载及安装](android_download_install.md)
+      - [文件管理](android_file_management.md)
+      - [账户设置](android_account_settings.md)
   - [苹果客户端 (IOS)](ios_client.md)
-      - 如何安装客户端
-      - 如何共享文件
-      - 如何修改文件
-      - 如何设置账户
+      - [下载及安装](ios_download_install.md)
+      - [文件管理](ios_file_management.md)
+      - [账户设置](ios_account_settings.md)
 
