@@ -1,24 +1,16 @@
 # 华炎云盘使用指南
 
 - [云盘简介](features and introduction.md)
+
 - [PC浏览器访问华炎云盘](browser.md)
     - [登录与注销](browser_log.md)
     - [文件夹管理](browser_folder_management.md)
     - [文件管理](browser_file_management.md)
-- [WebDAV访问华炎云盘](webdav.md)
-- [桌面客户端（Window/Mac)](PC_client.md)
-    - [下载及安装](PC_download_install.md)
-    - [如何使用电脑客户端](PC_client_usage.md)
-      - [账户设置](PC_account.md)
-      - [动态设置](PC_dynamics.md)
-      - [常规设置](PC_common.md)
-      - [网络设置](PC_net.md)
-- [安卓客户端 (Android)](android_client.md)
-      - [下载及安装](android_download_install.md)
-      - [文件管理](android_file_management.md)
-      - [账户设置](android_account_settings.md)
-- [苹果客户端 (IOS)](ios_client.md)
-      - [下载及安装](ios_download_install.md)
-      - [文件管理](ios_file_management.md)
-      - [账户设置](ios_account_settings.md)
 
+- [桌面客户端（Window/Mac)](PC_client.md)
+   
+- [安卓客户端 (Android)](android_client.md)
+  
+- [苹果客户端 (IOS)](ios_client.md)
+  
+- [WebDAV访问华炎云盘](webdav.md)
