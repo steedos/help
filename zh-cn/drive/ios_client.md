@@ -51,7 +51,7 @@
   - Excel格式的文件，您可以在您的苹果设备通过“Microsoft Excel”来编辑修改；
   - PPT格式的文件，您可以在您的苹果设备通过“Microsoft PowerPoint”来编辑修改。
 
-以下将介绍如何使用“Microsoft Word”来编辑修改doc及docx文件，并上传到华炎云盘的。详细步骤如下：
+以下将介绍如何使用“Microsoft Word”来编辑修改doc及docx格式文件，并上传到华炎云盘。详细步骤如下：
 
 1. 在华炎云盘中，点击需要修改的Word文件。
 1. 选择左下角的“推送”选项，再选择“拷贝至Word”，进入Microsoft Word页面。
