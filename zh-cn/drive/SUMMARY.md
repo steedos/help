@@ -1,6 +1,6 @@
 # 华炎云盘使用指南
 
-- [云盘简介](RADEME.md)
+- [云盘简介](README.md)
 
 - [PC浏览器访问华炎云盘](browser.md)
 
