@@ -35,7 +35,7 @@ WebDAV（Web-based Distributed Authoring and Versioning）是一种基于 HTTP 1
 3. 在弹出的界面输入华炎云盘WebDAV的服务器地址：https://drive.steedos.com/remote.php/webdav/；
 4. 点击“连接”按钮，选择连接身份为“注册用户”，并输入用户名、密码，点击“连接”按钮；
 5. 连接成功后，Finder中“共享的”路径下会增加“drive.steedos.com”文件夹；
-6. 点击 “drive.steedos.com”文件夹内的“webdav”即进入华炎云盘；
+6. 点击 “drive.steedos.com”文件夹内的“webdav”即进入华炎云盘。
 
-您可以在这里查看、增加、移动、删除文件夹，也可以查看、增加、移动、删除文件，这些操作与在Web页面的操作是一致同步的。
+您可以在这里查看、增加、移动、删除文件，这些操作与在Web页面的操作是同步的。
 
