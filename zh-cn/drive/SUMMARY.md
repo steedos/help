@@ -3,9 +3,6 @@
 - [云盘简介](features and introduction.md)
 
 - [PC浏览器访问华炎云盘](browser.md)
-    - [登录与注销](browser_log.md)
-    - [文件夹管理](browser_folder_management.md)
-    - [文件管理](browser_file_management.md)
 
 - [桌面客户端（Window/Mac)](PC_client.md)
    
