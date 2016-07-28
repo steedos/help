@@ -25,7 +25,9 @@ WebDAV（Web-based Distributed Authoring and Versioning）是一种基于 HTTP 1
 7.	键入您的华炎云账号及密码，点击“下一步”。
 8.	再在弹出界面上键入名称，如“华炎云盘本地文件夹”。再点击“下一步”。
 
-此时，在计算机的网络位置中会出现“华炎云盘本地文件夹”，点击即可访问华炎云盘，对其内部文件进行操作。
+![](images/webdav_window10.PNG)
+
+此时，在计算机的网络位置中会出现“webdav”文件夹，点击即可访问华炎云盘，对其内部文件进行操作。
 
 ## MAC OSX
 通过MAC OSX Finder访问华炎云盘，请按以下步骤操作：
@@ -36,6 +38,8 @@ WebDAV（Web-based Distributed Authoring and Versioning）是一种基于 HTTP 1
 4. 点击“连接”按钮，选择连接身份为“注册用户”，并输入用户名、密码，点击“连接”按钮；
 5. 连接成功后，Finder中“共享的”路径下会增加“drive.steedos.com”文件夹；
 6. 点击 “drive.steedos.com”文件夹内的“webdav”即进入华炎云盘。
+
+![](images/webdav_mac.png)
 
 您可以在这里查看、增加、移动、删除文件，这些操作与在Web页面的操作是同步的。
 
