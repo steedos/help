@@ -2,6 +2,23 @@
 - 您可以在Microsoft Windows、Mac OSX等操作系统的PC或是其他智能手机、平板电脑的浏览器上，使用华炎云盘的全部功能。
 - 若您安装了华炎云平台的Windows客户端或Mac客户端，也可以从华炎云客户端进入华炎云盘。
 
+## 导航栏
+- [登录与注销](browser.md#登录与注销)
+    - [浏览器](browser.md#浏览器)
+    - [华炎云客户端](browser.md#华炎云客户端)
+- [文件夹操作](browser.md#文件夹操作)
+    - [文件夹导航](browser.md#文件夹导航)
+    - [新建文件夹](browser.md#新建文件夹)
+    - [修改文件夹](browser.md#删除文件夹)
+    - [移动文件夹](browser.md#移动文件夹)
+    - [删除文件夹](browser.md#删除文件夹)
+    - [共享文件夹](browser.md#共享文件夹)
+    - [下载文件夹](browser.md#下载文件夹)
+- [文件操作](browser.md#文件操作)
+    - [文件上传](browser.md#文件操作)
+    - [文件版本](browser.md#文件操作)
+
+
 ## 登录与注销
 ### 浏览器
 1. 输入网址URL（公有云是 https://cn.steedos.com/drive/ ，如果您登录的是私有云，请与管理员确认网址）。
