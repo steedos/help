@@ -4,6 +4,18 @@
 - 可以在安卓设备上上传或下载文件，并与您的华炎云盘服务器上的文件实时同步；
 - 通过应用密码的设置，使您的华炎云盘更加安全可靠。
 
+## 导航栏
+- [下载及登录](android_client.md#下载及登录)
+- [主界面功能键介绍](android_client.md#主界面功能键介绍)
+   - [上传文件](android_client.md#上传文件)
+   - [增加文件夹](android_client.md#增加文件夹)
+   - [浏览文件](android_client.md#浏览文件)
+   - [修改文件](android_client.md#修改文件)
+   - [共享文件](android_client.md#共享文件)
+   - [删除文件](android_client.md#删除文件)
+   - [更多](android_client.md#更多)
+- [设置](android_client.md#设置)
+
 ## 下载及登录
 ### 下载
 - 在腾讯应用宝、360手机助手、百度手机助手等各大应用市场等中搜索“华炎云盘”并下载到您的手机客户端。
