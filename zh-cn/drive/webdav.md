@@ -20,10 +20,8 @@ WebDAV（Web-based Distributed Authoring and Versioning）是一种基于 HTTP 1
 2.	在光标闪烁处输入“ipconfig”命令，按下回车键。
 3.	在弹出的数据中找出本机的IPv4地址。在光标闪烁处键入“start\\+本机IPv4地址”，如start\\192.168.0.147。再回车。
 4.	在弹出的界面上点击左侧的网络，再点击右键选择“映射网络驱动器”。
-5.	在弹出的界面上点击下方的“连接到可用于存储文档和图片的网站”，再点击“下一步”。
-6.	在弹出的界面上键入“Internet地址或网络地址”，也即是华炎云盘webdav的服务器地址：https://drive.steedos.com/remote.php/webdav/ 。完成后点击“下一步”。
-7.	键入您的华炎云账号及密码，点击“下一步”。
-8.	再在弹出界面上键入名称，如“华炎云盘本地文件夹”。再点击“下一步”。
+5.	在弹出界面的文件夹处键入华炎云盘webdav的服务器地址：https://drive.steedos.com/remote.php/webdav/ ，再点击“完成”。
+7.	再键入您的华炎云账号及密码，点击“确定”。
 
 ![](images/webdav_window10.PNG)
 
