@@ -15,7 +15,7 @@ WebDAV（Web-based Distributed Authoring and Versioning）是一种基于 HTTP 1
 1. 在资源管理器中，增加Y盘（drive.steedos.com）；
 
 点击即可进入华炎云盘系统，您可以在这里查看、增加、移动、删除文件，这些操作与在Web页面的操作是同步的。
-## Window 10 
+### Window 10 
 1.	在桌面上键入“win”+“R” ，左下角会弹出命令框。输入cmd，点击确定。
 2.	在光标闪烁处输入“ipconfig”命令，按下回车键。
 3.	在弹出的数据中找出本机的IPv4地址。在光标闪烁处键入“start\\+本机IPv4地址”，如start\\192.168.0.147。再回车。
