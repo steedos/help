@@ -3,9 +3,15 @@ WebDAV（Web-based Distributed Authoring and Versioning）是一种基于 HTTP 1
 
 它在GET、POST、HEAD等几个HTTP标准方法以外添加了一些新的方法，使应用程序可直接对Web Server直接读写，并支持写文件锁定(Locking)及解锁(Unlock)，还可以支持文件的版本控制 。
 
+## 导航栏
+- [Microsoft Windows](webdav.md#Microsoft Windows)
+  - [Windows 7](webdav.md#Windows 7)
+  - [Windows 10](webdav.md#Windows 7)
+- [MAC OSX](webdav.md#Microsoft Windows)
+
 华炎云盘同时提供了WebDAV服务，使得您可以在Microsoft Windows、Mac OSX等操作系统中，使用WebDAV来访问华炎云盘里的文件，从而能像浏览器一样对云盘的文件进行操作。
 ## Microsoft Windows
-### Window 7 
+### Windows 7 
 通过资源管理器访问华炎云盘，请作如下操作：
 
 1. 打开资源管理器；
@@ -15,7 +21,7 @@ WebDAV（Web-based Distributed Authoring and Versioning）是一种基于 HTTP 1
 1. 在资源管理器中，增加Y盘（drive.steedos.com）；
 
 点击即可进入华炎云盘系统，您可以在这里查看、增加、移动、删除文件，这些操作与在Web页面的操作是同步的。
-### Window 10 
+### Windows 10 
 1.	在桌面上键入“win”+“R” ，左下角会弹出命令框。输入cmd，点击确定。
 2.	在光标闪烁处输入“ipconfig”命令，按下回车键。
 3.	在弹出的数据中找出本机的IPv4地址。在光标闪烁处键入“start\\\"+本机IPv4地址”，如start\\\192.168.0.147。再回车。
