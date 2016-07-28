@@ -4,6 +4,17 @@
 - 可以从苹果设备上上传或下载文件，并与您的华炎云盘服务器上的文件实时同步；
 - 通过应用密码的设置，使您的华炎云盘更加安全可靠。
 
+# 导航栏
+- [下载及登录](ios_client.md#下载及登录)
+- [主界面介绍](ios_client.md#主界面介绍)
+    - [文件](ios_client.md#文件)
+        - [共享文件](ios_client.md#共享文件)
+        - [修改文件](ios_client.md#修改文件)
+    - [上传](ios_client.md#上传)
+    - [共享链接](ios_client.md#共享链接)
+    - [设置](ios_client.md#设置)
+    - [添加](ios_client.md#添加)
+
 ## 下载及登录
 ### 下载
 - 进入苹果设备的APP Store，在搜索栏中输入“华炎云盘”，下载华炎云盘APP至您的iPhone或者iPad上。
