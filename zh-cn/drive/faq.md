@@ -7,6 +7,6 @@
 - 文件在线编辑功能
   - 当您未携带电脑等办公设备时，可以通过手机客户端对文件进行在线修改，并上传到远程服务器上。此外，通过链接也能使访客对文件进行修改。
 - 文件多版本保留功能
-  - 修改前的版本系统会进行自动保存，并根据存储空间的大小进行智能清理。您可以根据需求查看新版本或者恢复文件旧版本。详情请参见[文件版本](https://github.com/steedos/help/blob/master/zh-cn/drive/browser.md#文件版本)。
+  - 修改前的版本系统会进行自动保存，并根据存储空间的大小进行智能清理。您可以根据需求查看新版本或者恢复文件旧版本。详情请参见[文件操作](https://github.com/steedos/help/blob/master/zh-cn/drive/browser.md#操作)。
 - webdav访问功能
   - 华炎云盘同时提供了WebDAV服务，使得您可以在Microsoft Windows、MacOSX等操作系统中，使用WebDAV来访问华炎云盘里的文件，和浏览器访问实现同样的功能。
