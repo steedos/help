@@ -128,7 +128,10 @@
 - 选择一个或多个您苹果设备上的App与您所导入的日历同步。点击“存储”完成日历的同步。如下图中由于选取了与“提醒事项”同步，故而当你打开您的苹果设备的“提醒事项”App时，您将看到您所同步的日历。     
 
 #### 安卓设备
-- 点击链接 http://oss.steedos.com/apps/calendar/android/SteedOS-DAVdroid.apk 下载并安装“华炎DAVdroid”。
+- 点击链接 http://oss.steedos.com/apps/calendar/android/SteedOS-DAVdroid.apk 或者扫描下方二维码，下载并安装“华炎DAVdroid”。
+ 
+![下载二维码](images/下载二维码.png)
+
 - 在安卓设备的“设置”界面上找到“添加账户”选项。点击进入添加账户界面后，选择“华炎DAVdroid”.
 - 在服务器登入地址界面内，输入您的华炎云盘的服务器地址（cn.steedos.com/drive/remote.php/caldav/principals/用户名）与您的华炎云盘用户名和密码，完成后，点击 “下一步”。  
 
