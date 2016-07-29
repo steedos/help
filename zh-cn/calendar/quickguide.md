@@ -16,7 +16,7 @@
 - [新建事件](quickguide.md#新建事件)
 - [共享事件及日历](quickguide.md#共享事件及日历)
     - [共享事件](quickguide.md#共享事件)
-    - [共享事件](quickguide.md#共享日历)
+    - [共享日历](quickguide.md#共享日历)
 - [导入导出日历及事件](quickguide.md#导入导出日历及事件)
 - [删除事件](quickguide.md#删除事件)
 - [日历同步](quickguide.md#日历同步)
