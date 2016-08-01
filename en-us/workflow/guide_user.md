@@ -1,6 +1,6 @@
-## How to use steedos workflow
+## How to use Steedos Workflow
 Workflow users can initiate a request, select to approve or reject, search for records and print the application forms.
-- How to initiate a request
+- Initiate a request
  - Select a flow
  - Fill out the application form
  - Upload attachments
@@ -8,7 +8,7 @@ Workflow users can initiate a request, select to approve or reject, search for r
 - Approval process
  - Select a form in “Inbox”
  - View the form and manage attachments
- - Select to approve or reject t and then give your comments
+ - Select "Approve" or "Reject" and give your comments
  - Select the next step user(s)
  - Submit the form
 - Search for forms
@@ -18,4 +18,4 @@ Workflow users can initiate a request, select to approve or reject, search for r
   - In “My Approval”, “My Applications” and “Monitor”, you can select forms and print them. All contents, including attachments names, approval history and approval comments, are visible in printed forms.
 
 #### Notice:
-You can only print the forms in template styles in free version. But in paid version, custom styles are provided.
+You can only print the forms in template styles in Standard version. But in Professional version and Enterprise version, custom styles are provided.

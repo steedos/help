@@ -23,7 +23,7 @@ Detailed steps are listed below.
 - **Cushion the impact of staff turnover.** For example, when the previous manager leaves, admins don’t need to modify the flow. In the other word, admins can assign other users to play the role.
 
 #### Notice
-In steedos workflow:
+In Steedos Workflow:
 - **A user can be assigned to play several roles.** For instance, “A” can be organization manager and secretary-general at the same time.
 - **Several users can be assigned to paly the sanme role.** For instance, “Manager” can include manager of sales department and manager of purchasing department.
 

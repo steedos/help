@@ -1,6 +1,6 @@
 ## Versions comprision
 
-Steedos workflow offers you standard version, professional version and enterprise version. Detailed information are listed below.
+Steedos Workflow offers you standard version, professional version and enterprise version. Detailed information are listed below.
 
 - #### Standard version
  - Monthly charge：free

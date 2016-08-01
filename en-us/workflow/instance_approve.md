@@ -3,7 +3,7 @@ You will receive notifications when the flow runs to your step if you are an app
 
 #### Approval notifications
 When you receive notifications, you can take following steps.
-- Login steedos and enter the workspace. In the workflow page, the displayed number in “Inbox” is the form numbers that need to be approved.
+- Login Steedos and enter the workspace. In the workflow page, the displayed number in “Inbox” is the form numbers that need to be approved.
 - E-mail: the registered e-mail will receive a notification message if “Email Notifications” has been ticked in account settings page.
 - Client: you will receive a notification message when Steedos Workflow has been installed in your PC or mobile devices.
 
