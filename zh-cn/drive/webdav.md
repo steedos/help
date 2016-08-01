@@ -6,8 +6,9 @@ WebDAV（Web-based Distributed Authoring and Versioning）是一种基于 HTTP 1
 ## 导航栏
 - [Microsoft Windows](webdav.md#microsoft-windows)
   - [Windows 7](webdav.md#windows-7)
-  - [Windows 10](webdav.md#windows-7)
-- [MAC OSX](webdav.md#microsoft-windows)
+  - [Windows 10](webdav.md#windows-10)
+- [MAC OSX](webdav.md#mac-osx)
+>>>>>>> origin/master
 
 华炎云盘同时提供了WebDAV服务，使得您可以在Microsoft Windows、Mac OSX等操作系统中，使用WebDAV来访问华炎云盘里的文件，从而能像浏览器一样对云盘的文件进行操作。
 ## Microsoft Windows
