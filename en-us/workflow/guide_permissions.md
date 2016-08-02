@@ -11,6 +11,7 @@ Who registered the sapce is the space owner. Space owner has the Highest permiss
 #### Space administrators
   - Manage space settings, such as organizations，users, flow roles, forms and flows.
   - Create flow administrators.
+  - Can work as all flow administrators.
  
 #### Flow administrators
   - Monitor requests of the flow.

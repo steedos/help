@@ -14,7 +14,7 @@ Steedos is a cloud_based enterprise application software, similar to an enterpri
 
 #### What should I do if I don’t know how to design a flow while using Steedos Workflow?
 
-you don’t need to worry, because Steedos provide flow design service for free. You can send e-mails to support@steedos.com. You need to provide information listed be below.
+you don’t need to worry, because Steedos provide flow design service for free. You can send emails to support@steedos.com. You need to provide information listed be below.
   - Detailed requirements;
   - Lists of organizations, users, and users’ email addresses;
   - Lists of all nodes and assigned approvers (users);

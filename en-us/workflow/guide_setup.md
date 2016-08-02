@@ -5,7 +5,7 @@
 
 #### For Android:
 - Download : https://www.steedos.com/us/workflow/downloads/
-- Download from google play : https://play.google.com/store
+- Download from Google Play : https://play.google.com/store
 
 #### For iOS:
 - Download :  https://www.steedos.com/us/workflow/downloads/
