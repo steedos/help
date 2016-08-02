@@ -1,18 +1,19 @@
 ## System permissions
-Steedos Workflow use a management system by level, including space owner, space administrators, flow administrator and normal users. A brief introduction about the four levels is given below.
+
+Steedos Workflow use a management system by level, including space owner, space administrators, flow administrators and normal users. 
+
 #### Space owner
- Who register an account for workflow is set to be the space owner. Permissions are listed below.
-  - Highest level
-  - Create several workspaces
-  - Add space administrators and flow administrators
+Who registered the sapce is the space owner. Space owner has the Highest permissions of the space:
+  - Create space administrators.
+  - Create flow administrators.
+  - Can work as all space administrators and flow administrators.
  
 #### Space administrators
-  - All kinds of backstage settings, such as creating organizations，designing forms and flows
-  - Add flow administrators
+  - Manage space settings, such as organizations，users, flow roles, forms and flows.
+  - Create flow administrators.
  
 #### Flow administrators
- Flow administrators can Monitor the flow, including:
-  - Delete the flow
-  - Relocate the flow
-  - Reassign approvers
-  - Etc.
+  - Monitor requests of the flow.
+  - Delete requests of the flow.
+  - Relocate requests of the flow.
+  - Reassign approvers to requests of the flow.

@@ -29,4 +29,4 @@
 
 备注：审批王标准版用户暂时未开通Steedos API访问权限。
 
-- [Steedos API使用指南](../api/README.md)
+- [Steedos API使用指南](api.md)
