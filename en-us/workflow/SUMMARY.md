@@ -10,19 +10,16 @@
  * [FAQ](faq.md)
 
 - [How to use Steedos Workflow](quickguide_user.md)
- - Initiators
-    * [Fill in application forms](instance_add.md)
-    * [Manage attachments](instance_attachment.md)
-    * [Search for forms](instance_search.md)
-    * [Cancel the requests](instance_cancel.md)
-    * [Print the forms](instance_print.md)
- - Admins
-    * [Search for forms](instance_monitor.md)
-    * [Approval process](instance_approve.md)
-    * [Reassign approvers](instance_reassign.md)
-    * [Relocate forms](instance_relocate.md)
-    * [Export forms](instance_export.md)
-
+ * [Initiators: Fill in application forms](instance_add.md)
+ * [Initiators: Manage attachments](instance_attachment.md)
+ * [Initiators: Search for forms](instance_search.md)
+ * [Initiators: Cancel the requests](instance_cancel.md)
+ * [Initiators: Print the forms](instance_print.md)
+ * [Admins: Search for forms](instance_monitor.md)
+ * [Admins: Approval process](instance_approve.md)
+ * [Admins: Reassign approvers](instance_reassign.md)
+ * [Admins: Relocate forms](instance_relocate.md)
+ * [Admins: Export forms](instance_export.md)
 
 - [Settings](quickguide_admin.md)
  * [Space settings](admin_space.md)
@@ -49,12 +46,9 @@
  * [Input permissions](flow_step_permissions.md)
  * [Enable the flow](flow_state.md)
  
-
 - [Steedos API](api.md)
  * [Steedos：Identity Authentication](auth.md)
  * [Steedos：Users](SpaceUser.md)
  * [Steedos：Organizations](Orgnization.md)
  * [Steedos：Forms](instances.md)
  * [Instance：Nodejs](sample_nodejs.md)
-
-

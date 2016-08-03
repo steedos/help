@@ -19,7 +19,7 @@ Workflow users can initiate a request, select to approve or reject, search for r
  - As an approver, you can search for the approved requests in “Outbox”.
 
 - Print forms
-  - You can print the forms which you can see or search. All contents, including attachments names, approval history and approval comments, are visible in printed forms.
+  - In “My Approval”, “My Applications” and “Monitor”, you can print the forms which you can see or search. All contents, including attachments names, approval history and approval comments, are visible in printed forms.
 
 #### Notice:
 You can only print the forms in template styles in Standard version. But in Professional version and Enterprise version, custom styles are provided.
