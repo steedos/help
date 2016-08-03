@@ -4,7 +4,7 @@ You will receive notifications when the flow runs to your step if you are an app
 #### Approval notifications
 When you receive notifications, you can take following steps.
 - Login Steedos and enter the workspace. In the workflow page, the displayed number in “Inbox” is the form numbers that need to be approved.
-- E-mail: the registered e-mail will receive a notification message if “Email Notifications” has been ticked in account settings page.
+- Email: the registered email will receive a notification message if “Email Notifications” has been ticked in account settings page.
 - Client: you will receive a notification message when Steedos Workflow has been installed in your PC or mobile devices.
 
 #### View forms in inbox
@@ -12,18 +12,17 @@ Click the form and all details are visible.
 - Approval History
  - Finished steps, approval comments, approvers, approval status and time will be all displayed in approval history.
 - [Attachments management](instance_attachment.md) (click it for more details)
- - Click attachment name(s) to download attachments.
- - Click the “U” icon at the top of the page to upload new attachment(s).
+ - Click attachment name to download attachment.
+ - Click the “U” icon at the top of the page to upload new attachments.
  
 #### Enter approval comments
  - Click to enter “Inbox”.
- - Then give your approval comments in the column at the top of the page.
+ - Give your approval comments in the column at the top of the page.
  - Next, select ”Approve” or “Reject” and submit it.
- - Finally, Select “Approve” or “Reject”
   - Approve
     - Next Step and Next Step User(s) are automatically displayed at the top of the page.
     - Click the selection box below “Next Step”, then select a new step if you want to modify next step by default. Once one option is visible, next step cannot be modified.
-    - Click the selection box below “Next Step User(s)”, and then select other users if you want to modify next step user(s) by default.Several users can be selected at a countersignature node. Only one user can be selected at other nodes.
+    - Click the selection box below “Next Step User(s)”, and then select other users if you want to modify next step user(s) by default. Several users can be selected at a countersignature node. Only one user can be selected at other nodes.
     - Click “Submit” button to submit it after you have given you approval comments, uploaded attachments and selected next step and next step users.
     - Then approval process has finished. The application will disappear in “Inbox” and appear in “Finished”.
 

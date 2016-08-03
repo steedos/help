@@ -1,5 +1,7 @@
 ## Relocate the requests
+
 You could contact with flow administrators to relocate the requests and select corresponding approvers if necessary. Then the flow will continue to run after approval of others. The detailed steps are listed below.
+
 - Enter the workspace, and then click “Monitor”.
 - Click the funnel-shaped icon in the upper left corner in “Monitor” page then select the corresponding flow.
 - Select and click the form expected to be reassigned, and then click “relocate” icon next to the “head-shaped” icon at the top of the pace. 
