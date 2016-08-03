@@ -29,6 +29,6 @@ With Steedos API
 - Requests in corporate business system can transfer to Steedos Workflow and can be approved in it.
 
 #### Notice：
-Users in professional version of Steedos Workflow cannot get access to Steedos API.
+Users in Professional version of Steedos Workflow cannot get access to Steedos API.
 
 - [Steedos API Help](api.md)
