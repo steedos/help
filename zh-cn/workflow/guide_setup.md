@@ -2,11 +2,8 @@
 
 作为公司的管理员，想要全公司员工来使用审批王系统，需要下载安装审批王，再进行注册开通。
 
-##### 进入审批王：
-- 浏览器访问 https://www.steedos.com
- - 我们推荐使用Chrome、360浏览器
-
-- 电脑客户端 从审批王官网 https://www.steedos.com/cn/workflow/downloads/ 下载
+##### 下载审批王
+- 电脑客户端 从审批王官网 https://www.steedos.com/cn/workflow/downloads/ 下载（推荐使用chrome或360浏览器）
 - 安卓版下载地址
  - 小米应用商店：http://app.mi.com/
  - 华为应用市场：http://a.vmall.com/
