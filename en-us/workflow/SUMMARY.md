@@ -29,7 +29,7 @@
 
 - [How to design a form](quickguide_flow.md)
  * [Form categories](form_category.md)
- * [Form designs](form_design.md)
+ * [Form design](form_design.md)
  * [Form fields](form_fields.md)
  * [Form tables](form_table.md)
  * [Formulas of form field](form_formula.md)
