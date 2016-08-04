@@ -1,5 +1,4 @@
-
-# Tranning videos
+# Trainning videos
 
 - Quick Guide
 
