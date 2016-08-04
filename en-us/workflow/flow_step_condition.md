@@ -1,20 +1,21 @@
-
 ## Condition node
-System can select next step automatically according to the condition in countersignature node.
+
+System can select next step automatically according to the condition in condition node.
 
 For instance, in a “Reimbursement” request, system can select next step according to “Total Amount”. If total amount is more than 10000, requests will be submitted to general manager at first and then submitted to finance director after approval. If it is no more than 10000, requests will be directly submitted to finance director.
 
 Conditional formula：{ Total Amount }>10000 and { Total Amount }<=10000
+
 #### notice
 - There cannot be overlapping conditions. For instance, “{Total Amount}>=10000” and “{Total Amount}<=10000” are wrong formulas. Because “{Total Amount}=10000” is overlapping condition.
 - The formulas should cover all conditions. For instance, “{Total Amount}>10000” and “{Total Amount}<10000” are wrong formulas. Because “{Total Amount}=10000” is omitted.
 
 If there are wrong formulas, system cannot select the next step sometimes.
 
-### How to add a countersignature node?
+### How to add a condition node?
 Please follow the next step to add a node.
 - Enter the flow design interface and click “Draw” button.
-- Select “Condition” icon and Drag it to the left page.
+- Select “Condition” icon and Drag it to the left side.
 - Modify step name by clicking “Properties”. For instance, rename it with “Whether Total Amount is more than 10000”.
 - Hover with your mouse over the “?” icon and then click “+” to add two lines and connect them with two nodes.
 - Click one line and then click on “properties”

@@ -1,4 +1,5 @@
 ## Space settings
+
 Space owner can :
 - modify the space name; 
 - view users count;
