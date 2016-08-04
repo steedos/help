@@ -1,19 +1,19 @@
 ### 如何为公司开通审批王
 
-作为一个公司的管理员，想要全公司员工来使用审批王系统，需要做以下工作：
+作为公司的管理员，想要全公司员工来使用审批王系统，需要下载安装审批王，再进行注册开通。
 
 ##### 进入审批王：
 - 浏览器访问 https://www.steedos.com
  - 我们推荐使用Chrome、360浏览器
+
 - 电脑客户端 从审批王官网 https://www.steedos.com/cn/workflow/downloads/ 下载
-- 移动客户端 各大手机应用商城中搜索审批王，进行下载
 - 安卓版下载地址
  - 小米应用商店：http://app.mi.com/
  - 华为应用市场：http://a.vmall.com/
- - 腾讯应用宝：http://android.myapp.com/
+ - 腾讯应用宝： http://android.myapp.com/
  - 360手机助手：http://zhushou.360.cn/
  - 百度手机助手：http://shouji.baidu.com/
- - 豌豆荚：http://www.wandoujia.com/
+ - 豌豆荚：  http://www.wandoujia.com/
 - iOS版下载地址
  - 苹果AppStore
  
