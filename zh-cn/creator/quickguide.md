@@ -9,7 +9,6 @@
    - [新建字段](quickguide.md#新建字段)
    - [创建菜单](quickguide.md#创建菜单)
    - [调整表单视图](quickguide.md#调整表单视图)
-   - [新建字段](quickguide.md#新建字段)
 - [新建tree视图](quickguide.md#新建tree视图)
 - [新建搜索视图](quickguide.md#新建搜索视图)
 - [新建图表视图](quickguide.md#新建图表视图)
