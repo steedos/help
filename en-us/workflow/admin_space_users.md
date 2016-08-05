@@ -6,6 +6,8 @@ Here comes to space user settings.
 - Next, click on “Space users”. 
 
 In the pop-up interface, you can do more settings.
+
+![](images/ten.png)
 #### Add a new user
 - Click the “New” button.
 - Enter user’s name, email address, parent organizations and manager.
