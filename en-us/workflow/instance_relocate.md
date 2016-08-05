@@ -6,6 +6,8 @@ You could contact with flow administrators to relocate the requests and select c
 - Click the funnel-shaped icon in the upper left corner in “Monitor” page then select the corresponding flow.
 - Select and click the form expected to be reassigned, and then click “relocate” icon next to the “head-shaped” icon at the top of the pace. 
 - Select next step and assignee, and then enter comments for relocating the request.
+
+![](images/seven.png)
 - Click “OK”.
 
 The relocated form will be sent to an assignee and he (she) can search for the form in “Inbox”. The progress of relocating the request will be displayed in approval history of the form.
