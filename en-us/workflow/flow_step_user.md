@@ -1,6 +1,9 @@
 ## Approver settings
 
 In the flow designer，admins have several options to asign users for a node.
+
+![](images/19.png)
+
 - Pick users at runtime
   - The default value of next step users is empty after the settings. User in the node has to select next step users.
 
