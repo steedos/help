@@ -7,7 +7,11 @@ Only space admins and flow admins have permissions to reassign approvers. The de
  - Click the “funnel-shaped” icon in the upper left corner in “Monitor” page.
  - Select the corresponding flow.
  - Click the form expected to be handled, then click the “head-shaped” icon at the top of the page.
+
+ ![](images/five.png)
  - Select to change a proper assignee and then enter your reasons for reassignment.
  - Click “OK”.
+ 
+![](images/six.png)
 
 The requests will be sent to reassigned approvers and they can search for the forms in their “Inbox”. The reassignment progress of forms will be displayed in approval history.
