@@ -18,7 +18,7 @@ Steedos Workflow provide users with several field types for better form design�
 - Selection field
   - Drop-down: User can only select one from preset options.
   - Select User: All space users will be displayed in options whether their accounts are valid or not.
-  - Select Dept.: All organization names in full path format will be displayed in options
+  - Select Dept.: All organization names in full path format will be displayed in options.
   - Checkbox: User can only select one from preset options.
   - Radio: User can select one or more from preset options.
 
@@ -42,7 +42,7 @@ Steedos Workflow provide users with several field types for better form design�
 
 - **List Values:** Please input all options.
 
-- **Select type:** “Multiple Choice” and “Single Choice” 
+- **Select type:** “Multiple Choice” and “Single Choice” .
 
 #### Notice:
 Field Name is unique in the same form, but Display Name can repeat.
