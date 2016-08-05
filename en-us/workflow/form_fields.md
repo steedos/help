@@ -4,6 +4,8 @@
 
 Steedos Workflow provide users with several field types for better form design。Input field，selection field and others are included in Steedos Workflow.
 
+![](images/15.png)
+
 - Input field
   - Text: It is the most commonly used field type and the format in it is limitless.
   - Number: Users must input numbers in it.
@@ -25,6 +27,8 @@ Steedos Workflow provide users with several field types for better form design�
   - Table: admins can inert a table for applicants to input kinds of detail information. 
 
 #### Properties
+
+![](images/16.png)
 
 - **Field Name:** It is stored in database and cannot repeat in the same form. Field Name, instead of Display Name, will be used in formulas and conditions.
 
