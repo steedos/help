@@ -8,4 +8,6 @@ Initiators can cancel the requests for further modification by clicking the canc
 - Input reasons for cancelling the application in the pop-up interface.
 - Click “OK”.
 
+![](images/three.png)
+
 The cancelled requests will appear in “Finished” of initiators instead of “Inbox” of Next Step Users.
