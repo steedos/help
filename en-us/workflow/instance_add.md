@@ -9,6 +9,8 @@
 - Save the form in time if there is no need to submit it at once. 
 - Submit your application form.
 
+![](images/one.png)
+
 #### Notice：
 - You are supposed to change the initiator if you submit the application for others. The system set the account owner to be the initiator defaultly.
 - You are supposed to fill in all the fields marked with icon “＊”. Otherwise, you cannot submit the form.
