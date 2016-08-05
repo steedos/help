@@ -8,7 +8,7 @@ Detailed steps are listed below.
 - Click on “Flow Roles”, and then click the “New” button in pop-up interface.
 - Enter the role name, such as “Chief Finance Officer”.
 - Click on “Create”.
-
+![](images/eleven.png)
 #### Flow position settings
 - Click on “Flow Positions”, and then click the “New” button in pop-up interface.
 - Select a role and the organization it manages
@@ -16,7 +16,8 @@ Detailed steps are listed below.
 - Click on “Create”.
 
  The scope of approval should be noticed. For example, CFO can approve requests form the whole corporation (not limited in Financial Management Department).
-
+ 
+![](images/twelve.png) 
 #### Edit or delete the position
 - Click “Flow Positions”, and then click on “Edit” to modify the position information or click on “Delete” to remove the position.
 
