@@ -9,6 +9,7 @@ Detailed steps are listed below.
 - Enter the role name, such as “Chief Finance Officer”.
 - Click on “Create”.
 ![](images/eleven.png)
+
 #### Flow position settings
 - Click on “Flow Positions”, and then click the “New” button in pop-up interface.
 - Select a role and the organization it manages
