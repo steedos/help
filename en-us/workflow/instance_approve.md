@@ -15,6 +15,8 @@ Click the form and all details are visible.
  - Click attachment name to download attachment.
  - Click the “U” icon at the top of the page to upload new attachments.
  
+![](images/two.png)
+
 #### Enter approval comments
  - Click to enter “Inbox”.
  - Give your approval comments in the column at the top of the page.
