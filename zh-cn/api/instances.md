@@ -198,7 +198,7 @@ Response:
 
 Request:
 ```bash
-curl -X POST https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a 
+curl -X PUT https://cn.steedos.com/uf/api/instances/oFpdgAMMr7F5A7P3a 
      -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
