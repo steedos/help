@@ -12,6 +12,8 @@
 - [如何使用审批王](quickguide_user.md)
  * [填写申请单](instance_add.md)
  * [审批文件](instance_approve.md)
+ * [传阅文件](instance_carboncopy.md)
+ * [转发文件](instance_forward.md)
  * [附件管理](instance_attachment.md)
  * [查询申请单](instance_search.md)
  * [取消申请](instance_cancel.md)
