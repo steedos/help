@@ -26,7 +26,7 @@
 - [如何设置审批王](quickguide_admin.md)
  * [设置工作区](admin_space.md)
  * [设置部门](admin_organizations.md)
- * [设置组织架构](admin_space_users.md)
+ * [设置人员](admin_space_users.md)
  * [设置角色与审批岗位](admin_roles.md)
 
 - [如何设计表单](quickguide_flow.md)
