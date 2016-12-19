@@ -28,7 +28,7 @@ curl https://cn.steedos.com/steedos/api/login -d "email=test@hotoa.com&password=
 ```
 
 其中的adminSpaces 下为此账户有管理员权限的那些专业版、企业版工作区（不含标准版）。
-请纪录下`userId` 、 `authToken` 、 `adminSpaces._id` ，在应用API提交请求时需要使用。
+请记录下`userId` 、 `authToken` 、 `adminSpaces._id` ，在应用API提交请求时需要使用。
 
 #### 退出系统
   
