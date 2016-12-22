@@ -13,18 +13,6 @@ mac／linux终端执行：./install.sh
 (编译html文件。程序会自动在根目录下创建build文件夹，并把编译后到中文，英文<index.html>放在build文件夹下)
 mac/linux终端运行：./html.sh
 
-将'_book'下的html中的
-<a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
-替换为
-<a href="https://www.steedos.com/cn/help/" target="blank" class="gitbook-link">
-            华炎云帮助中心
-        </a>
-或
-<a href="https://www.steedos.com/us/help/" target="blank" class="gitbook-link">
-            Steedos Help Center
-        </a>
 
 
 #### 编译pdf
