@@ -18,7 +18,7 @@
 - 统计多选项中有几项被选中了：length({交通工具})
 - 基于申请人的系统变量：包括姓名、角色、部门等
  - 申请人的姓名：{applicant.name} 
- - 申请人所在部门（全路径）： {applicant.organization.fullname}
+ - 申请人所在部门（当申请人属于多个部门时，为所在主部门的全路径）： {applicant.organization.fullname}
  - 申请人所在部门（最底层部门名）： {applicant.organization.name}
  - 申请人的角色名： {applicant.roles} 
 - 基于姓名表单字段的系统变量：包括姓名、角色、部门等
