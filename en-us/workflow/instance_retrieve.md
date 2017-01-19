@@ -2,9 +2,9 @@
 Retrieve is to get back the intance that has been submitted or approved to reprocess.
 
 There are two types of people that can retrieve an instance: one is the new intance of people, the other is the approval of intance people.
-Note: The intance can only be retrieved after the next step has not been processed or the next step is not the end of the processing steps. For example, a new intance has been submitted, if you want to modify this intance, but this intance has been approved by the leadership, this intance can not be retrieved.
+Note: The intance can only be retrieved after the next step has not been processed or the next step is not the end of the processing steps. For example, a new intance has been submitted, if you want to modify this intance, but this intance has been approved by the next approver, this intance can not be retrieved.
 
-- When you retrieve a new instance, you can find this intance in the "in progress". (Note: this intance has not been approved by the next approver)
+- When you retrieve a new instance, you can find this intance in the "In progress". (Note: this intance has not been approved by the next approver)
 ![](images/进行中取回.png)
 - When you want to retrieve an approved intance, you can find this intance in the "Outbox". (Note: this intance has not yet been processed by the next approver, or the next step is not the end step)
 ![](images/已审核取回.png)
