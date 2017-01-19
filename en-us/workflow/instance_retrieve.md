@@ -1,7 +1,7 @@
 ## Retrieve
 Retrieve is to get back the intance that has been submitted or approved to reprocess.
 
-There are two types of people that can retrieve an instance: one is the new intance of people, the other is the approval of intance people.
+There are two types of people that can retrieve an instance: one is the creator of instance, the other is the approver of intance.
 Note: The intance can only be retrieved after the next step has not been processed or the next step is not the end of the processing steps. For example, a new intance has been submitted, if you want to modify this intance, but this intance has been approved by the next approver, this intance can not be retrieved.
 
 - When you retrieve a new instance, you can find this intance in the "In progress". (Note: this intance has not been approved by the next approver)
