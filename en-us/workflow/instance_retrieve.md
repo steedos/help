@@ -8,7 +8,6 @@ Note: The intance can only be retrieved after the next step has not been process
 ![](images/进行中取回.png)
 - When you want to retrieve an approved intance, you can find this intance in the "Outbox". (Note: this intance has not yet been processed by the next approver, or the next step is not the end step)
 ![](images/已审核取回.png)
-- 点击找到的申请单后，再点击申请单右上角的按钮，再点击“取回”按钮，就会跳出需要填写取回理由的弹出框，点击弹出框的“确认”按钮后，该申请单就会出现在取回操作的处理人的“待审核”里,找到该申请单后，就可以重新处理该申请单。。
-
-#### 备注
-- 该申请单的“签核历程”也会有相应的记录。
+- Click on the instance you've found, and click the button in the upper right corner of this instance. When you click the "retrieve" button, you will be asked to fill out the pop-up box for the reason for the retrieve. When you click "OK", you can find this instance in "Inbox", then you can reprocess this instance.
+#### Remarks
+- The progress of retrieve will be displayed in approval history of the form.
