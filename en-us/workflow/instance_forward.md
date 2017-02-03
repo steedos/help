@@ -1,9 +1,9 @@
-## 转发文件
-  转发，可以实现表单内容的复制，实现流程之间的跳转。例如，子公司文书收到集团发文后，“转发”提请一个新的子公司收文流程，这时，“集团发文处理单”上的文件标题、文件日期等字段内容会自动带入新的“子公司收文处理单”，同时，正文（附件）也会自动带入。又比如之前提交过一个申请，该文件已经流转结束，可以选择转发这个文件，提交一个新的申请，相同的字段内容会复制到新的申请单上，省却用户填写表单的时间。
+##Forward 
+  Forward can copy the contents of one intance, and achieve the jump between processes.For example, you have submitted an intance, this intance of the process has ended, but you can still forward this intance, and forwarded after the application is a new intance, where the contents of the same field will be copied to the new intance, so you You can save time to fill in intance.
   
- - 选择待审核、已审核、进行中、已完成、监控箱中任一需要复制的文件，在表单内容页上方选择转发按钮。
+ - You can select any file to be copied in "Inbox", "Outbox", "In Progress", "Finished", "Monitor" and then click the button in the upper right corner of this intance. The File Selection Forwarding button will appear.
  
- - 选择需要提交新文件的流程，系统会新增一个文件， 并将原表单中相同字段名的内容复制到新表单中。
+ - After selecting a process that commits new intance, the system adds an intance and copies the contents of the same field name in the original intance into the new intance.
  
- - 修改并提交，新文件就开始流转。
+ - Modify and submit, intance began to flow.
  
