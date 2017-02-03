@@ -15,14 +15,14 @@ Click the form and all details are visible.
  - Click attachment name to download attachment.
  - Click the “U” icon at the top of the page to upload new attachments.
  
-![](images/two.png)
+![](images/approve1.png)
 
 #### Enter approval comments
  - Click to enter “Inbox”.
- - Give your approval comments in the column at the top of the page.
+ - Give your approval comments in the column at the bottom of the page.
  - Next, select ”Approve” or “Reject” and submit it.
   - Approve
-    - Next Step and Next Step User(s) are automatically displayed at the top of the page.
+    - Next Step and Next Step User(s) are automatically displayed at the bottom of the page.
     - Click the selection box below “Next Step”, then select a new step if you want to modify next step by default. Once one option is visible, next step cannot be modified.
     - Click the selection box below “Next Step User(s)”, and then select other users if you want to modify next step user(s) by default. Several users can be selected at a countersignature node. Only one user can be selected at other nodes.
     - Click “Submit” button to submit it after you have given you approval comments, uploaded attachments and selected next step and next step users.
