@@ -4,7 +4,8 @@ In Steedos Workflow, users can print forms easily for archiving in the transitio
 
 #### Printing method
 - Select a form and click to open it. 
-- Click printer icon above to print it.
+- click the button in the top right corner of the form, the Print option appears.
+![](images/print.png)
 
 #### notice
 In Professional version and Enterprise version, users can select custom print format or system default format to print the forms.
