@@ -3,10 +3,10 @@
  As a general user, you just need to initiate a request and fill in the form as required. Before that, admins have finished form designs and permission settings. Detailed steps are listed below.
 
 - Select your workspace after you log in Steedos.
-- Click the “New” button and select a flow.
+- Click the “+” button and select a flow.
 - Fill in the application form as required.
 - Click the U-shaped button, select a file path, and you can **upload** one or more attachments that will be visible at the bottom of the form. Move the cursor to an attachment, and an X-shaped icon will appear. By clicking the icon, you can **delete** the attachment.
-- Save the form in time if there is no need to submit it at once. 
+- If you are not eager to submit this intntance after the fill, click the upper right corner of this intance button, there will be "save" option, click the option to save this intance.
 - Submit your application form.
 
 ![](images/one.png)
