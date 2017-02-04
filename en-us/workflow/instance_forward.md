@@ -6,4 +6,5 @@
  - After selecting a process that commits new intance, the system adds an intance and copies the contents of the same field name in the original intance into the new intance.
  
  - Modify and submit, intance began to flow.
- 
+ ## Remarks
+ One of the items at the bottom of the Forward pop-up box is "Save the original form as an attachment", which is the original intance as an attachment to the new intance.
