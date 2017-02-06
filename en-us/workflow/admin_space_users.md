@@ -2,12 +2,12 @@
 
 Here comes to space user settings.
 - Enter the workspace.
-- then click “Settings”. 
-- Next, click on “Space users”. 
+- then click “Space Settings”. 
+- Next, click on “Organiaztions”. 
 
 In the pop-up interface, you can do more settings.
 
-![](images/ten.png)
+![](images/user.png)
 #### Add a new user
 - Click the “New” button.
 - Enter user’s name, email address, parent organizations and manager.
