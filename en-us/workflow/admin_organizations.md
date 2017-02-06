@@ -4,9 +4,10 @@ In Steedos Workflow，space admins should finish settings previously, including 
 
 You can establish a multi-tiered corporate structure in Steeods Workflow. Enter the workspace and click on “Workflow”. Then click on “Organization”, and you can do more settings.
 
-![](images/nine.png)
+![](images/orgnization1.png)
   - Create a new organization
       - Root organization. After entering the interface, click the “New” button. Then enter its name to create the root organization.
+![](images/orgnization2.png)
       - Sub-organization. When organization A select organization B as Parent, A becomes the sub-organization of B.
   - Edit an organization
       - Click on “Edit” button of the organization, and then you can edit the “Name” and “Parent” of it.
