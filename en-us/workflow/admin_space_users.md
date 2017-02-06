@@ -9,16 +9,16 @@ In the pop-up interface, you can do more settings.
 
 ![](images/user.png)
 #### Add a new user
-- Click the “New” button.
+- Click the “Invite Users” button.
 - Enter user’s name, email address, parent organizations and manager.
 - Click “Create”.
 
 #### Edit user’s information
-- Click the “Edit” button of the space users.
+- Click the pen shape button of the space users.
 - And then you can modify name, organization and manager if necessary.
 
 #### Delete a user
-- Click the “Delete” button in the lists of the user.
+- Click the “×” button in the lists of the user.
 - Then confirm to delete it.
 
 ####NOTICE
