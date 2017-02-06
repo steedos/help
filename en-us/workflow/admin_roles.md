@@ -8,7 +8,7 @@ Detailed steps are listed below.
 - Click on “Flow Roles”, and then click the “New” button in pop-up interface.
 - Enter the role name, such as “Chief Finance Officer”.
 - Click on “Create”.
-![](images/eleven.png)
+![](images/role.png)
 
 #### Flow position settings
 - Click on “Flow Positions”, and then click the “New” button in pop-up interface.
@@ -18,9 +18,9 @@ Detailed steps are listed below.
 
  The scope of approval should be noticed. For example, CFO can approve requests form the whole corporation (not limited in Financial Management Department).
  
-![](images/twelve.png) 
+![](images/position.png) 
 #### Edit or delete the position
-- Click “Flow Positions”, and then click on “Edit” to modify the position information or click on “Delete” to remove the position.
+- Click “Flow Positions”, and then click on Pen-shaped button to modify the position information or click on “×” to remove the position.
 
 #### Why we choose a position
 - **Reduce errors and increase efficiency.** For example, admins can create a role called “Manager” and then assign some users to play the role. If there are requests that need to be approved by the organization manager, the system can automatically send the request to the role (Manager) instead of individual user. Thus, users who initiate the request don’t need to select approvers by themselves. 
