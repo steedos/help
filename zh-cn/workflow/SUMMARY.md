@@ -14,6 +14,7 @@
  * [审批文件](instance_approve.md)
  * [传阅文件](instance_carboncopy.md)
  * [转发文件](instance_forward.md)
+ * [取回文件](instance_retrieve.md)
  * [附件管理](instance_attachment.md)
  * [查询申请单](instance_search.md)
  * [取消申请](instance_cancel.md)
@@ -49,10 +50,6 @@
  * [启用流程](flow_state.md)
 
 - [Steedos API](api.md)
- * [华炎云：身份认证](auth.md)
- * [华炎云：用户](SpaceUser.md)
- * [华炎云：部门](Orgnization.md)
- * [审批王：申请单](instances.md)
- * [实例：Nodejs](sample_nodejs.md)
+
 
 
