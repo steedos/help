@@ -7,11 +7,11 @@
 
 #### 安装     
 (全局安装gitbook)
-mac／linux终端执行：./install.sh
+mac／linux终端执行：sudo ./install.sh
 
 #### 编译html  
 (编译html文件。程序会自动在根目录下创建build文件夹，并把编译后到中文，英文<index.html>放在build文件夹下)
-mac/linux终端运行：./html.sh
+mac/linux终端运行：sudo ./html.sh
 
 
 
@@ -27,4 +27,4 @@ mac/linux终端运行：./pdf.sh
 
 
 注：
-官方参考文档：https://github.com/GitbookIO／gitbook／
+官方参考文档：https://github.com/GitbookIO/gitbook
