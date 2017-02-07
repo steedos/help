@@ -22,7 +22,7 @@ mac/linux终端运行：sudo ./html.sh
   编译后到文件放在build文件夹下)
 
 
-mac/linux终端运行：./pdf.sh
+mac/linux终端运行：sudo ./pdf.sh
 
 
 
