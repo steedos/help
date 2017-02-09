@@ -50,3 +50,8 @@
  * [Enable the flow](flow_state.md)
  
 - [Steedos API](api.md)
+ * [Steedos：Identity Authentication](auth.md)
+ * [Steedos：Users](SpaceUser.md)
+ * [Steedos：Orgnization](Orgnization.md)
+ * [Steedos：Forms](instances.md)
+ * [intance：nodejs](sample_nodejs.md)
