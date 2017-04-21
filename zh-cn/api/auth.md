@@ -7,7 +7,7 @@
 #### 登录系统
 
 ```bash 
-curl https://cn.steedos.com/steedos/api/login -d "email=test@hotoa.com&password=password"
+curl -POST https://cn.steedos.com/steedos/api/login -d "email=test@hotoa.com&password=password"
 ```
 
 返回如下
@@ -59,7 +59,7 @@ curl https://cn.steedos.com/steedos/api/logout -X POST -H "X-Auth-Token: f2KpRW7
 - X-Space-Id
 
 ```bash
-curl https://cn.steedos.com/steedos/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
+curl -POST https://cn.steedos.com/steedos/api/organizations/ -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
      -H "X-User-Id: fbdpsNf4oHiX79vMJ" -H "X-Space-Id: wsw1re12TdeP223sC" 
 ```
 
