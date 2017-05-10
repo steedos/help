@@ -9,7 +9,7 @@ The specific operation flow is as follows:
 - Click on the form to fill in the interface at the top of the "Linked instance" button, or the upper right corner of the ellipsis button under the "Linked instance" button, it will jump out of "Linked instance" pop-up box;
 ![](images/关联文件2.png)
 - In the associated file pop-up box, enter the name of the file to be associated, can be multiple;
-- click "OK"；
+- Click "OK"；
 ###Remarks
 - The associated document must be a pending approval;
 - Documents can only be associated with new approval orders;
