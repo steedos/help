@@ -1,10 +1,10 @@
-## 关联文件
-关联文件是将已提交的审批单文件关联到新建的审批单中，以便后续的审批处理人查看到关联到该审批单中的文件；
+## Related Instances
+The associated file is to associate the submitted instances so that the subsequent approval handler can view the file associated with these instances;
 
-例如：新建的审批单是“出差费用报销单”，可以关联与此次费用报销相关的"出差申请单"，这样的话，领导在审批“出差费用报销单”时，就可以查看到是报销哪次出差产生的费用；
+For example: the new instance is the "travel expenses reimbursement", you can be associated with the reimbursement of the "travel application", so the leadership in the approval of "travel expenses reimbursement", you can see which is reimbursed The cost of a business trip;
 
-具体的操作流程如下：
-- 进入工作区，点击“填写表单”；
+The specific operation flow is as follows:
+- Go to the workspace and click "New Request";
 ![](images/关联文件1.png)
 - 点击表单填写界面的顶部的“关联文件”按钮，或者右上角的省略号按钮下的“关联文件”按钮，就会跳出“关联文件”的弹出框；
 ![](images/关联文件2.png)
