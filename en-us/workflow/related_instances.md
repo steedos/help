@@ -1,7 +1,7 @@
 ## Related Instances
 The associated file is to associate the submitted instances so that the subsequent approval handler can view the file associated with these instances;
 
-For example: the new instance is the "travel expenses reimbursement", you can be associated with the reimbursement of the "travel application", so the leadership in the approval of "travel expenses reimbursement", you can see which is reimbursed The cost of a business trip;
+For example: the new instance is the "Travel Expenses Reimbursement Form", you can be associated with the reimbursement of the "Travel Application Form", so the leadership in the approval of "Travel Expenses Reimbursement Form", you can see which is reimbursed The cost of a business trip;
 
 The specific operation flow is as follows:
 - Go to the workspace and click "New Request";
