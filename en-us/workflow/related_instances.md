@@ -10,6 +10,6 @@ The specific operation flow is as follows:
 ![](images/关联文件2.png)
 - In the associated file pop-up box, enter the name of the file to be associated, can be multiple;
 - Click "OK"；
-###Remarks
+### Remarks
 - The associated document must be a pending approval;
 - Documents can only be associated with new approval orders;
