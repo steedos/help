@@ -7,5 +7,5 @@
 - 进入工作区，点击“填写表单”；
 ![](images/flowchart1.png)
 - 点击表单填写界面的顶部的“流程图”按钮，或者右上角的省略号按钮下的“流程图”按钮，就会跳出“流程图”的页面；
-![](images/flowchart12.png)
+![](images/flowchart2.png)
 
