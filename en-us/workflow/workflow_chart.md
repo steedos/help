@@ -1,9 +1,9 @@
-## 流程图
-流程图对应的是该审批单的的流转过程；
+## Workflow Chart
+The flow chart corresponds to the circulation of this intance;
 
-每个流程图都是从“开始”，到“审批”，最后“结束”，其中“审批”可以包括多个审批过程；
+Each process is from "start" to "approval", and finally "end", where "approval" can include multiple approval processes;
 
-具体的操作流程如下：
+The specific operation flow is as follows:
 - 进入工作区，点击“填写表单”；
 ![](images/workflow_chart.md1.png)
 - 点击表单填写界面的顶部的“流程图”按钮，或者右上角的省略号按钮下的“流程图”按钮，就会跳出“流程图”的页面；
