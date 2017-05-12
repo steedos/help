@@ -4,8 +4,8 @@ The flow chart corresponds to the circulation of this intance;
 Each process is from "start" to "approval", and finally "end", where "approval" can include multiple approval processes;
 
 The specific operation flow is as follows:
-- 进入工作区，点击“填写表单”；
+- Go to the workspace and click "New Request"; 
 ![](images/workflow_chart.md1.png)
-- 点击表单填写界面的顶部的“流程图”按钮，或者右上角的省略号按钮下的“流程图”按钮，就会跳出“流程图”的页面；
+- Click on the form to fill in the interface at the top of the "Linked instance" button, or the upper right corner of the ellipsis button under the "Linked instance" button, it will jump out of "Linked instance" page;
 ![](images/workflow_chart.md2.png)
 
