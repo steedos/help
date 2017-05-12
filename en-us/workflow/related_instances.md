@@ -5,9 +5,9 @@ For example: the new instance is the "Travel Expenses Reimbursement Form", you c
 
 The specific operation flow is as follows:
 - Go to the workspace and click "New Request";
-![](images/关联文件1.png)
+![](images/related_instances1.png)
 - Click on the form to fill in the interface at the top of the "Linked instance" button, or the upper right corner of the ellipsis button under the "Linked instance" button, it will jump out of "Linked instance" pop-up box;
-![](images/关联文件2.png)
+![](images/related_instances2.png)
 - In the associated file pop-up box, enter the name of the file to be associated, can be multiple;
 - Click "OK"；
 ### Remarks
