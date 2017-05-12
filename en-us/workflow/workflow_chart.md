@@ -5,7 +5,9 @@ Each process is from "start" to "approval", and finally "end", where "approval" 
 
 The specific operation flow is as follows:
 - Go to the workspace and click "New Request"; 
-![](images/workflow_chart.md1.png)
+
+![](images/workflow_chart1.png)
 - Click on the form to fill in the interface at the top of the "Linked instance" button, or the upper right corner of the ellipsis button under the "Linked instance" button, it will jump out of "Linked instance" page;
-![](images/workflow_chart.md2.png)
+
+![](images/workflow_chart2.png)
 
