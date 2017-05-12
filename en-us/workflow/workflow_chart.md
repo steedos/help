@@ -10,4 +10,3 @@ The specific operation flow is as follows:
 - Click on the form to fill in the interface at the top of the "Linked instance" button, or the upper right corner of the ellipsis button under the "Linked instance" button, it will jump out of "Linked instance" page;
 
 ![](images/workflow_chart2.png)
-
