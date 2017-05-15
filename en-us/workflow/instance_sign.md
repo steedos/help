@@ -8,7 +8,6 @@ The specific operation flow is as follows:
 - It is worth noting that, click the right button in the comments box, it will jump out of "Opinions" pop-up box;
 ![](images/sign2.png)
 - Click "add", it will jump out "Opinions" pop-up box;
-
 ![](images/sign3.png)
 
 - After filling in the comments, click "OK", the article appears in the list of commonly used comments;
