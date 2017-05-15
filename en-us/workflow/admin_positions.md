@@ -1,9 +1,9 @@
-### 设置岗位
-管理员在设计审批流程时，需要对“岗位”和“岗位成员”进行设置。因为当审批流程的某一处理步骤的“处理人”类型是“指定审批岗位”时，“审批岗位”中的选项就是就是管理员所设置的“岗位”；<br>
-例如：当在“岗位”中新建了“部门经理”，“科长”等时，审批流程中的“审批岗位”的选项中就包括了“部门经理”，“科长”；
+### Flow Positions
+The administrator needs to set "Flow Positions" and "Positions Users" when designing the approval process. Because the option in the "Role Name" is the "Flow Positions" set by the administrator when the "handler" type of a processing step of the approval process is the "Role of initiator"; <br>
+For example, when "Department Manager", "Chief" is created in "Flow Positions", the "Role manager" option in the approval process includes "Department Manager", "Chief".
 
- ![](images/岗位003.png)
- ![](images/岗位004.png)
+ ![](images/positions1.png)
+ ![](images/positions2.png)
  注意：审批流程的设计，请参考“表单设计”的帮助文档。
  #### 岗位设置的详细步骤：
  - 设置界面中，点击“审批王”后，点击“岗位”。
@@ -12,13 +12,13 @@
  
 ### 设置岗位成员
 “岗位人员”类似员工在实际工作中担任的职位。假设“岗位”是“部门经理”，“岗位人员”则对应具体的部门的部门经理，例如人事部的“部门经理”，财务部的“部门经理”，技术部的“部门经理”。
-![](images/岗位成员21.png)
+![](images/positions3.png)
  - 在图中可以看到，每个“部门经理”的岗位，对应的“管辖范围”就是具体部门（如：技术部，财务部，人事部），而“岗位成员”则是任命的部门经理。
  - 注意：任命的部门经理也可以是多人。
  
 #### 岗位成员设置的详细步骤：
  - 设置界面中，点击“审批王”后，点击“岗位成员”，再点击新建后，会弹出“岗位成员”的弹出框。
- ![](images/岗位成员22.png)
+ ![](images/positions4.png)
  - 选择已建立的审批岗位，如“部门经理”，指定岗位成员（可以是多个人员）、管辖范围。
  - 点击“创建“按钮完成。
  - 在岗位列表页中，点击岗位名右侧的“笔形状”按钮、“×”按钮，可以对该岗位进行编辑、修改。
