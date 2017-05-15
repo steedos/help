@@ -31,5 +31,5 @@ For example, when "Department Manager", "Chief" is created in "Flow Positions", 
 
 ### Note
 
-- ** A user can correspond to multiple Flow Positions **, for example, the same person, both the office manager and the company's office director.
-- A Flow Positions can also have multiple users **, (corresponding to the same or different scope of approval for departments). For example, "Department Manager" of the post, the Ministry of Finance can be a member of the staff, the staff of the Ministry of Personnel is 2, so that the approval of the Ministry of Personnel process, sometimes need to choose one of the two department managers.
+- **A user can correspond to multiple Flow Positions**, for example, the same person, both the office manager and the company's office director.
+- **A Flow Positions can also have multiple users**, (corresponding to the same or different scope of approval for departments). For example, "Department Manager" of the post, the Ministry of Finance can be a member of the staff, the staff of the Ministry of Personnel is 2, so that the approval of the Ministry of Personnel process, sometimes need to choose one of the two department managers.
