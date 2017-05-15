@@ -7,26 +7,26 @@ For example, when "Department Manager", "Chief" is created in "Flow Positions", 
  Note: For the design of the approval process, please refer to the "flow_design" help documentation.
  
 #### Detailed steps for Flow Positions:
-  - In the setup interface, click "workflow" and click "Flow Positions".
-  - Click the "Create" button in the upper right corner to pop up the pop-up box for the new job. After filling in the name of the new job in "Position Name", click the "Create" button to complete the approval.
-  - In the post list page, click on the post name on the right side of the "pen shape" button, "×" button, you can modify the job, delete.
+- In the setup interface, click "workflow" and click "Flow Positions".
+- Click the "Create" button in the upper right corner to pop up the pop-up box for the new job. After filling in the name of the new job in "Position Name", click the "Create" button to complete the approval.
+- In the post list page, click on the post name on the right side of the "pen shape" button, "×" button, you can modify the job, delete.
  
 ### Positions Users
 "Positions Users" is similar to the position of an employee in a real job. Assuming "Position" is "department manager", "Positions Users" correspond to the department manager of the specific department, such as the "department manager" of the personnel department, the "department manager of the finance department", the "department manager" of the technical department.
 
 ![](images/positions3.png)
- - in the figure you can see that each "Department Manager" position, the corresponding "jurisdiction" is the specific sector (such as: Technology, Finance, Ministry of Personnel), and "Positions Users" is appointed department manager The
- - Note: The appointed department manager can also be multiplier.
+- in the figure you can see that each "Department Manager" position, the corresponding "jurisdiction" is the specific sector (such as: Technology, Finance, Ministry of Personnel), and "Positions Users" is appointed department manager The
+- Note: The appointed department manager can also be multiplier.
  
 #### Detailed steps for Positions Users:
- - set the interface, click on "workflow", click "Positions Users", then click the new, will pop up "Positions Users" pop-up box.
+- set the interface, click on "workflow", click "Positions Users", then click the new, will pop up "Positions Users" pop-up box.
  ![](images/positions4.png)
- - Select an established approval position, such as "Department Manager", specify the post member (which can be multiple people), jurisdiction.
- - Click the "Create" button to complete.
- - In the post list page, click on the post name on the right side of the "pen shape" button, "×" button, you can edit the job, modify.
+- Select an established approval position, such as "Department Manager", specify the post member (which can be multiple people), jurisdiction.
+- Click the "Create" button to complete.
+- In the post list page, click on the post name on the right side of the "pen shape" button, "×" button, you can edit the job, modify.
  
 #### Based on "Flow Positions" to define the advantages of flow:
- - Reduced the impact of staffing adjustments on process settings:
+- Reduced the impact of staffing adjustments on process settings:
  If the department manager to replace, assuming that 10 flow are defined a step for this person to deal with, then you need to modify the 10 flow. And if the steps of the 10 flow is the approval of the post "department manager" to deal with, then there is no need to modify the flow of these 10 processes, only in the approval of the post set, the department's department manager for others.
 
 ### Note
