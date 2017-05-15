@@ -1,11 +1,11 @@
 ### Flow Positions
 The administrator needs to set "Flow Positions" and "Positions Users" when designing the approval process. Because the option in the "Role Name" is the "Flow Positions" set by the administrator when the "handler" type of a processing step of the approval process is the "Role of initiator"; <br>
 For example, when "Department Manager", "Chief" is created in "Flow Positions", the "Role manager" option in the approval process includes "Department Manager", "Chief".
-
  ![](images/positions1.png)
  
  ![](images/positions2.png)
  Note: For the design of the approval process, please refer to the "flow_design" help documentation.
+ 
 #### Detailed steps for Flow Positions:
   - In the setup interface, click "workflow" and click "Flow Positions".
   - Click the "Create" button in the upper right corner to pop up the pop-up box for the new job. After filling in the name of the new job in "Position Name", click the "Create" button to complete the approval.
