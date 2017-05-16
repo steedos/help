@@ -1,15 +1,15 @@
-#### 流程脚本
-管理员在流程脚本中可以对该工作区中的所有启用的流程进行配置“打印模板”、“表单模板”、“自定义脚本”、“字段关系”的脚本，以及“流程导出”，还可将其他的流程导入到该工作区。<br>
-具体的操作流程如下：
-- 在“设置”界面，点击“审批王”下的“流程脚本”；
+#### Flow Script
+The administrator can configure all the processes in the workspace in the process script to configure "print templates", "form templates", "Events", "Field Map" scripts, and "Export Flow", and other processes Import to this workspace(Note: This workspace must be a paid workspace).<br>
+The specific operation flow is as follows：
+- In the "Admin" interface, click on "Workflow" under the "Flow Script";
 ![](images/script1.png)
-- 点击流程名称右侧对应的笔形状的按钮，就会弹出流程脚本的编辑框，可以在里面配置不同的脚本；
+- Click on the flow name on the right of the corresponding pen shape button, it will pop up the flow script edit box, you can configure a different script inside;
 ![](images/script2.png)
-- 点击流程名称最右侧的按钮，就会自动下载该流程对应的json文件；
+- Click on the flow name of the right side of the button, it will automatically download the corresponding flow of this json file;
 ![](images/script3.png)
-- 点击右上角的“导入流程”按钮，就会跳出“导入流程”的弹出框；
-- 点击“选择文件”按钮，选择要导入的流程对应的json文件后，再点击“确定”按钮，即完成流程的导入；<br>
-#### 注意
-- 在流程设计器中新导入的流程处于未开启的状态；
-- 流程中对应的审批节点的处理人需要重新设置；
+- Click on the upper right corner of the "import flow" button, it will jump out of "Import Flow" pop-up box;
+- Click the "Select File" button, select the flow to import the corresponding json file, and then click "OK" button to complete the flow of import;<br>
+#### Note
+- The newly imported flow in Workflow Designer is in an unopened state;
+- The processing of the corresponding approval node in the flow needs to be reset;
 ![](images/script4.png)
