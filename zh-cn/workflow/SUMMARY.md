@@ -28,7 +28,7 @@
  * [设置工作区](admin_space.md)
  * [设置组织架构：部门](admin_organizations.md)
  * [设置组织架构：人员](admin_space_users.md)
- * [设置角色与审批岗位](admin_roles.md)
+ * [设置岗位与岗位人员](admin_positions.md)
 
 - [如何设计表单](quickguide_flow.md)
  * [表单分类](form_category.md)
