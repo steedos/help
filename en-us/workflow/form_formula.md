@@ -24,12 +24,15 @@ If the field formula is added, the system can automatically calculate the value 
   - Organization（full path）：{applicant.organization.fullname}
   - Organization（name of the lowest organization）：{applicant.organization.name}
   - Role name: {applicant.roles}
-  
+  - Mobile:{applicant.mobile}
+  - Work phone:{applicant.work_phone}
+  - Position: {applicant.position}
+
 - System variables based on name field in forms
   - Organization（full path)：{name}.organization.fullname
   - Organization（name of the lowest organization）：{name}.organization.name
-  - Roles: {name}.roles
-  - Name: {name}.name
-
-
-
+  - Roles:{name}.roles
+  - Name:{name}.name
+  - Mobile:{name}.mobile
+  - Work phone:{name}.work_phone
+  - Position:{name}.position
