@@ -21,7 +21,6 @@
 - [删除事件](quickguide.md#删除事件)
 - [日历同步](quickguide.md#日历同步)
     - [苹果设备](quickguide.md#苹果设备)
-
     - [安卓设备](quickguide.md#安卓设备)
 
 

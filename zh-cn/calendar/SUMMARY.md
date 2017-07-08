@@ -1,4 +1,4 @@
-- [华炎会议管理系统](README.md)
+- [华炎日历](README.md)
 - [登录及主界面](quickguide.md#登录及主界面)
 - [新建日历](quickguide.md#新建日历)
 - [日历设置](quickguide.md#日历设置)
@@ -6,7 +6,6 @@
 - [共享事件及日历](quickguide.md#共享事件及日历)
     - [共享事件](quickguide.md#共享事件)
     - [共享日历](quickguide.md#共享日历)
-- [导入导出日历及事件](quickguide.md#导入导出日历及事件)
 - [删除事件](quickguide.md#删除事件)
 - [日历同步](quickguide.md#日历同步)
     - [苹果设备](quickguide.md#苹果设备)
