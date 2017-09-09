@@ -46,6 +46,7 @@
  * [字段](form_fields.md)
  * [子表](form_table.md)
  * [字段公式](form_formula.md)
+ * [意见栏公式](form_suggest_formula.md)
  * [标题公式](form_name_formula.md)
  * [表单脚本](form_scripts.md)
 
