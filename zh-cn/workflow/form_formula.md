@@ -15,14 +15,14 @@
  - 计数：  count({物品})
  - 最大值：max({费用})
  - 最小值：min({费用})
-- 基于申请人的系统变量：包括姓名、角色、部门等
- - 申请人的姓名：{applicant.name}
- - 申请人所在部门（当申请人属于多个部门时，为所在主部门的全路径）： {applicant.organization.fullname}
- - 申请人所在部门（最底层部门名）： {applicant.organization.name}
- - 申请人的角色名： {applicant.roles}
- - 申请人的手机： {applicant.mobile}
- - 申请人的固定电话： {applicant.work_phone}
- - 申请人的职务： {applicant.position}
+- 基于提交人的系统变量：包括姓名、角色、部门等
+ - 提交人的姓名：{applicant.name}
+ - 提交人所在部门（当申请人属于多个部门时，为所在主部门的全路径）： {applicant.organization.fullname}
+ - 提交人所在部门（最底层部门名）： {applicant.organization.name}
+ - 提交人的角色名： {applicant.roles}
+ - 提交人的手机： {applicant.mobile}
+ - 提交人的固定电话： {applicant.work_phone}
+ - 提交人的职务： {applicant.position}
 - 基于姓名表单字段的系统变量：包括姓名、角色、部门等
  - “报销人”所在部门（当报销人属于多个部门时，为所在主部门的全路径）： {报销人}.organization.fullname
  - “报销人”所在部门（最底层部门名）： {报销人}.organization.name
