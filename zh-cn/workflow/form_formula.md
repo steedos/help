@@ -15,6 +15,7 @@
  - 计数：  count({物品})
  - 最大值：max({费用})
  - 最小值：min({费用})
+ - 金额大写：numToRMB({金额})
 - 基于提交人的系统变量：包括姓名、角色、部门等
  - 提交人的姓名：{applicant.name}
  - 提交人所在部门（当申请人属于多个部门时，为所在主部门的全路径）： {applicant.organization.fullname}
