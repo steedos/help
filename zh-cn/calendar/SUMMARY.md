@@ -6,4 +6,4 @@
 - [会议室管理](README.md#会议室管理)
 - [日历](README.md#日历)
 - [订阅日历](README.md#订阅日历)
-- [手机同步](README.md#手机同步（专业版）)
+- [手机同步](mobile.md#手机同步)
