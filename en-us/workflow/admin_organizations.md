@@ -14,5 +14,8 @@ You can establish a multi-tiered corporate structure in Steeods Workflow. Enter 
   - Delete an organization 
       - Click on “×” button of the organization, and then confirm to delete and finish the steps.
       - An organization cannot be deleted if it has sub-organizations. You need delete all sub-organizations previously.
-
+  - Sort organization
+      - Each organization has a sequence number, and the system defaults to 100 for each organization and compares each of the two organizations in a specific order.
+      - Select a organization, edit, modify the sort number to reorder.
+      - The organization with the higher sequence number is in front. 
 

@@ -21,5 +21,10 @@ In the pop-up interface, you can do more settings.
 - Click the “×” button in the lists of the user.
 - Then confirm to delete it.
 
-####NOTICE
+#### Sort user
+- Each user has a sequence number, and the system defaults no sequence number for each user and compares each of the two user in a specific order.
+- Select a user, edit, modify the sort number to reorder.
+- The user with the higher sequence number is in front. 
+
+#### NOTICE
 The new added account is valid by default. You can tick the selection box to disable it if necessary.
