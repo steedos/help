@@ -12,10 +12,10 @@
 
 ### 接口调用说明
 - 华炎云
- - [用户](SpaceUser.md)
- - [部门](Orgnization.md)
+  - [用户](SpaceUser.md)
+  - [部门](Orgnization.md)
 - 审批王
- - [申请单](instances.md)
+  - [申请单](instances.md)
 
 ### 实例
 - [Nodejs](sample_nodejs.md)
