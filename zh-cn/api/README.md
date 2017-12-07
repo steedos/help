@@ -12,7 +12,6 @@
 
 ### 接口调用说明
 - 华炎云
- - [身份认证](auth.md)
  - [用户](SpaceUser.md)
  - [部门](Orgnization.md)
 - 审批王
