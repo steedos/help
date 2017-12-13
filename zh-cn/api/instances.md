@@ -1,8 +1,6 @@
 # 申请单
 
 权限：仅space的管理员可以调用以下接口，需要在请求的headers中包含：
- - X-User-Id
- - X-Auth-Token
  - X-Space-Id
 
 #### 新建申请单
@@ -11,8 +9,8 @@
 
 Request:
 ```bash
-curl -X POST https://cn.steedos.com/api/workflow/open/drafts -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
-     -H "X-User-Id: fbdpsNf4oHiX79vMJ" -H "X-Space-Id: wsw1re12TdeP223sC"
+curl -X POST https://cn.steedos.com/api/workflow/open/drafts?access_token=xxx
+     -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 ```json
 {
@@ -148,8 +146,7 @@ Response:
 
 Request:
 ```bash
-curl -X GET https://cn.steedos.com/api/workflow/open/pending
-     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+curl -X GET https://cn.steedos.com/api/workflow/open/pending?access_token=xxx
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 
@@ -230,8 +227,7 @@ Response:
 
 Request:
 ```bash
-curl -X GET https://cn.steedos.com/api/workflow/open/get/HjHvRxp5vFL5fn7uK 
-     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+curl -X GET https://cn.steedos.com/api/workflow/open/get/HjHvRxp5vFL5fn7uK?access_token=xxx
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 
@@ -239,7 +235,7 @@ curl -X GET https://cn.steedos.com/api/workflow/open/get/HjHvRxp5vFL5fn7uK
 
 Response:
 
-(1)成功，则返回status为”success”，data为一个Instance Object即申请单对象
+(1)成功，则返回status为"success"，data为一个Instance Object即申请单对象
 
 ```json
 {
@@ -358,8 +354,7 @@ Response:
 
 Request:
 ```bash
-curl -X POST https://cn.steedos.com/api/workflow/open/getbystepname 
-     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+curl -X POST https://cn.steedos.com/api/workflow/open/getbystepname?access_token=xxx 
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 ```json
@@ -456,8 +451,7 @@ Response:
 
 Request:
 ```bash
-curl -X POST https://cn.steedos.com/api/workflow/open/save/HjHvRxp5vFL5fn7uK
-     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+curl -X POST https://cn.steedos.com/api/workflow/open/save/HjHvRxp5vFL5fn7uK?access_token=xxx
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 ```json
@@ -506,8 +500,7 @@ Response:
 
 Request:
 ```bash
-curl -X PUT https://cn.steedos.com/api/workflow/open/submit/HjHvRxp5vFL5fn7uK 
-     -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" -H "X-User-Id: fbdpsNf4oHiX79vMJ" 
+curl -X PUT https://cn.steedos.com/api/workflow/open/submit/HjHvRxp5vFL5fn7uK?access_token=xxx
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 ```json
@@ -516,7 +509,7 @@ curl -X PUT https://cn.steedos.com/api/workflow/open/submit/HjHvRxp5vFL5fn7uK
   "nextstep_users": ["aFpdgAMMr7F5A7P3a"]
 }
 ```
-备注：URL中的"oFpdgAMMr7F5A7P3a"为申请单instance的ID，"nextstep_name"为下一步骤名，"nextstep_users"为数组，包含下一步骤处理人的userID 。
+备注：URL中的"HjHvRxp5vFL5fn7uK"为申请单instance的ID，"nextstep_name"为下一步骤名，"nextstep_users"为数组，包含下一步骤处理人的userID 。
 
 Response:
 
@@ -642,12 +635,12 @@ Response:
 Request:
 ```bash
 curl -X POST https://cn.steedos.com/api/workflow/open/cfs/:ins_id?access_token=xxx
-     -H "X-Space-Id: wsw1re12TdeP223sC" -H "X-User-Id: hPgDcEd9vKQxwndQR"
+     -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 ```json
 form-data:
 {
-	"file": {}
+    "file": {}
 }
 
 ```
@@ -686,7 +679,7 @@ Response:
 Request:
 ```bash
 curl -X GET https://cn.steedos.com/api/workflow/open/cfs/:attach_id?access_token=xxx
-     -H "X-Space-Id: wsw1re12TdeP223sC" -H "X-User-Id: hPgDcEd9vKQxwndQR"
+     -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 
 Response:
@@ -710,7 +703,7 @@ Response:
 Request:
 ```bash
 curl -X DELETE https://cn.steedos.com/api/workflow/open/cfs/:ins_id?access_token=xxx
-     -H "X-Space-Id: wsw1re12TdeP223sC" -H "X-User-Id: hPgDcEd9vKQxwndQR"
+     -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 ```json
 {
