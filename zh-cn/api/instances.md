@@ -65,14 +65,7 @@ Response:
         "created_by": "bLQAjvCRrYDtGJ3YA",
         "modified": "2017-12-11T08:44:18.833Z",
         "modified_by": "bLQAjvCRrYDtGJ3YA",
-        "values": {
-            "拟稿人": "MJ",
-            "日期-时间": "",
-            "日期": "",
-            "文件标题": "日常费用报销",
-            "下拉框": "",
-            "多选": ""
-        },
+        "values": {},
         "traces": [
             {
                 "_id": "d64813d93467557980173ad4",
@@ -625,7 +618,19 @@ Response:
 }
 ```
 
-备注：提交时下一步骤唯一并且处理人唯一，否则会报上述错误
+备注：提交时下一步骤不唯一导致上述错误信息
+
+```json
+{
+    "errors": [
+        {
+            "errorMessage": "can not find next step handler"
+        }
+    ]
+}
+```
+
+备注：提交时下一步处理人不唯一导致上述错误
 
 # 附件
 
