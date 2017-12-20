@@ -505,13 +505,8 @@ Request:
 curl -X PUT https://cn.steedos.com/api/workflow/open/submit/HjHvRxp5vFL5fn7uK?access_token=xxx
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
-```json
-{
-  "nextstep_name": "负责人审核",
-  "nextstep_users": ["aFpdgAMMr7F5A7P3a"]
-}
-```
-备注：URL中的"HjHvRxp5vFL5fn7uK"为申请单instance的ID，"nextstep_name"为下一步骤名，"nextstep_users"为数组，包含下一步骤处理人的userID 。
+
+备注：URL中的"HjHvRxp5vFL5fn7uK"为申请单instance的ID。
 
 Response:
 
@@ -624,11 +619,13 @@ Response:
 {
     "errors": [
         {
-            "errorMessage": "nextstep_name is null [error]"
+            "errorMessage": "next step not uniq"
         }
     ]
 }
 ```
+
+备注：提交时下一步骤唯一并且处理人唯一，否则会报上述错误
 
 # 附件
 
