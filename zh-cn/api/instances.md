@@ -154,7 +154,7 @@ curl -X GET https://cn.steedos.com/api/workflow/open/pending?access_token=xxx
 
 Response:
 
-(1)成功，则返回status为"success"，data为数组，含多个待办，即
+（1）成功，则返回status为"success"，data为数组，含多个待办，即
 
 ```json
 {
@@ -237,7 +237,7 @@ curl -X GET https://cn.steedos.com/api/workflow/open/get/HjHvRxp5vFL5fn7uK?acces
 
 Response:
 
-(1)成功，则返回status为"success"，data为一个Instance Object即申请单对象
+（1）成功，则返回status为"success"，data为一个Instance Object即申请单对象
 
 ```json
 {
@@ -368,7 +368,7 @@ curl -X POST https://cn.steedos.com/api/workflow/open/getbystepname?access_token
 
 Response:
 
-(1)成功，则返回status为"success"，data为数组
+（1）成功，则返回status为"success"，data为数组
 
 ```json
 {
@@ -475,7 +475,7 @@ curl -X POST https://cn.steedos.com/api/workflow/open/save/HjHvRxp5vFL5fn7uK?acc
 
 Response:
 
-(1)成功，则返回status为"success"
+（1）成功，则返回status为"success"
 
 ```json
 {
@@ -515,7 +515,7 @@ curl -X PUT https://cn.steedos.com/api/workflow/open/submit/HjHvRxp5vFL5fn7uK?ac
 
 Response:
 
-(1)成功，则返回status为”success”，data为一个Instance Object即申请单对象
+（1）成功，则返回status为"success"，data为一个Instance Object即申请单对象
 
 ```json
 {
@@ -632,6 +632,9 @@ Response:
 
 # 附件
 
+权限：仅space的管理员可以调用以下接口，需要在请求的headers中包含：
+ - X-Space-Id
+
 #### 上传附件
 
 Request:
@@ -646,7 +649,7 @@ form-data:
 }
 
 ```
-备注：添加文件
+备注：添加文件；URL中"ins_id"为申请单id
 
 Response:
 
@@ -684,6 +687,8 @@ curl -X GET https://cn.steedos.com/api/workflow/open/cfs/:attach_id?access_token
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 
+备注：URL中的"attach_id"为附件id
+
 Response:
 
 （1）成功：跳转到保存附件界面
@@ -714,9 +719,15 @@ curl -X DELETE https://cn.steedos.com/api/workflow/open/cfs/:ins_id?access_token
 
 ```
 
+备注：
+
+(1) URL中的"ins_id"为申请单id
+
+(2) body中的"attach_id"为需要删除的附件id
+
 Response:
 
-（1）成功：返回status为”success”
+（1）成功：返回status为"success"
 
 ```json
 {
