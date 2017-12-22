@@ -446,7 +446,7 @@ Response:
 
 Request:
 ```bash
-curl -X POST https://cn.steedos.com/api/workflow/open/save/HjHvRxp5vFL5fn7uK?access_token=xxx
+curl -X PUT https://cn.steedos.com/api/workflow/open/save/HjHvRxp5vFL5fn7uK?access_token=xxx
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 ```json
