@@ -316,7 +316,30 @@ Response:
         "current_step_name": "主任签发",
         "submit_date": "2017-12-08T09:03:50.189Z",
         "outbox_users": [],
-        "keywords": ""
+        "keywords": "",
+        "attachments": [
+            {
+                "createdByTransform": true,
+                "_id": "DSYdugmX3Hm9Ju4LE",
+                "original": {
+                    "type": "application/msword",
+                    "size": 57344,
+                    "name": "公司发文.doc"
+                },
+                "metadata": {
+                    "owner": "Af8eM6mAHo7wMDqD3",
+                    "owner_name": "MJ",
+                    "space": "519f004e8e296a1c5f00001d",
+                    "instance": "HjHvRxp5vFL5fn7uK",
+                    "approve": "8ecbd6be43193e650e8d913f",
+                    "current": true,
+                    "is_private": false,
+                    "parent": "DSYdugmX3Hm9Ju4LE"
+                },
+                "uploadedAt": "2017-12-26T07:06:19.592Z",
+                "collectionName": "instances"
+            }
+        ]
     }
 }
 ```
@@ -331,6 +354,7 @@ Response:
 "traces"内为签核历程信息，
 "inbox_users"为数组，包含下一步骤处理人的userID，
 "current_step_name"为当前步骤名，
+"attachments"为附件相关信息，
 "outbox_users"为数组，包含已处理的用户ID。
 
 （2）失败：返回status为"fail"，message为出错详细信息.
@@ -593,7 +617,30 @@ Response:
         "current_step_name": "负责人审核",
         "submit_date": "2017-12-12T09:30:06.690Z",
         "outbox_users": [],
-        "keywords": ""
+        "keywords": "",
+        "attachments": [
+            {
+                "createdByTransform": true,
+                "_id": "DSYdugmX3Hm9Ju4LE",
+                "original": {
+                    "type": "application/msword",
+                    "size": 57344,
+                    "name": "公司发文.doc"
+                },
+                "metadata": {
+                    "owner": "Af8eM6mAHo7wMDqD3",
+                    "owner_name": "MJ",
+                    "space": "519f004e8e296a1c5f00001d",
+                    "instance": "HjHvRxp5vFL5fn7uK",
+                    "approve": "8ecbd6be43193e650e8d913f",
+                    "current": true,
+                    "is_private": false,
+                    "parent": "DSYdugmX3Hm9Ju4LE"
+                },
+                "uploadedAt": "2017-12-26T07:06:19.592Z",
+                "collectionName": "instances"
+            }
+        ]
     }
 }
 ```
@@ -605,6 +652,7 @@ Response:
 "applicant_organization_name"为申请者所在部门，
 "submit_date"为提交时间，
 "values"内为传入的表单详情，包括字段及其值，
+"attachments"为附件相关信息，
 "traces"内为签核历程信息。
 
 （2）失败：返回status为"fail"，message为出错详细信息.
