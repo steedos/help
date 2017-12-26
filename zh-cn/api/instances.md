@@ -18,6 +18,7 @@ curl -X POST https://cn.steedos.com/api/workflow/open/drafts?access_token=xxx
 {
   "flow": "1ff12bc17e235503aff2c4c9",
   "applicant": "hPgDcEd9vKQxwndQR",
+  "applicant_username": "MJ",
   "values": {
       "拟稿人": "MJ",
       "日期-时间": "",
@@ -33,7 +34,9 @@ curl -X POST https://cn.steedos.com/api/workflow/open/drafts?access_token=xxx
 
 （1）"flow"为流程ID，"applicant"为提交者ID
 
-（2）"values"下传入的字段名、字段值一定要与实际表单匹配！如果有误，因为接口所在的服务器端程序无法校验数据完整与格式类型，可能会导致表单显示异常
+（2）"applicant_username"为提交者用户名
+
+（3）"values"下传入的字段名、字段值一定要与实际表单匹配！如果有误，因为接口所在的服务器端程序无法校验数据完整与格式类型，可能会导致表单显示异常
 
 Response:
 
