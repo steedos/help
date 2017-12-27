@@ -348,18 +348,11 @@ Response:
 }
 ```
 备注：
-"applicant"为申请者userID，
-"applicant_name"为申请者姓名，
-"applicant_organization":为申请者所在部门ID，
-"applicant_organization_name"为申请者所在部门名称，
-"submit_date"为提交时间，
-"state"为申请单状态，
-"values"内为传入的表单详情，包括字段及其值，
-"traces"内为签核历程信息，
-"inbox_users"为数组，包含下一步骤处理人的userID，
-"current_step_name"为当前步骤名，
-"attachments"为附件相关信息，
-"outbox_users"为数组，包含已处理的用户ID。
+
+1. "applicant"为申请者userId，"applicant_name"为申请者姓名，"applicant_organization":为申请者所在部门id，"applicant_organization_name"为申请者所在部门名称，"submit_date"为提交时间，"state"为申请单状态，"values"内为传入的表单详情，包括字段及其值，"traces"内为签核历程信息，"inbox_users"为数组，包含下一步骤处理人的userId，"current_step_name"为当前步骤名，"outbox_users"为数组，包含已处理的用户id
+
+2. "attachments"为附件相关信息，其中"_id" 为附件id，"original.type"为附件类型，"original.size"为附件大小，"original.name"为附件名称，"metadata.owner"为附件上传者userId，"metadata.owner_name"为附件上传者姓名，"metadata.instance"为附件所属申请单id
+
 
 （2）失败：返回status为"fail"，message为出错详细信息.
 ```json
