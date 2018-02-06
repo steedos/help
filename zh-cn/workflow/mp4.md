@@ -3,7 +3,16 @@
 
 - 快速向导
  - [如何使用审批王，实施新一代费用报销流程](http://oss.steedos.com/videos/case/expense.mp4)
-
+- 审批王特色功能
+ - [图形化的表单与流程设计工具](http://oss.steedos.com/videos/cn/图形化表单与流程设计.mp4)
+ - [流程版本控制](http://oss.steedos.com/videos/cn/流程版本控制.mp4)
+ - [纸质表单样式](http://oss.steedos.com/videos/cn/纸质表单样式.mp4)
+ - [在线编辑Office文档](http://oss.steedos.com/videos/cn/在线编辑.mp4)
+ - [开放API接口](http://oss.steedos.com/videos/cn/开放API接口.mp4)
+ - [表单分发](http://oss.steedos.com/videos/cn/文件分发.mp4)
+ - [表单转发](http://oss.steedos.com/videos/cn/文件转发.mp4)
+ - [表单脚本](http://oss.steedos.com/videos/cn/表单脚本.gif)
+ - [标题公式](http://oss.steedos.com/videos/cn/标题公式.mp4)
 - 初始化设置
  - [如何注册](http://oss.steedos.com/videos/admin/1%E3%80%81%E5%A6%82%E4%BD%95%E6%B3%A8%E5%86%8C%E5%AE%A1%E6%89%B9%E7%8E%8B.mp4)
  - [如何设置我的工作区](http://oss.steedos.com/videos/admin/2%E3%80%81%E5%A6%82%E4%BD%95%E8%AE%BE%E7%BD%AE%E5%B7%A5%E4%BD%9C%E5%8C%BA.mp4)

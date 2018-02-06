@@ -10,6 +10,7 @@
   - “新员工入职审批”流程审批完成后，返回HR系统，并进行后续处理
 
 备注：审批王标准版用户暂时未开通Steedos API访问权限。
+{% video %}http://oss.steedos.com/videos/cn/开放API接口.mp4{% endvideo %}
 
 ### 接口调用说明
 - 华炎云
