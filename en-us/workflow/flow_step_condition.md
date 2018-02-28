@@ -63,7 +63,7 @@ Please follow the next step to add a node.
 - Conditions of character type
   - Field A is Beijing: {Field A}= “Beijing”
   - Field B is not Beijing: {Field B}!= “Beijing”
-  - Applicant is general manager: {applicant.roles}.contains('general manager')
+  - Applicant is general manager: _.contains({applicant.roles},'general manager')
 
 #### notice：
 A user can act as several roles, so we use “contain” this condition.
