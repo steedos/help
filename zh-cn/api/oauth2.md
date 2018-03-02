@@ -33,11 +33,11 @@
 
 &#160; &#160; &#160; &#160;对于应而言，需要进行三步： 
 
-Step 1. 获取Authorization Code； 
+&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;Step 1. 获取Authorization Code； 
 
-Step 2. 通过Authorization Code获取Access Token；
+&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;Step 2. 通过Authorization Code获取Access Token；
 
-Step 3. 根据Access Token登录或调用相关接口。
+&#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;Step 3. 根据Access Token登录或调用相关接口。
 
 
 ### 3.2 过程详解
