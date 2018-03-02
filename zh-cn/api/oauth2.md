@@ -73,7 +73,7 @@ http://test.mysite.com/callback.html?code=9A5F************************06AF&state
 
  - 错误码说明：  
 
-&#160; &#160; &#160; &#160;接口调用有错误时，会返回code和msg字段，以url参数对的形式返回。
+&#160; &#160; &#160; &#160;接口调用有错误时，会返回code和msg字段，以url参数对的形式返回。  
 
 
 ***Step 2：通过Authorization Code获取Access Token***
@@ -106,7 +106,8 @@ http://test.mysite.com/callback.html?code=9A5F************************06AF&state
  - 返回说明：
 
 &#160; &#160; &#160; &#160;如果成功返回，即可在返回包中获取到Access Token。 
-返回如下字符串：access_token=FE04************************CCE2&expires_in=7776000。 
+返回如下字符串：access_token=FE04************************CCE2&expires_in=7776000。  
+
 &#160; &#160; &#160; &#160;说明：
 expires_in是该Access Token的有效期，单位为秒。
 
@@ -122,7 +123,7 @@ expires_in是该Access Token的有效期，单位为秒。
 ---
 
 ## 样例
-这是一个Meteor应用,示范了从OAuth认证的过程。
+&#160; &#160; &#160; &#160;这是一个Meteor应用,示范了从OAuth认证的过程。
 https://github.com/prime-8-consulting/meteor-oauth2/tree/master/examples
 
 认真检查这个应用的所有样例，你可以了解到更多认证的过程。
