@@ -65,8 +65,7 @@ redirect_uri=http://test.mysite.com/callback.html&scope=email&state=test
 
  - 返回说明：  
 
-&#160; &#160; &#160; &#160;如果用户成功登录并授权，则会跳转到指定的回调地址，并在redirect_uri地址后带上Authorization Code和原始的state值。
-&#160; &#160; &#160; &#160;redirect_uri 收到的请求示例如下：  
+&#160; &#160; &#160; &#160;如果用户成功登录并授权，则会跳转到指定的回调地址，并在redirect_uri地址后带上Authorization Code和原始的state值。redirect_uri 收到的请求示例如下：  
 ```
 http://test.mysite.com/callback.html?code=9A5F************************06AF&state=test
 ```
