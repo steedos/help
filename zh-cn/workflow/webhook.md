@@ -20,21 +20,21 @@
 &#160; &#160; &#160; &#160;当用户操作申请单时（包括发送、传阅、取回等），系统将查找当前申请单配置的webhook，如查到且是激活状态，则触发webhook。即向配置的URL发送POST请求。其中，请求的body数据主要有以下部分。  
 
  - action：触发此hook时的操作，其值域如下：  
-        draft_submit：草稿箱提交  
-        engine_submi：待审核提交
-        reassign：转签核    
-        relocate：重定位    
-        retrieve：取回    
-        terminate：取消申请    
-        cc_do：传阅给他人      
-        cc_submit：被传阅提交  
+   - draft_submit：草稿箱提交  
+   - engine_submi：待审核提交
+   - reassign：转签核    
+   - relocate：重定位    
+   - retrieve：取回    
+   - terminate：取消申请    
+   - cc_do：传阅给他人      
+   - cc_submit：被传阅提交  
  - current_approve：当前步骤，即用户执行提交操作时的approve数据
  - instance：提交申请单操作完成后最新的完整的实例数据
 
 &#160; &#160; &#160; &#160;请求的body数据示例如下。
 ```
 {
-	action: "draft_submit",
+    action: "draft_submit",
     current_approve: {
         "_id": "8ecbd6be43193e650e8d913f",
         "instance": "HjHvRxp5vFL5fn7uK",
