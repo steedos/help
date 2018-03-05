@@ -8,7 +8,8 @@
 
 ### 2.1 Creator管理应用程序配置
 
-&#160; &#160; &#160; &#160;开发人员在使用OAuth2协议前，需要工作区管理员配置应用程序的相关参数。管理员账号登录系统后，进入“Oauth2配置”项目，配置应用程序。配置成功后，开发人员可根据验证流程，进行进一步的开发。
+&#160; &#160; &#160; &#160;开发人员在使用OAuth2协议前，需要向华炎云系统管理员申请配置参数。  
+&#160; &#160; &#160; &#160;华炎云系统管理员根据申请要求配置应用程序的相关参数。配置成功后，开发人员可获取相关参数信息，并根据验证流程，完成进一步的开发。
 
  - 配置参数
    - 名称：第三方应用的简称或全称，用于显示在授权页面
@@ -31,7 +32,7 @@
 
 ![OAuthWebSequenceWithConfig](https://github.com/steedos/creator/blob/master/packages/steedos-oauth2-server/documentation/OAuthWebSequenceWithConfig.png)
 
-&#160; &#160; &#160; &#160;对于应而言，需要进行三步： 
+&#160; &#160; &#160; &#160;对于第三方应用程序而言，需要进行三步： 
 
 &#160; &#160; &#160; &#160;&#160; &#160; &#160; &#160;Step 1. 获取Authorization Code； 
 
@@ -117,8 +118,25 @@ expires_in是该Access Token的有效期，单位为秒。
 
 ***Step 3. 根据Access Token登录或调用相关接口***
 
-应用程序在获取到Access Token后，即可根据Access Token登录审批王或者调用审批王相关接口。
+应用程序在获取到Access Token后，即可根据Access Token登录审批王或者调用审批王相关接口。例如，当前使用Access Token获取用户信息，请求信息如下。
 
+ - 请求地址：https://cn.steedos.com/oauth2/getIdentity/
+
+ - 请求方法：POST
+
+ - 请求参数：
+   - access_token: Step 2 获取到的Access Token。
+
+&#160; &#160; &#160; &#160;请求示例如下。
+
+   ```
+   curl
+      -X POST https://cn.steedos.com/oauth2/getIdentity/
+      -H 'Content-type': 'application/x-www-form-urlencoded'
+        {
+          access_token: 'FE04************************CCE2'
+        }
+   ```
 
 ---
 
