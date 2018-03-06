@@ -11,6 +11,8 @@
 备注：审批王标准版用户暂时未开通Steedos API访问权限。
 
 ### 接口调用说明
+- OAuth2验证
+  - [OAuth2](oauth2.md)
 - 组织结构
   - [用户](SpaceUser.md)
   - [部门](Orgnization.md)
