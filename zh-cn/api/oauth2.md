@@ -4,7 +4,7 @@
 
 
 
-## 2. 工作区管理员配置应用程序
+## 2. 华炎云系统管理员配置应用程序
 
 ### 2.1 Creator管理应用程序配置
 
@@ -47,7 +47,7 @@
 
 为从用户获得授权以代表用户访问 Steedos 数据，应用程序需重定向至授权端点。
 
- - 请求地址：https://cn.steedos.com/oauth2/
+ - 请求地址：https://beta.steedos.com/oauth2/
 
  - 请求方法：GET
 
@@ -60,7 +60,7 @@
 
 &#160; &#160; &#160; &#160;获取Authorization Code请求示例如下。  
    ```
-   https://cn.steedos.com/oauth2/?response_type=code&client_id=hP9Z*****847n&
+   https://beta.steedos.com/oauth2/?response_type=code&client_id=hP9Z*****847n&
 redirect_uri=http://test.mysite.com/callback.html&scope=email&state=test
    ```
 
@@ -81,7 +81,7 @@ http://test.mysite.com/callback.html?code=9A5F************************06AF&state
 
 应用程序的回调URI在获得授权码之后，需要再次请求获取Access Token。
 
- - 请求地址：https://cn.steedos.com/oauth2/token/
+ - 请求地址：https://beta.steedos.com/oauth2/token/
 
  - 请求方法：POST
 
@@ -94,7 +94,7 @@ http://test.mysite.com/callback.html?code=9A5F************************06AF&state
 &#160; &#160; &#160; &#160;获取Access Token请求示例如下。  
    ```
    curl
-      -X POST https://cn.steedos.com/oauth2/token/
+      -X POST https://beta.steedos.com/oauth2/token/
       -H 'Content-type': 'application/x-www-form-urlencoded'
         {
           grant_type: 'authorization_code',
@@ -120,7 +120,7 @@ expires_in是该Access Token的有效期，单位为秒。
 
 应用程序在获取到Access Token后，即可根据Access Token登录审批王或者调用审批王相关接口。例如，当前使用Access Token获取用户信息，请求信息如下。
 
- - 请求地址：https://cn.steedos.com/oauth2/getIdentity/
+ - 请求地址：https://beta.steedos.com/oauth2/getIdentity/
 
  - 请求方法：POST
 
@@ -131,7 +131,7 @@ expires_in是该Access Token的有效期，单位为秒。
 
    ```
    curl
-      -X POST https://cn.steedos.com/oauth2/getIdentity/
+      -X POST https://beta.steedos.com/oauth2/getIdentity/
       -H 'Content-type': 'application/x-www-form-urlencoded'
         {
           access_token: 'FE04************************CCE2'

@@ -21,7 +21,7 @@
 
  - action：触发此hook时的操作，其值域如下：  
    - draft_submit：草稿箱提交  
-   - engine_submi：待审核提交
+   - engine_submit：待审核提交
    - reassign：转签核    
    - relocate：重定位    
    - retrieve：取回    
@@ -29,7 +29,7 @@
    - cc_do：传阅给他人      
    - cc_submit：被传阅提交  
  - current_approve：当前步骤，即用户执行提交操作时的approve数据
- - instance：提交申请单操作完成后最新的完整的实例数据
+ - instance：提交申请单操作完成后最新的完整实例数据
 
 &#160; &#160; &#160; &#160;请求的body数据示例如下。
 ```
