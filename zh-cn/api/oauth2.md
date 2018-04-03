@@ -118,7 +118,7 @@ expires_in是该Access Token的有效期，单位为秒。
 
 ***Step 3. 根据Access Token登录或调用相关接口***
 
-应用程序在获取到Access Token后，即可根据Access Token登录审批王或者调用审批王相关接口。例如，当前使用Access Token获取用户信息，请求信息如下。
+(本步骤仅作参考，根据实际开发情况，自行更换请求地址)应用程序在获取到Access Token后，即可根据Access Token登录审批王或者调用审批王相关接口。例如，当前使用Access Token获取用户信息，请求信息如下。
 
  - 请求地址：https://beta.steedos.com/oauth2/getIdentity/
 
