@@ -144,9 +144,11 @@ Response:
 
 Request:
 ```bash
-curl -X GET https://cn.steedos.com/api/workflow/open/pending?access_token=xxx
+curl -X GET https://cn.steedos.com/api/workflow/open/pending?access_token=xxx&attach=true
      -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
+
+备注：URL中的attach值为'true'时表示返回申请单的附件记录，URL没有attach参数或者值不为'true'表示不返回附件记录
 
 Response:
 
