@@ -126,7 +126,7 @@ expires_in是该Access Token的有效期，单位为秒。
 
  - 请求参数：
    - access_token: Step 2 获取到的Access Token。
-   - redirect_url：验证成功后，跳转到相应的审批王页面（例如跳转到首页，参数：）
+   - redirect_url：验证成功后，跳转到指定的审批王页面
 
 &#160; &#160; &#160; &#160;请求示例如下，验证成功后，redirect_url跳转到首页。
 
