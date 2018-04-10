@@ -116,11 +116,11 @@ expires_in是该Access Token的有效期，单位为秒。
 
 &#160; &#160; &#160; &#160;接口调用有错误时，会返回code和msg字段，以url参数对的形式返回。
 
-***Step 3. 根据Access Token登录或调用相关接口【正在开发】***
+***Step 3. 根据Access Token登录或调用相关接口***
 
-应用程序在获取到Access Token后，即可根据Access Token登录审批王或者调用审批王相关接口。以登录接口为例。
+应用程序在获取到Access Token后，即可根据Access Token登录审批王或者调用审批王相关接口。下面以登录接口为例，介绍一下如何使用Access Token调用接口。
 
- - 请求地址：https://beta.steedos.com/oauth2/sso/
+ - 请求地址：https://beta.steedos.com/oauth2/sso
 
  - 请求方法：GET
 
@@ -131,7 +131,7 @@ expires_in是该Access Token的有效期，单位为秒。
 &#160; &#160; &#160; &#160;请求示例如下，验证成功后，redirect_url跳转到首页。
 
   ```
-  https://beta.steedos.com/oauth2/sso/?access_token=FE04************************CCE2&redirect_url=https://beta.steedos.com/
+  https://beta.steedos.com/oauth2/sso?access_token=FE04************************CCE2&redirect_url=https://beta.steedos.com/
   ```
 
 ---
