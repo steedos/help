@@ -13,7 +13,8 @@
 - 已删除(is_deleted)
 - 所属工作区(space)
 
-用户也可以新增字段，Creator目前支持以下字段类型：
+### 字段类型
+Creator支持以下基本字段类型。如果字段配置了数组(multiple)属性，表示当前字段为数组类型，以数组的形式保存在数据库中，用户界面上可以多选。
 - 文本(text)
 - 多行文本(textarea)
 - 日期(date) 
@@ -23,7 +24,6 @@
 - 数值(number) 
 - 引用(lookup): 可以引用其他相关对象中的记录，联合reference_to字段，从关联表中选择记录。
 - 主表/子表(master_detail)：主表子表字段类型是引用字段类型的一种扩展，将当前记录链接到主表成为子记录。
-* 字段可配置数组(multiple)属性，表示当前字段为数组类型，以数组的形式保存在数据库中，用户界面上可以多选。
 
 ### 字段属性
 每个字段都可以配置以下属性，定义字段的功能和界面操作。
@@ -52,6 +52,21 @@
 - 引用对象(reference_to)
 - 过滤器(filters): 在reference_to对象中筛选可选项时，限定查询范围
 - 默认图标(defaultIcon): 下拉选项中显示的默认图标，如果配置了reference_to，则显示引用对象的图标
+- 示例：
+	- 在archive_records对象里，字段archive_destroy_id类型为master_detail
+		- archive_destroy_id:
+				type:"master_detail"
+				label:"销毁单"
+				filters:[["destroy_state", "=", "未销毁"]]
+				depend_on:["destroy_state"]
+				reference_to:"archive_destroy"
+				group:"销毁"
+		- 备注：上述实例中，使用了filters字段级过滤，其中depend_on必须有，最终得到“archive_destroy”表中，destroy_state值为“未销毁”的记录。
+
 
 ### 主表/子表字段类型
 主表子表字段类型是引用字段类型的一种扩展，将当前记录链接到主表成为子记录。系统会自动检测此类型的字段，在显示主表记录时，生成子表列表视图。
+
+### 数值类型
+- 小数位数(scale): 默认值0
+- 数值最大长度(precision): 默认值18
