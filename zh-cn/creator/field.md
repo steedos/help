@@ -1,0 +1,45 @@
+字段
+===
+
+字段用来定义[对象](object.md)中的各种属性。
+
+每个Creator对象都自动包含以下默认字段：
+- 记录名称(name)
+- 记录所有人(owner)
+- 创建日期(created)
+- 创建人(created_by)
+- 修改日期(modified)
+- 修改人(modified_by)
+- 已删除(is_deleted)
+- 所属工作区(space)
+
+用户也可以新增字段，Creator目前支持以下字段类型：
+- 文本(text)
+- 多行文本(textarea)
+- 日期(date) 
+- 日期时间(datetime)
+- 下拉(select): 界面生成下拉框，需配合options属性使用
+- 布尔(boolean): 界面生成勾选框
+- 数值(number) 
+- 引用(lookup): 可以引用其他相关对象中的记录，联合reference_to字段，从关联表中选择记录。
+- 主表/子表(master_detail): 联合reference_to属性，表示当前记录是主表的子记录。系统会自动检测此类型的字段，在显示主表记录时，生成子表列表视图。
+
+Creator字段支持配置如下属性：
+- 字段名(name): 字段在数据库中保存的名称。
+- 显示名(label): 字段在最终用户界面上的显示名称。如果系统检测到翻译 "objectname_fieldname"，以翻译为准。
+- 数组(multiple): 表示当前字段为数组类型，可以多选
+- 默认值(defaultValue): 可配置默认值公式 {{userId}}, {{spaceId}} 等，#todo
+- 必填(required): 
+- 帮助文本(inlineHelpText): 表单填写时显示的帮助文本
+- 可搜索(seachable): 当用户在此对象中执行搜索时，会同时搜索此字段的内容
+- 可排序(sortable): 用户在浏览记录时，可以按照此字段执行排序操作。可排序字段系统会自动创建索引。默认为不可排序
+- 索引(index): 指定是否在数据库中为此字段创建索引，默认为不创建索引。
+- 分组(group)：在显示记录时可按分组显示字段
+- 只读(readonly): 应该只显示在查看页面或列表页面上，新增和修改页面都不显示 #todo
+- 编辑时忽略(omit): 只是新建和编辑表单中不显示，列表、表单详细界面等都可能显示。
+- 宽字段(is_wide): 显示时占两列，默认只占一列
+- 标题字段(is_name): 表示此字段为标题字段，适用于标题字段并不是"name"时，在列表页生成链接
+- 隐藏(hidden): 包括列表、表单、编辑界面在内的所有界面都不显示
+- 禁用(disabled) 
+- 复杂字段(blackbox): Creator在做数据验证时，忽略此字段的内容。
+- 值范围(allowedValues): 此字段的值必须在此范围之内。
