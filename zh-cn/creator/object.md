@@ -24,6 +24,6 @@ Creator默认提供了很多功能，可以用于客户、合同、服务等。�
 
 ### 代码级对象属性
 - 数据连接(db): 对应的Meteor Collection，如果未定义此属性，Creator 会自动生成。
-- enable_audit: 启用审计跟踪功能
-- enable_api: 启用API接口
-- enable_schema: 是否自动Attach Schema到Collection上。默认开启。
+- 跟踪字段历史(enable_audit): 跟踪字段的修改历史，此功能会消耗更多服务器资源，只有必要的对象才应该配置此属性。
+- 启用API接口(enable_api): 是否允许通过API接口访问对象，默认开启。 
+- 启用数据校验(enable_schema): 在数据保存时，是否按照定义的字段属性进行数据校验。默认开启。
