@@ -44,19 +44,19 @@ Creator是华炎新一代的零代码开发平台，只需简单配置，即可�
 - [手机客户端](app_mobile.md): 使用手机查询、修改业务数据。
 - [平板客户端](app_ipad.md): 使用平板电脑查询、修改业务数据。
 - [Excel客户端](app_excel.md): 与Excel建立数据连接，利用Excel进行数据统计分析。
-- [企业微信客户端](app_qiyeweixin.md): 在企业微信中直接访问您的应用，组织机构自动与企业微信后端同步。
-- [阿里钉钉客户端](app_dingding.md): 在阿里钉钉中直接访问您的应用，组织机构自动与阿里钉钉后端同步。
-- [Tabular客户端](app_tabular.md): 与Tabular建立数据连接，利用Tabular进行数据统计分析。
+- 企业微信客户端: 在企业微信中直接访问您的应用，组织机构自动与企业微信后端同步。
+- 阿里钉钉客户端: 在阿里钉钉中直接访问您的应用，组织机构自动与阿里钉钉后端同步。
+- Tabular客户端: 与Tabular建立数据连接，利用Tabular进行数据统计分析。
 - 自定义客户端：借助Creator完善的API接口，您也可以自己开发客户端，远程查询、修改Creator中的业务数据。
 - 微信小程序: 即将上线。
 
 ### 数据权限控制
-- [身份验证](auth.md)：只有授权用户才能访问Creator中的业务数据
-- [组织结构](organization.md): 设定分子公司、部门信息
-- [人员管理](space_user.md): 设定人员信息
+- 身份验证：只有授权用户才能访问Creator中的业务数据
 - [权限组](permission_set.md): 将人员进行分组，便于分别设定权限
 - [对象权限](object_permission.md): 设定不同权限组对业务对象的访问权限
-- [记录级权限](record_permission.md)
+- [记录级权限](permission_record.md)
+- [组织结构](organization.md): 设定分子公司、部门信息
+- [人员管理](space_user.md): 设定人员信息
 
 ### 与审批中心集成
 [审批王](https://www.steedos.com/cn/workflow/)是全新的企业级在线审批系统，可以快速的将公司的各类审批业务转换为可严格执行的电子流程。
@@ -67,7 +67,7 @@ Creator是华炎新一代的零代码开发平台，只需简单配置，即可�
 ### ODATA API接口
 系统自动生成基于国际标准[ODATA](http://www.odata.org/)协议的API接口，方便与第三方系统集成。
 - [身份验证](odata_auth.md): 访问ODATA接口必须提供用户身份信息，用户只能在权限范围内进行数据查询和修改
-- [获取数据字典](odata_metadata.md): 获取业务对象的字段信息
+- [获取数据字典](odata_metadata.md)
 - [业务数据查询](odata_query.md): 通过接口查询业务数据，可执行多字段组合查询
 - [业务数据新增](odata_add.md)
 - [业务数据编辑](odata_edit.md)
