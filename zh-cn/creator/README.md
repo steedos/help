@@ -78,4 +78,5 @@ Creator是华炎创新研发的新一代开发平台，帮助客户零代码快�
 - [触发器](object_trigger.md): 定义当数据增、删、改时自动触发执行对应的脚本
 - [按钮](object_action.md): 定义用户界面上显示的操作按钮以及触发的脚本
 - [过滤条件](object_filter.md): 定义数据过滤条件
+- [字段公式](object_field_formular.md): 定义数据过滤条件
 

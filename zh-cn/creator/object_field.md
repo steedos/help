@@ -29,8 +29,8 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 每个字段都可以配置以下属性，定义字段的功能和界面操作。
 - 字段名(name): 字段在数据库中保存的名称。
 - 显示名(label): 字段在最终用户界面上的显示名称。如果系统检测到翻译 "objectname_fieldname"，以翻译为准。
-- 默认值(defaultValue): 可配置默认值公式 {{userId}}, {{spaceId}} 等，#todo
-- 必填(required):
+- 默认值(defaultValue): 可配置默认值[公式](object_field_formula.md)，例如 {userId}, {spaceId} 等
+- 必填(required)
 - 帮助文本(inlineHelpText): 表单填写时显示的帮助文本
 - 宽字段(is_wide): 显示时占两列，默认只占一列
 - 分组(group)：在显示记录时可按分组显示字段
