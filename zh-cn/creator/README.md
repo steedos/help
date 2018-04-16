@@ -54,7 +54,7 @@ Creator是华炎新一代的零代码开发平台，只需简单配置，即可�
 - 身份验证：只有授权用户才能访问Creator中的业务数据
 - [权限组](permission_set.md): 将人员进行分组，便于分别设定权限
 - [对象权限](object_permission.md): 设定不同权限组对业务对象的访问权限
-- [记录级权限](permission_record.md)
+- [记录级权限](permission_share.md)：通过配置共享规则，可以实现记录级权限。
 - [组织结构](organization.md): 设定分子公司、部门信息
 - [人员管理](space_user.md): 设定人员信息
 
