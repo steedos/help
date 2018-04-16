@@ -30,4 +30,3 @@
  - 计数：  count({object_name.field_name})
  - 最大值：max({object_name.field_name})
  - 最小值：min({object_name.field_name})
- - 金额大写：numToRMB({子表表名.子表字段名})
