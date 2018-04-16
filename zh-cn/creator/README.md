@@ -25,32 +25,32 @@ Creator是华炎创新研发的新一代开发平台，帮助客户零代码快�
 
 ### 自动生成全功能电脑客户端
 您的对象配置完成之后，Creator就自动为您生成一整套的数据浏览、管理、统计分析功能。
-- [列表](record_list.md): 快速浏览、查询业务数据
-- [查看](record_view.md): 查看业务数据的详细信息，以及相关的子表数据
-- [编辑](record_edit.md): 编辑业务数据，管理员可设定用户可修改的字段
-- [搜索](record_search.md): 可执行多关键词组合检索，可一次性在所有业务对象中搜索数据
-- [统计](reports.md): 用户可创建列表、分组报表、二维表进行统计分析，并可自动生成图形化报表
-- [附件](record_attachment.md): 可以管理具体的业务对象的附件，附件支持版本控制
-- [讨论](record_chatter.md)，可以针对具体的业务数据进行讨论和回复
-- [任务](record_tasks.md): 可以针对具体的业务数据创建待办任务
+- [列表](record_list.md): 快速浏览、查询业务数据。
+- [查看](record_view.md): 查看业务数据的详细信息，以及相关的子表数据。
+- [编辑](record_edit.md): 编辑业务数据，管理员可设定用户可修改的字段。
+- [搜索](record_search.md): 可执行多关键词组合检索，可一次性在所有业务对象中搜索数据。
+- [统计](reports.md): 用户可创建列表、分组报表、二维表进行统计分析，并可自动生成图形化报表。
+- [附件](record_attachment.md): 可以管理具体的业务对象的附件，附件支持版本控制。
+- [讨论](record_chatter.md)，可以针对具体的业务数据进行讨论和回复。
+- [任务](record_tasks.md): 可以针对具体的业务数据创建待办任务。
 - [数据导入](record_import.md): 如果您的Excel表格中已经有初始业务数据，可以快速导入系统中
-- [修改历史](record_history.md): 自动记录用户对业务数据的修改历史
-- [回收站](record_trash.md): 系统内置回收站功能，对于误删除的记录可以一键恢复
+- [修改历史](record_history.md): 自动记录用户对业务数据的修改历史。（即将上线）
+- [回收站](record_trash.md): 系统内置回收站功能，对于误删除的记录可以一键恢复。（即将上线）
 
 ![电脑客户端](images/README1.png)
 
 ### 自动生成各种客户端
 除了用电脑操作Creator中的业务数据，您还可以随时通过手机、平板、甚至Excel访问Creator中的业务数据。
-- [手机客户端](app_mobile.md): 使用手机查询、修改业务数据
-- [平板客户端](app_ipad.md): 使用平板电脑查询、修改业务数据
-- [Excel客户端](app_excel.md): 与Excel建立数据连接，利用Excel进行数据统计分析
-- [企业微信客户端](app_qiyeweixin.md): 在企业微信中直接访问您的应用，组织机构自动与企业微信后端同步
-- [阿里钉钉客户端](app_dingding.md): 在阿里钉钉中直接访问您的应用，组织机构自动与阿里钉钉后端同步
-- [Tabular客户端](app_tabular.md): 与Tabular建立数据连接，利用Tabular进行数据统计分析
-- 自定义客户端：借助Creator完善的API接口，您也可以自己开发客户端，远程查询、修改Creator中的业务数据
-- 微信小程序: 即将上线
+- [手机客户端](app_mobile.md): 使用手机查询、修改业务数据。
+- [平板客户端](app_ipad.md): 使用平板电脑查询、修改业务数据。
+- [Excel客户端](app_excel.md): 与Excel建立数据连接，利用Excel进行数据统计分析。
+- [企业微信客户端](app_qiyeweixin.md): 在企业微信中直接访问您的应用，组织机构自动与企业微信后端同步。
+- [阿里钉钉客户端](app_dingding.md): 在阿里钉钉中直接访问您的应用，组织机构自动与阿里钉钉后端同步。
+- [Tabular客户端](app_tabular.md): 与Tabular建立数据连接，利用Tabular进行数据统计分析。
+- 自定义客户端：借助Creator完善的API接口，您也可以自己开发客户端，远程查询、修改Creator中的业务数据。
+- 微信小程序: 即将上线。
 
-### 组织与权限控制
+### 数据权限控制
 - [身份验证](auth.md)：只有授权用户才能访问Creator中的业务数据
 - [组织结构](organization.md): 设定分子公司、部门信息
 - [人员管理](space_user.md): 设定人员信息
@@ -79,4 +79,5 @@ Creator是华炎创新研发的新一代开发平台，帮助客户零代码快�
 - [按钮](object_action.md): 定义用户界面上显示的操作按钮以及触发的脚本
 - [过滤条件](object_filter.md): 定义数据过滤条件
 - [字段公式](object_field_formular.md): 定义数据过滤条件
+- [界面规范](https://www.lightningdesignsystem.com/guidelines/overview/)
 
