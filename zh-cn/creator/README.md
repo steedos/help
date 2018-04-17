@@ -73,9 +73,9 @@ Creator是华炎新一代的零代码开发平台，只需简单配置，即可�
 
 ### 进阶开发
 如果您的业务部门还提出了更多细节的功能要求，我们还提供进一步的脚本配置功能。
-- [触发器](object_trigger.md): 定义当数据增、删、改时自动触发执行对应的脚本
-- [按钮](object_action.md): 定义用户界面上显示的操作按钮以及触发的脚本
-- [过滤条件](object_filter.md): 定义数据过滤条件
 - [字段公式](object_field_formula.md): 定义数据过滤条件
+- [过滤条件](object_filter.md): 定义数据过滤条件
+- [触发器](object_trigger.md): 定义当数据增、删、改时自动触发执行对应的脚本
+- [操作按钮](object_action.md): 定义用户界面上显示的操作按钮以及触发的脚本
 - [界面规范](https://www.lightningdesignsystem.com/guidelines/overview/)
 
