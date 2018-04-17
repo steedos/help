@@ -36,7 +36,8 @@ Creator是华炎新一代的零代码开发平台，只需简单配置，即可�
 - [修改历史](record_history.md): 自动记录用户对业务数据的修改历史。（即将上线）
 - [回收站](record_trash.md): 系统内置回收站功能，对于误删除的记录可以一键恢复。（即将上线）
 
-![电脑、手机界面展示](images/mac_mobile_list.png)
+![电脑、手机界面展示](images/mac_ipad_iphone_home.jpg)
+
 
 ### 自动生成各种客户端
 除了用电脑操作Creator中的业务数据，您还可以随时通过手机、平板、甚至Excel访问Creator中的业务数据。
