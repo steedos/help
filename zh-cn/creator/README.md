@@ -11,6 +11,8 @@
 - 如何实现业务审批？
 - 如何通过手机访问？
 - 对于集团公司和大型企业，如何进行数据集中管控？
+- 当业务部门的需求变更时，我如何能快速响应？
+- 子系统越来越多，我要怎么集中维护？
 
 Creator把这些共性需求标准化，通过配置的业务表单、配置业务字段、配置权限实现快速开发业务系统。熟练的配置人员只需一天，甚至一小时，即可开发出一套手机、平板、电脑三合一的台账类业务系统。
 
@@ -78,3 +80,18 @@ Creator把这些共性需求标准化，通过配置的业务表单、配置业�
 - [操作按钮](object_action.md): 定义用户界面上显示的操作按钮以及触发的脚本
 - [界面规范](https://www.lightningdesignsystem.com/guidelines/overview/)
 
+
+### 应用主界面
+![电脑、手机界面展示](images/mac_mobile_list.png)
+
+### 记录显示
+![电脑、手机记录显示界面展示](images/mac_mobile_view.jpg)
+
+### 编辑记录
+![电脑、手机编辑记录界面展示](images/ipad_iphone_edit.jpg)
+
+### 搜索
+![电脑、手机搜索界面展示](images/mac_mobile_search.jpg)
+
+### 报表
+![电脑、手机报表界面展示](images/mac_mobile_report.jpg)
