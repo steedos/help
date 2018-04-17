@@ -22,5 +22,8 @@
 应用主界面
 ![电脑、手机界面展示](images/mac_mobile_list.png)
 
+记录显示界面
+![电脑、手机记录显示界面展示](images/mac_mobile_view.jpg)
+
 报表界面
 ![电脑、手机界面展示](images/mac_mobile_report.jpg)
