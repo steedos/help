@@ -3,8 +3,7 @@
 - [零代码开发业务系统](README.md)
 	- [1.配置业务对象](object.md)
 	- [2.配置字段](object_field.md)
-	- [3.配置列表视图（可选）](object_listview.md)
-	- [4.配置应用](app.md)
+	- [3.配置应用](app.md)
 
 - 电脑客户端
 	- [列表](record_list.md)
@@ -49,6 +48,7 @@
 	- [业务数据删除](odata_delete.md)
 
 - 进阶开发
+	- [配置列表视图](object_listview.md)
 	- [字段公式](object_field_formula.md)
 	- [过滤条件](object_filter.md)
 	- [触发器](object_trigger.md)
