@@ -63,13 +63,13 @@ Creator是华炎新一代的零代码开发平台，只需简单配置，即可�
 - [审批归档](workflow_archive.md)：对于审批结束的申请单，可以自动将数据同步到Creator相关对象中，例如合同审批结束可以自动进入合同台账和档案台账。
 
 ### ODATA API接口
-系统自动生成基于国际标准[ODATA](http://www.odata.org/)协议的API接口，方便与第三方系统集成。
-- [身份验证](odata_auth.md): 访问ODATA接口必须提供用户身份信息，用户只能在权限范围内进行数据查询和修改
-- [获取数据字典](odata_metadata.md)：
-- [业务数据查询](odata_query.md): 通过接口查询业务数据，可执行多字段组合查询
-- [业务数据新增](odata_add.md)：
-- [业务数据编辑](odata_edit.md)：
-- [业务数据删除](odata_delete.md)：
+对于用户定义的对象，系统自动生成基于国际标准[ODATA](http://www.odata.org/)协议的API接口。基于ODATA接口，第三方系统可以轻松的查询Creator中的业务数据并执行增删改操作。
+- [身份验证](odata_auth.md): 访问ODATA接口必须提供用户身份信息，用户只能在权限范围内进行数据查询和修改。
+- [获取数据字典](odata_metadata.md)
+- [业务数据查询](odata_query.md): 通过接口查询业务数据，可执行多字段组合查询。
+- [业务数据新增](odata_add.md)
+- [业务数据编辑](odata_edit.md)
+- [业务数据删除](odata_delete.md)
 
 ### 进阶开发
 如果您的业务部门还提出了更多细节的功能要求，我们还提供进一步的脚本配置功能。
