@@ -18,3 +18,9 @@
 - 记录修改
 - 记录删除
 - 报表显示页面
+
+应用主界面
+![电脑、手机界面展示](images/mac_mobile_list.png)
+
+报表界面
+![电脑、手机界面展示](images/mac_mobile_report.jpg)
