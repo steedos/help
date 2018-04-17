@@ -3,6 +3,8 @@
 
 字段用来定义[对象](object.md)中的各种属性。
 
+![电脑、手机界面展示](images/car_object_fields.png)
+
 每个Creator对象都自动包含以下默认字段：
 - 记录名称(name)
 - 记录所有人(owner)
