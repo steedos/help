@@ -17,4 +17,4 @@
 - 选中多条记录，可以快速更新单个字段
 - 用户可以拖拉调整字段宽度或字段显示的先后顺序
 
-![电脑、手机界面展示](images/mac_mobile_list.png)
+![电脑、手机界面展示](images/mac_ipad_iphone_list.png)
