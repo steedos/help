@@ -25,5 +25,8 @@
 记录显示界面
 ![电脑、手机记录显示界面展示](images/mac_mobile_view.jpg)
 
+搜索界面
+![电脑、手机界面展示](images/mac_mobile_search.jpg)
+
 报表界面
 ![电脑、手机界面展示](images/mac_mobile_report.jpg)
