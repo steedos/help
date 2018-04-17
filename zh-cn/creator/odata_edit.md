@@ -7,12 +7,12 @@
 
  - 请求方法：PUT
 
- - 请求接口：/api/odata/v4/#{spaceId}/#{object_name}/#{object_id}
+ - 请求接口：/api/odata/v4/#{spaceId}/#{object_name}/#{record_id}
 
  - 接口说明：
    - spaceId：工作区ID
    - object_name：更新对象的对象名
-   - object_id：更新记录的主键ID
+   - record_id：更新记录的主键ID
 
  - 请求参数说明：
    - 对于记录中需要更新的字段，以JSON形式发送
@@ -25,7 +25,7 @@
    - HTTP 请求
 
    ```
-    curl
+    url
       -X PUT https://beta.steedos.com/api/odata/v4/Af8e****DqD3/contacts/hbysEccFT2fXjHtpd
       -H 'Content-type': 'application/json'
         {
@@ -45,7 +45,14 @@
         "mobile": "18969565966",
         "company": "上海某某公司",
         "address": "上海市徐汇区某某街道"
-        "owner": "qjcwDX3icX3KnZJhZ",
+        "account": {
+          "_id": "79rRJJxTdwG7Agv9r",
+          "name": "dada1"
+        },
+        "owner": {
+          "_id": "hPgDcEd9vKQxwndQR",
+          "name": "系统管理员"
+        }
         "created": "2018-03-29T08:50:35.092Z",
         "modified": "2018-03-29T08:50:44.990Z",
         "created_by": "qjcwDX3icX3KnZJhZ",

@@ -49,7 +49,10 @@
         "mobile": "18969565966",
         "company": "上海某某公司",
         "address": "上海市徐汇区某某街道"
-        "owner": "qjcwDX3icX3KnZJhZ",
+      	"owner": {
+        	"_id": "hPgDcEd9vKQxwndQR",
+        	"name": "系统管理员"
+      	}
         "created": "2018-03-29T08:50:35.092Z",
         "modified": "2018-03-29T08:50:44.990Z",
         "created_by": "qjcwDX3icX3KnZJhZ",
