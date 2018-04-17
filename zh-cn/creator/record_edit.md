@@ -12,4 +12,8 @@
 - 可配置默认值；
 - 可配置字段公式
 
-![](images/2018-03-07-17-53-15.png)
+电脑编辑记录
+![电脑、手机界面展示](images/mac_mobile_report.jpg)
+
+手机编辑记录
+![电脑、手机编辑记录界面展示](images/iphone_iphone_edit.jpg)

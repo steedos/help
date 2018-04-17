@@ -22,11 +22,14 @@
 应用主界面
 ![电脑、手机界面展示](images/mac_mobile_list.png)
 
-记录显示界面
+记录显示
 ![电脑、手机记录显示界面展示](images/mac_mobile_view.jpg)
 
-搜索界面
-![电脑、手机界面展示](images/mac_mobile_search.jpg)
+编辑记录
+![电脑、手机编辑记录界面展示](images/iphone_iphone_edit.jpg)
 
-报表界面
-![电脑、手机界面展示](images/mac_mobile_report.jpg)
+搜索
+![电脑、手机搜索界面展示](images/mac_mobile_search.jpg)
+
+报表
+![电脑、手机报表界面展示](images/mac_mobile_report.jpg)
