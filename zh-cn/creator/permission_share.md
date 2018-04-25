@@ -9,7 +9,6 @@
 - 过滤条件 filters
 - 授权用户 users
 - 授权组织 organizations
-- 授予权限：只读/读写 permissions
 
 ### sharing字段格式
 - 每个对象自带sharing字段，用于保存每一条记录的共享信息。
@@ -18,7 +17,6 @@
 	{
 		"u": [user_id],  # 授权用户
 		"o": [organization_id] # 授权组织
-		"p": "r"/"w"    # 访问权限 read / write
 		"r": rule_id    # 如果由规则生成，记录对应的id，便于重新计算，如果为空，重算时不覆盖。
 	}
 ]
