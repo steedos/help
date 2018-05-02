@@ -18,6 +18,18 @@ mv _book ../../build/drive-zh-cn
 
 cd ../../
 
+cd ./zh-cn/calendar
+gitbook build
+mv _book ../../build/calendar-zh-cn
+
+cd ../../
+
+cd ./zh-cn/creator
+gitbook build
+mv _book ../../build/creator-zh-cn
+
+cd ../../
+
 cd ./build/workflow-zh-cn
 sed -i.bak "s/Published with GitBook/华炎云帮助中心/g" *.html
 sed -i.bak "s/www.gitbook.com/www.steedos.com\/cn\/help/g" *.html
@@ -35,6 +47,21 @@ cd ../../
 
 cd ./build/drive-zh-cn
 
+sed -i.bak "s/Published with GitBook/华炎云帮助中心/g" *.html
+sed -i.bak "s/www.gitbook.com/www.steedos.com\/cn\/help/g" *.html
+rm -r index.html.bak
+
+cd ../../
+
+cd ./build/creator-zh-cn
+
+sed -i.bak "s/Published with GitBook/华炎云帮助中心/g" *.html
+sed -i.bak "s/www.gitbook.com/www.steedos.com\/us\/help/g" *.html
+rm -r index.html.bak
+
+cd ../../
+
+cd ./build/calendar-zh-cn
 sed -i.bak "s/Published with GitBook/华炎云帮助中心/g" *.html
 sed -i.bak "s/www.gitbook.com/www.steedos.com\/cn\/help/g" *.html
 rm -r index.html.bak
