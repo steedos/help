@@ -14,19 +14,14 @@ ODATA接口均以"/api/odata/v4/"开头，访问ODATA接口必须提供用户身
 
  用户ID
 
- - X-Space-Id
-
- 用户所在工作区ID
-
 以ODATA查询接口的请求为例
 
 HTTP 请求
 ```bash
 curl
-	 -X GET https://beta.steedos.com/api/odata/v4/Af8e****DqD3/contacts
+     -X GET https://beta.steedos.com/api/odata/v4/Af8e****DqD3/contacts
      -H "X-Auth-Token: f2KpRW7KeN9aPmjSZ" 
      -H "X-User-Id: fbdpsNf4oHiX79vMJ"
-     -H "X-Space-Id: wsw1re12TdeP223sC"
 ```
 
 ## 2.OAuth2验证
