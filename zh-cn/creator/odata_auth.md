@@ -10,7 +10,7 @@ ODATA接口均以"/api/odata/v4/"开头，访问ODATA接口必须提供用户身
 
  用户登录自动生成的Token验证码
 
- - X-Space-Id
+ - X-User-Id
 
  用户ID
 
