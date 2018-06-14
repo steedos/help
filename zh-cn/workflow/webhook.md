@@ -41,26 +41,41 @@
 
  - instance：提交申请单操作完成后最新的完整实例数据
 
- - from_user：值为当前操作者。如： A提交申请单给B 那么from_user值就是A的_id\username\emails
+ - from_user：值为当前操作者。如： A提交申请单给B 那么from_user值就是A的相关信息
 
     - _id：用户在审批王的唯一标识符
 
-    - username：用户登录名
+    - email：用户邮箱（企业管理员可以修改）
 
-    - emails：用户配置的邮箱列表
+    - username：用户在审批王的登录名（企业管理员可以修改）
 
-      - address：邮箱地址
+    - mobile：用户手机号（企业管理员可以修改）
 
-      - verified：邮箱是否验证
-
-      - primary：邮箱是否主要邮箱
-
-  - to_users：值为当前下一步骤处理人集合,集合内对象的属性与from_user相同。
+ - to_users：值为当前下一步骤处理人集合,集合内对象的属性与from_user相同。
 
 &#160; &#160; &#160; &#160;请求的body数据示例如下。
 ```
 {
     "action": "draft_submit",
+    "from_user": {
+        "_id": "TPWYx597AuLSksSDH",
+        "email": "AAA@hotoa.com",
+        "username": "AAA",
+        "mobile": "171****6263"
+    },
+    "to_users": [
+    {
+        "_id":  "snLab9tq6bHquJjof",
+        "email": "BBB@hotoa.com",
+        "username":  "BBB",
+        "mobile": "171****6263"
+    },
+    {
+        "_id":  "hJChDEqfCh5MQ2tGj",
+        "email": "CCC@hotoa.com",
+        "username":  "CCC",
+        "mobile": "171****6263"
+    }],
     "current_approve": {
         "_id": "8ecbd6be43193e650e8d913f",
         "instance": "HjHvRxp5vFL5fn7uK",
@@ -177,40 +192,6 @@
         "submit_date": "2017-12-08T09:03:50.189Z",
         "outbox_users": [],
         "keywords": ""
-    },
-    "from_user": {
-        "_id":  "TPWYx597AuLSksSDH",
-        "username":  "AAA",
-        "emails":  [{
-                    address: "AAA@hotoa.com",
-                    verified: true,
-                    primary: true
-                },{
-                    address: "AAA1@hotoa.com",
-                    verified: true,
-                    primary: false
-                }]
-    },
-    "to_users": [{
-        "_id":  "snLab9tq6bHquJjof",
-        "username":  "BBB",
-        "emails":  [{
-                    address: "BBB@hotoa.com",
-                    verified: true,
-                    primary: true
-                },{
-                    address: "BBB1@hotoa.com",
-                    verified: false,
-                    primary: false
-                }]
-        },{
-        "_id":  "hJChDEqfCh5MQ2tGj",
-        "username":  "CCC",
-        "emails":  [{
-                    address: "CCC@hotoa.com",
-                    verified: true,
-                    primary: true
-                }]
-    }]
+    }
 }
 ```
