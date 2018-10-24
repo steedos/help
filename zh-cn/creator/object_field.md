@@ -67,7 +67,7 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 
 - 可选项脚本(optionsFunction)：通过脚本生成可选项的内容
 - 依赖字段(depend_on): 此字段的值需要依赖其他字段的值，当depend_on中的字段值发生变化时，会重新计算当前字段值/可选项。
-- 引用对象(reference_to)
+- 引用对象(reference_to): 编辑时，从关联表中选择记录，如果引用的对象上配置了enable_tree属性，则以tree形式列出关联表中记录供选择。
 - 过滤器(filters): 在reference_to对象中筛选可选项时，限定查询范围
 - 默认图标(defaultIcon): 下拉选项中显示的默认图标，如果配置了reference_to，则显示引用对象的图标
 - 示例：
