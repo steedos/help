@@ -4,6 +4,43 @@
 
 ### 1. 设置
 
-在苹果手机或平板，进入“设置”应用，选择“密码与账户”，点击“添加账号”。
+在苹果手机或平板，进入“设置”应用，
 
  ![](images/iphone/设置1.jpg)  
+
+ 选择“密码与账户”，
+
+ ![](images/iphone/设置2.png)  
+
+ 点击“添加账号”。
+
+ ![](images/iphone/设置3.jpg)  
+
+ 选择“Exchange”，
+
+ ![](images/iphone/设置4.jpg)  
+
+ 输入电子邮件地址后点击“下一步”，
+
+ ![](images/iphone/设置5.png)  
+
+ 随后点击“登陆”。
+
+ ![](images/iphone/设置6.png)  
+
+ 输入密码后，点击“下一步”，
+
+ ![](images/iphone/设置7.png)
+
+ 输入相关邮件服务器信息，具体为：
+
+ 服务器：mail.steedos.cn
+ 域：steedos.cn
+
+ ![](images/iphone/设置8.png)
+
+ 开启邮箱、提醒事项、备忘录和日历按钮，点击“存储”后添加Exchange邮箱成功。
+
+ ![](images/iphone/设置9.jpg)
+
+
