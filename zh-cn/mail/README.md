@@ -5,9 +5,9 @@
 
 华炎电子邮件系统和办公自动化集成后，使用将更加便捷，收件人等信息不在需要手动输入邮件地址，只需在组织架构中选人员即可，邮件附件也无需下载后查看，实现在线预览。
 
+   - [集成华炎办公平台](guide_steedos.md)
    - [电脑端功能](guide_pc.md)
    - [手机端功能](guide_phone.md)
-   - [集成华炎办公平台](guide_steedos.md)
    - [苹果邮件App集成](setting_iphone.md)
    - [安卓邮件App集成](setting_android.md)
    - [Outlook客户端配置](setting_outlook.md)
