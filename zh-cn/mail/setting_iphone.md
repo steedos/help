@@ -12,9 +12,9 @@
 
  ![](images/iphone/设置2.png)  
 
- 点击“添加账号”。
+ 点击“添加账户”。
 
- ![](images/iphone/设置3.jpg)  
+ ![](images/iphone/设置3.png)  
 
  选择“Exchange”，
 
@@ -24,7 +24,7 @@
 
  ![](images/iphone/设置5.png)  
 
- 随后点击“登陆”。
+ 随后点击“登录”。
 
  ![](images/iphone/设置6.png)  
 
@@ -34,8 +34,8 @@
 
  输入相关邮件服务器信息，具体为：
 
- 服务器：mail.steedos.cn
- 域：steedos.cn
+    -服务器：mail.steedos.cn
+    -域：steedos.cn
 
  ![](images/iphone/设置8.png)
 
