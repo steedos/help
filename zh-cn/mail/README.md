@@ -10,5 +10,6 @@
    - [手机端功能](guide_phone.md)
    - [苹果邮件App集成](setting_iphone.md)
    - [安卓邮件App集成](setting_android.md)
-   - [Outlook客户端配置](setting_outlook.md)
+   - [苹果/安卓Outlook客户端配置](setting_phone_outlook.md)
+   - [电脑Outlook客户端配置](setting_outlook.md)
 
