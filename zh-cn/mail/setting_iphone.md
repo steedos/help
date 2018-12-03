@@ -24,18 +24,11 @@
 
  ![](images/iphone/设置5.png)  
 
- 随后点击“登录”。
+ 随后点击“手动配置”。
 
  ![](images/iphone/设置6.png)  
 
  输入密码后，点击“下一步”，
-
- ![](images/iphone/设置7.png)
-
- 输入相关邮件服务器信息，具体为：
-
-    -服务器：mail.steedos.cn
-    -域：steedos.cn
 
  ![](images/iphone/设置8.png)
 
