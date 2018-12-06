@@ -12,5 +12,5 @@
    - [华为邮件App集成](setting_android.md)
    - [苹果/安卓Outlook客户端配置](setting_phone_outlook.md)
    - [电脑Outlook客户端配置](setting_outlook.md)
-   - [华邮设置](setting_mail.md)
+   - [华邮配置](setting_mail.md)
 
