@@ -67,5 +67,29 @@
 实例：
 - [["assignees", "=", "{userId}"]]
 
+### 函数支持
+
+支持两种function方式：
+1. 整个filters为function，如：
+```
+filters: ()->
+	return [[["object_name","=","project_issues"],'or',["object_name","=","tasks"]]]
+```
+2. filters内的filter.value为function，如：
+```
+filters: [["object_name", "=", ()->
+	return "project_issues"
+]]
+```
+或
+```
+filters: [{
+	"field": "object_name"
+	"operation": "="
+	"value": ()->
+		return "project_issues"
+}]
+```
+
 
 
