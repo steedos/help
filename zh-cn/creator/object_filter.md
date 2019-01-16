@@ -55,7 +55,6 @@
 其他情况一律自动按"or"裂变连接成多个过滤条件
 - [["tag", "contains", ["start","end"]]] 等效于 [ [ "tag", "contains", "start" ], "and", [ "tag", "contains", "end" ] ]
 
-
 ### 公式字段支持
 
 过虑条件中允许指定当前状态相关属性值为value
@@ -66,6 +65,19 @@
 
 实例：
 - [["assignees", "=", "{userId}"]]
+
+### 过虑条件为Object格式
+```
+[["object_name", "=", "project_issues"]]
+```
+等效于：
+```
+{
+	"field": "object_name",
+	"operation": "=",
+	"value": "project_issues"
+}
+```
 
 ### 函数支持
 
