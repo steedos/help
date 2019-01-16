@@ -17,6 +17,28 @@
 - [过滤条件filters](object_filter.md): 列表视图右侧有过滤器，可以在过滤器中设置过滤条件，只有符合过滤条件的数据才显示在视图中。
 - 是否为默认视图(is_default)：新建自定义对象时，系统为其自动添加的默认视图。
 
+实例：
+```
+	list_views:
+		open:
+			label: "进行中"
+			columns: ["name", "category", "level", "tags", "created"]
+			filter_scope: "space"
+			filters: [["status", "=", "open"]]
+			filter_fields: ["category", "level", "tags", "company_id", "owner"]
+		closed:
+			label: "已关闭"
+			columns: ["name", "category", "level", "tags", "created"]
+			filter_scope: "space"
+			filters: [["status", "=", "closed"]]
+			filter_fields: ["category", "level", "tags", "company_id", "owner"]
+		all:
+			label: "所有"
+			columns: ["name", "category", "level", "status", "tags", "created"]
+			filter_scope: "space"
+			filter_fields: ["category", "level", "status", "tags", "company_id", "owner"]
+```
+
 定义好列表视图之后，Creator会为自动生成功能完整的数据浏览与操作界面，包括：
 - 使用列表方式显示数据，支持分页、排序等基本功能
 - 双击单元格可以快速编辑单个字段
