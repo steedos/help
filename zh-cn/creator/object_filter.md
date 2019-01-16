@@ -52,5 +52,9 @@
 - [["age", "between", [,30]]] 等效于 [ [ "age", "<=", 30 ] ]
 - [["age", "between", [20,]]] 等效于 [ [ "age", ">=", 20 ] ]
 
+其他情况一律自动按"or"裂变连接成多个过滤条件
+- [["tag", "contains", ["start","end"]]] 等效于 [ [ "tag", "contains", "start" ], "and", [ "tag", "contains", "end" ] ]
+
+
 
 
