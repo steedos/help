@@ -57,7 +57,7 @@
 
 ### 公式字段支持
 
-过虑条件中允许指定当前状态相关属性值为value
+过滤条件中允许指定当前状态相关属性值为value
 - "{userId}"：当前登录用户id
 - "{spaceId}"：当前当前所在工作区
 - "{user.xxx}"：当前登录用户信息，如user.name,user.mobile,user.email,user.company_id等
@@ -66,7 +66,7 @@
 实例：
 - [["assignees", "=", "{userId}"]]
 
-### 支持过虑条件为Object格式
+### 支持过滤条件为Object格式
 ```
 [["object_name", "=", "project_issues"]]
 ```
@@ -103,5 +103,6 @@ filters: [{
 }]
 ```
 
-
+### 代码中定义的过滤条件与视图过滤器中设置的过滤条件并存
+如果两都并存的话，视图显示范围将是两者取"and"运算符连接起来的过滤结果！
 
