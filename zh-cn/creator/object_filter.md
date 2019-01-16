@@ -66,7 +66,7 @@
 实例：
 - [["assignees", "=", "{userId}"]]
 
-### 过虑条件为Object格式
+### 支持过虑条件为Object格式
 ```
 [["object_name", "=", "project_issues"]]
 ```
