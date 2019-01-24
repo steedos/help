@@ -16,7 +16,9 @@
 - 删除日期(deleted)
 - 删除人(deleted_by)
 - 所属工作区(space)
-- 所属单位(company_id)
+- 所属单位(company_id)：默认为隐藏(hidden)、编辑时忽略(omit)
+- 已锁定(locked)：：默认为隐藏(hidden)、编辑时忽略(omit)
+- 记录的相关审批单(instances)：默认为隐藏(hidden)、编辑时忽略(omit)
 
 ### 字段类型
 Creator支持以下基本字段类型。如果字段配置了数组(multiple)属性，表示当前字段为数组类型，以数组的形式保存在数据库中，用户界面上可以多选。
