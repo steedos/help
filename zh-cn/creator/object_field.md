@@ -13,7 +13,10 @@
 - 修改日期(modified)
 - 修改人(modified_by)
 - 已删除(is_deleted)
+- 删除日期(deleted)
+- 删除人(deleted_by)
 - 所属工作区(space)
+- 所属单位(company_id)
 
 ### 字段类型
 Creator支持以下基本字段类型。如果字段配置了数组(multiple)属性，表示当前字段为数组类型，以数组的形式保存在数据库中，用户界面上可以多选。
