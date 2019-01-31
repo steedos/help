@@ -15,27 +15,27 @@
 
 > 上述权限有级联变更限制
 ```
-	if po.allowCreate
-		po.allowRead = true
-	if po.allowEdit
-		po.allowRead = true
-	if po.allowDelete
-		po.allowEdit = true
-		po.allowRead = true
-	if po.viewAllRecords
-		po.allowRead = true
-	if po.modifyAllRecords
-		po.allowRead = true
-		po.allowEdit = true
-		po.allowDelete = true
-		po.viewAllRecords = true
-	if po.viewCompanyRecords
-		po.allowRead = true
-	if po.modifyCompanyRecords
-		po.allowRead = true
-		po.allowEdit = true
-		po.allowDelete = true
-		po.viewCompanyRecords = true
+if po.allowCreate
+	po.allowRead = true
+if po.allowEdit
+	po.allowRead = true
+if po.allowDelete
+	po.allowEdit = true
+	po.allowRead = true
+if po.viewAllRecords
+	po.allowRead = true
+if po.modifyAllRecords
+	po.allowRead = true
+	po.allowEdit = true
+	po.allowDelete = true
+	po.viewAllRecords = true
+if po.viewCompanyRecords
+	po.allowRead = true
+if po.modifyCompanyRecords
+	po.allowRead = true
+	po.allowEdit = true
+	po.allowDelete = true
+	po.viewCompanyRecords = true
 ```
 
 ### 界面权限
