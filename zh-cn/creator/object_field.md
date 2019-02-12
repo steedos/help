@@ -85,6 +85,16 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 
 ### 多行文本类型
 - 多行文本类型不支持建立索引
+- 例如：
+   description:
+   
+   label: '问题描述'
+   
+   type: 'textarea'
+   
+   is_wide: true
+   
+   rows: 4
 
 ### 数值类型
 - 小数位数(scale): 默认值0
