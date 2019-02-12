@@ -75,17 +75,12 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 	
 	  searchable: true
 	
-	  - 备注：name为字段名称  
-		
-                 label: '问题标题'  表示显示名为问题标题
-		       
-                 type: 'text'    表示字段类型为文本型
-		       
-                 is_wide: true   表示为宽字段
-		       
-                 required: true  表示为字段必填
-		       
-                 searchable: true  表示为字段内容可搜索
+	- 备注：name为字段名称  
+	       label: '问题标题'  表示显示名为问题标题
+	       type: 'text'    表示字段类型为文本型
+               is_wide: true   表示为宽字段
+               required: true  表示为字段必填
+               searchable: true  表示为字段内容可搜索
 
 ### 多行文本类型
 - 多行文本类型不支持建立索引
@@ -106,7 +101,9 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 - 示例：
 
       deadline:
+      
       label: '截止日期'
+      
       type: 'date'
 
 ### 日期时间
@@ -114,8 +111,29 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 - 示例：
 
       starttime:
+      
       label: '开始时间'
+      
       type: 'datetime'
+      
+### 下拉
+  - 界面生成下拉框，需配合options属性使用
+  - 示例： 
+   
+        state:
+	label: "进度"
+	type: "select"
+	options: [
+		{label:"待确认", value:"pending_confirm"},
+		{label:"处理中", value:"in_progress"},
+		{label:"暂停", value:"paused"},
+		{label: "已完成", value:"completed"}
+	        {label: "已取消", value:"cancelled"}
+		 ]
+	 sortable: true
+	 defaultValue: "pending_confirm"
+	 required: true
+	 filterable: true
 
 ### 数值类型
 - 小数位数(scale): 默认值0
