@@ -63,7 +63,7 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 - 文本且建立了索引，则最多支持300个字符(不区分中英文)
 - 示例：
 
- 	 name:
+ 	  name:
 	
 	  label: '问题标题'
 	
@@ -87,7 +87,6 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 		       
                  searchable: true  表示为字段内容可搜索
 
-
 ### 多行文本类型
 - 多行文本类型不支持建立索引
 - 示例：
@@ -101,6 +100,22 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
       is_wide: true
    
       rows: 4
+      
+### 日期
+- 字段值显示年-月-日
+- 示例：
+
+      deadline:
+      label: '截止日期'
+      type: 'date'
+
+### 日期时间
+- 字段值显示年-月-日 小时：分钟
+- 示例：
+
+      starttime:
+      label: '开始时间'
+      type: 'datetime'
 
 ### 数值类型
 - 小数位数(scale): 默认值0
