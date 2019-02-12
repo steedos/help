@@ -62,7 +62,7 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 ### 文本类型
 - 文本且建立了索引，则最多支持300个字符(不区分中英文)
 - 例如：
-- -	name:
+-.-	name:
 	label: '问题标题'
 	type: 'text'
 	is_wide: true
