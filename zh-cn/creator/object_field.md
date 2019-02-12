@@ -12,12 +12,12 @@
 - 创建人(created_by)
 - 修改日期(modified)
 - 修改人(modified_by)
-- 已删除(is_deleted)
-- 删除日期(deleted)
-- 删除人(deleted_by)
+- 已删除(is_deleted)：字段类型为布尔(boolean)，默认为隐藏(hidden)、编辑时忽略(omit)
+- 删除日期(deleted)：默认为隐藏(hidden)、编辑时忽略(omit)
+- 删除人(deleted_by)：默认为隐藏(hidden)、编辑时忽略(omit)
 - 所属工作区(space)
 - 所属单位(company_id)：默认为隐藏(hidden)、编辑时忽略(omit)
-- 已锁定(locked)：默认为隐藏(hidden)、编辑时忽略(omit)
+- 已锁定(locked)：字段类型为布尔(boolean)，默认为隐藏(hidden)、编辑时忽略(omit)
 - 记录的相关审批单(instances)：默认为隐藏(hidden)、编辑时忽略(omit)
 
 ### 字段类型
