@@ -61,6 +61,20 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 
 ### 文本类型
 - 文本且建立了索引，则最多支持300个字符(不区分中英文)
+- 例如：
+- 	name:
+	label: '问题标题'
+	type: 'text'
+	is_wide: true
+	required: true
+	searchable: true
+- name为字段名称  
+- label: '问题标题'  表示显示名为问题标题
+- type: 'text'    表示字段类型为文本型
+- is_wide: true   表示为宽字段
+- required: true  表示为字段必填
+- searchable: true  表示为字段内容可搜索
+
 
 ### 多行文本类型
 - 多行文本类型不支持建立索引
