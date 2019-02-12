@@ -120,7 +120,7 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
   - 界面生成下拉框，需配合options属性使用
   - 示例： 
   
-            state:
+          state:
 	
 	    label: "进度"
 	
@@ -132,7 +132,7 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 		{label:"处理中", value:"in_progress"},
 		{label:"暂停", value:"paused"},
 		{label: "已完成", value:"completed"}
-	        {label: "已取消", value:"cancelled"}
+	      {label: "已取消", value:"cancelled"}
 		 ]
 		 	 
 	    sortable: true
