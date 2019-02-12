@@ -63,7 +63,7 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 - 文本且建立了索引，则最多支持300个字符(不区分中英文)
 - 示例：
 
- 	- name:
+ 	 name:
 	
 	  label: '问题标题'
 	
@@ -75,39 +75,39 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 	
 	  searchable: true
 	
-		- 备注：上述实例中，name为字段名称  
+	  - 备注：name为字段名称  
 		
-                       label: '问题标题'  表示显示名为问题标题
+                 label: '问题标题'  表示显示名为问题标题
 		       
-                       type: 'text'    表示字段类型为文本型
+                 type: 'text'    表示字段类型为文本型
 		       
-                       is_wide: true   表示为宽字段
+                 is_wide: true   表示为宽字段
 		       
-                       required: true  表示为字段必填
+                 required: true  表示为字段必填
 		       
-                       searchable: true  表示为字段内容可搜索
+                 searchable: true  表示为字段内容可搜索
 
 
 ### 多行文本类型
 - 多行文本类型不支持建立索引
 - 示例：
    
-	- description:
+      description:
    
-          label: '问题描述'
+      label: '问题描述'
    
-          type: 'textarea'
+      type: 'textarea'
    
-          is_wide: true
+      is_wide: true
    
-          rows: 4
+      rows: 4
 
 ### 数值类型
 - 小数位数(scale): 默认值0
 - 数值最大长度(precision): 默认值18
 - 示例：
 
-	- number:
+          number:
 
           label: '小写金额'
    
