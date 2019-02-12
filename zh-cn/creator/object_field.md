@@ -64,10 +64,15 @@ Creator支持以下基本字段类型。如果字段配置了数组(multiple)属
 - 例如：
 
 	name:
+	
 	label: '问题标题'
+	
 	type: 'text'
+	
 	is_wide: true
+	
 	required: true
+	
 	searchable: true
 	
 -- name为字段名称  
